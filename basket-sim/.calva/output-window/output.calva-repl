@@ -59,3 +59,1600 @@ clj꞉basket-sim.core꞉> 
 ; Hello
 nil
 clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-a
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-b
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; {:name Nikola Jokic, :usage-rate 29.8, :shot-dist-2p 0.826, :shot-dist-3p 0.174, :fg-perc-2p 0.643, :fg-perc-3p 0.359}
+nil
+clj꞉basket-sim.core꞉> 
+; ({:name Jamal Murray, :usage-rate 27.5, :shot-dist-2p 0.655, :shot-dist-3p 0.345, :fg-perc-2p 0.523, :fg-perc-3p 0.425} {:name Kentavious Caldwell-Pope, :usage-rate 12.8, :shot-dist-2p 0.435, :shot-dist-3p 0.565, :fg-perc-2p 0.528, :fg-perc-3p 0.406} {:name Michael Porter Jr., :usage-rate 20.3, :shot-dist-2p 0.463, :shot-dist-3p 0.537, :fg-perc-2p 0.596, :fg-perc-3p 0.397} {:name Aaron Gordon, :usage-rate 17.8, :shot-dist-2p 0.887, :shot-dist-3p 0.113, :fg-perc-2p 0.612, :fg-perc-3p 0.29} {:name Nikola Jokic, :usage-rate 29.8, :shot-dist-2p 0.826, :shot-dist-3p 0.174, :fg-perc-2p 0.643, :fg-perc-3p 0.359})
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/select-finisher
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Kentavious Caldwell-Pope
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Kentavious Caldwell-Pope
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Kentavious Caldwell-Pope
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Kentavious Caldwell-Pope
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; Syntax error compiling at (c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim\src\basket_sim\core.clj:86:17).
+; Unable to resolve symbol: attacking-team in this context
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; Syntax error compiling at (c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim\src\basket_sim\core.clj:88:41).
+; Unable to resolve symbol: finisher in this context
+clj꞉basket-sim.core꞉> 
+; The play is finished by: Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-shot
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 3p pointer...
+; It's a miss!
+nil
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Aaron Gordon takes a 3p pointer...
+; It's a miss!
+nil
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 3p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Michael Porter Jr. takes a 2p pointer...
+; It's a miss!
+nil
+clj꞉basket-sim.core꞉> 
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Michael Porter Jr. takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+nil
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-rebound
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 3p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Aaron Gordon takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 3p pointer...
+; Execution error (NullPointerException) at basket-sim.core/simulate-rebound (REPL:74).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Execution error (NullPointerException) at basket-sim.core/simulate-rebound (REPL:74).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 2p pointer...
+; Execution error (NullPointerException) at basket-sim.core/simulate-rebound (REPL:74).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 2p pointer...
+; Execution error (NullPointerException) at basket-sim.core/simulate-rebound (REPL:74).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Aaron Gordon takes a 2p pointer...
+; Execution error (NullPointerException) at basket-sim.core/simulate-rebound (REPL:74).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+; Michael Porter Jr. takes a 3p pointer...
+; Execution error (NullPointerException) at basket-sim.core/simulate-rebound (REPL:74).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-a
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-b
+clj꞉basket-sim.core꞉> 
+:usage-rate
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/select-finisher
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-shot
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-rebound
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+nil
+clj꞉basket-sim.core꞉> 
+; Michael Porter Jr. takes a 2p pointer...
+; It's a miss!
+; Rebound by: Andrew Wiggins
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+; Rebound by: Andrew Wiggins
+nil
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 3p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Aaron Gordon takes a 2p pointer...
+; It's a miss!
+; Rebound by: Andrew Wiggins
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 3p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Aaron Gordon takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Nikola Jokic takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+; Rebound by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 3p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+; Jamal Murray takes a 2p pointer...
+; It's good!
+nil
+clj꞉basket-sim.core꞉> 
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-a
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-b
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/select-finisher
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-shot
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-rebound
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-assist
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 3p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 3p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 3p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 3p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 3p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-assist
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 3p pointer...
+; It's good! Assist by Kentavious Caldwell-Pope
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 3p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 2p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 3p pointer...
+; It's good! Assist by Kentavious Caldwell-Pope
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's good! Assist by Kentavious Caldwell-Pope
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+; Rebound by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 3p pointer...
+; It's good! Assist by Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Andrew Wiggins
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-a
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-b
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/select-finisher
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-shot
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-rebound
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-assist
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 2p pointer...
+; It's good! Assist by Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 3p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 3p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Assist by Kentavious Caldwell-Pope
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 2p pointer...
+; It's good! Assist by Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Assist by Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 3p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 2p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 2p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Assist by Michael Porter Jr.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 2p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 2p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Assist by Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; It's a miss!
+; Rebound by: Andrew Wiggins
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's a miss!
+; Rebound by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Klay Thompson
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's good! Assist by Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Assist by Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Klay Thompson
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Aaron Gordon
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 3p pointer...
+; It's a miss!
+; Rebound by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 3p pointer...
+; It's good! Assist by Kentavious Caldwell-Pope
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 3p pointer...
+; It's a miss!
+; Rebound by: Andrew Wiggins
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 3p pointer...
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 3p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Jamal Murray takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 3p pointer...
+; It's a miss!
+; Rebound by: Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's good! Assist by Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Michael Porter Jr. takes a 3p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Aaron Gordon takes a 2p pointer...
+; It's good! Assist by Jamal Murray
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; It's good! Assist by Nikola Jokic
+nil
+clj꞉basket-sim.core꞉> 
+; Syntax error compiling at (c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim\src\basket_sim\core.clj:183:21).
+; Unable to resolve symbol: run-possession in this context
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/initial-game-state
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-possession-time
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; It's good! Unassisted.
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's good! Assist by Kentavious Caldwell-Pope
+; -------------------------
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; It's good! Assist by Klay Thompson
+; -------------------------
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; 
+; --- FINAL STATE ---
+; Score -> Team A: 2 - Team B: 5
+; Time Remaining: 46 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; It's good! Assist by Andrew Wiggins
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; 
+; --- FINAL STATE ---
+; Score -> Team A: 0 - nil 6
+; Time Remaining: 46 minutes
+; Possession: Denver Nuggets
+nil
+clj꞉basket-sim.core꞉> 
+; Syntax error compiling at (c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim\src\basket_sim\core.clj:193:35).
+; Unable to resolve symbol: final-state in this context
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; It's good! Assist by Draymond Green
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; It's good! Unassisted.
+; 
+; --- FINAL STATE ---
+; Score -> Team A: 2 - Golden State Warriors 4
+; Time Remaining: 46 minutes
+; Possession: Denver Nuggets
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; It's a miss!
+; Rebound by: Jamal Murray
+; 
+; --- FINAL STATE ---
+; Execution error (ArityException) at basket-sim.core/eval10866 (REPL:191).
+; Wrong number of args (3) passed to: :name
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; It's good! Unassisted.
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; It's good! Assist by Andrew Wiggins
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 0 - Golden State Warriors 5
+; Time Remaining: 46 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; -------------------------
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; It's good! Assist by Nikola Jokic
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 7 - Golden State Warriors 0
+; Time Remaining: 47 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; -------------------------
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 3p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; It's a miss!
+; Rebound by: Nikola Jokic
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 3 - Golden State Warriors 0
+; Time Remaining: 46 minutes
+; Possession: Denver Nuggets
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's good! Assist by Aaron Gordon
+; -------------------------
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; It's good! Assist by Draymond Green
+; -------------------------
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; It's good! Unassisted.
+; -------------------------
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; It's good! Unassisted.
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 6 - Golden State Warriors 4
+; Time Remaining: 46 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+; Syntax error compiling at (c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim\src\basket_sim\core.clj:127:18).
+; Unable to resolve symbol: shot-clock-6 in this context
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-possession-time
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; It's good! Unassisted.
+; -------------------------
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's good! Unassisted.
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 7 - Golden State Warriors 0
+; Time Remaining: 48 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Klay Thompson
+; -------------------------
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; It's good! Assist by Kevon Looney
+; -------------------------
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 3p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; It's good! Assist by Nikola Jokic
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 3 - Golden State Warriors 2
+; Time Remaining: 48 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; It's good! Assist by Andrew Wiggins
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 0 - Golden State Warriors 3
+; Time Remaining: 48 minutes
+; Possession: Denver Nuggets
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; It's good! Assist by Stephen Curry
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 3 - Golden State Warriors 3
+; Time Remaining: 48 minutes
+; Possession: Denver Nuggets
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; -------------------------
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 0 - Golden State Warriors 0
+; Time Remaining: 47 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; It's good! Assist by Draymond Green
+; -------------------------
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; It's a miss!
+; Rebound by: Aaron Gordon
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 4 - Golden State Warriors 2
+; Time Remaining: 48 minutes
+; Possession: Denver Nuggets
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's good! Assist by Aaron Gordon
+; -------------------------
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; It's good! Assist by Andrew Wiggins
+; -------------------------
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; It's good! Unassisted.
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 4 - Golden State Warriors 3
+; Time Remaining: 48 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 5
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time -9
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time -3
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 3p pointer...
+; Possesion time -2
+; It's a miss!
+; Rebound by: Draymond Green
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 5 - Golden State Warriors 2
+; Time Remaining: 48 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-possession-time
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 10
+; It's good! Assist by Kentavious Caldwell-Pope
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 16
+; It's good! Unassisted.
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 2 - Golden State Warriors 2
+; Time Remaining: 47 minutes
+; Possession: Denver Nuggets
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-possession-time
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Nikola Jokic
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 0 - Golden State Warriors 2
+; Time Remaining: 46 minutes
+; Possession: Denver Nuggets
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 8
+; It's good! Assist by Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Kevon Looney
+; Execution error (ClassCastException) at basket-sim.core/run-possession (REPL:173).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 3p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Kevon Looney
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 0 - Golden State Warriors 0
+; Time Remaining: 47 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 13
+; It's good! Assist by Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Draymond Green
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 3 - Golden State Warriors 0
+; Time Remaining: 46 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 15
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 12
+; It's good! Assist by Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 22
+; It's good! Assist by Aaron Gordon
+; 
+; --- FINAL STATE ---
+; Score -> Denver Nuggets 4 - Golden State Warriors 3
+; Time Remaining: 46 minutes
+; Possession: Golden State Warriors
+nil
+clj꞉basket-sim.core꞉> 
