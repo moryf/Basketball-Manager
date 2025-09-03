@@ -1,10 +1,15 @@
 (ns basket-sim.core
   (:gen-class))
 
+;; Helper function to add the initial box score to a player
+(defn with-initial-box-score [player]
+  (assoc player :box-score {:pts 0, :ast 0, :reb 0, :fga 0, :fgm 0, :3pa 0, :3pm 0}))
+
 ;; Nuggets
 (def team-a
   {:name "Denver Nuggets"
-   :on-court {
+   :on-court (into {} (map (fn [[pos p]] [pos (with-initial-box-score p)])
+   {
      :pg {:name "Jamal Murray"
           :usage-rate 27.5, :shot-dist-2p 0.655, :shot-dist-3p 0.345,
           :fg-perc-2p 0.523, :fg-perc-3p 0.425, :orb-perc 2.1, :drb-perc 12.5,
@@ -24,12 +29,13 @@
      :c  {:name "Nikola Jokic"
           :usage-rate 29.8, :shot-dist-2p 0.826, :shot-dist-3p 0.174,
           :fg-perc-2p 0.643, :fg-perc-3p 0.359, :orb-perc 10.9, :drb-perc 31.8,
-          :ast-perc-2p 0.55, :ast-perc-3p 0.85, :ast-perc 42.3}}})
+          :ast-perc-2p 0.55, :ast-perc-3p 0.85, :ast-perc 42.3}}))})
 
 ;; Warriors
 (def team-b
   {:name "Golden State Warriors"
-   :on-court {
+   :on-court (into {} (map (fn [[pos p]] [pos (with-initial-box-score p)])
+   {
      :pg {:name "Stephen Curry"
           :usage-rate 29.2, :shot-dist-2p 0.463, :shot-dist-3p 0.537,
           :fg-perc-2p 0.518, :fg-perc-3p 0.408, :orb-perc 2.0, :drb-perc 12.1,
@@ -49,8 +55,7 @@
      :c  {:name "Kevon Looney"
           :usage-rate 10.1, :shot-dist-2p 0.992, :shot-dist-3p 0.008,
           :fg-perc-2p 0.598, :fg-perc-3p 0.000, :orb-perc 14.1, :drb-perc 21.4,
-          :ast-perc-2p 0.80, :ast-perc-3p 1.0, :ast-perc 12.5}}})
-
+          :ast-perc-2p 0.80, :ast-perc-3p 1.0, :ast-perc 12.5}}))})
 
 ;; Select finisher function based on their usage rate
 (defn select-finisher
@@ -65,7 +70,7 @@
 
 ;;Shot simualtion function
 (defn simulate-shot
-  "Simulates a shot. Chooses whether the shot is 2p or 3p based on their tendencies. Hit or miss based on shot percentage"
+  "Simulates shot. a Chooses whether the shot is 2p or 3p based on their tendencies. Hit or miss based on shot percentage"
   [player]
   (let [shot-type (if (< (rand) (:shot-dist-3p player)) :3p :2p)
         shot-made? (if (= shot-type :3p)
@@ -126,6 +131,8 @@
   [shot-clock]
   (+ 5 (rand-int (- shot-clock 6))))
 
+(defn find-player-pos [team player]
+  (some (fn [[pos p]] (when (= p player) pos)) team))
 
 ;; Run possesion function - simulate a possesion and update game state
 (defn run-possession
@@ -135,20 +142,24 @@
         def-team-id (:defense game-state)
         off-team (get-in game-state [:teams off-team-id :on-court])
         def-team (get-in game-state [:teams def-team-id :on-court])
-
         finisher (select-finisher (vals off-team))
+        finisher-pos (find-player-pos off-team finisher)
         shot-result (simulate-shot finisher)
-        possession-time (simulate-possession-time (:shot-clock game-state))]
+        possession-time (simulate-possession-time (:shot-clock game-state))
+        is-3p? (= :3p (:shot-type shot-result))]
+
 
     (println "-------------------------")
     (println "Shot clock - " (:shot-clock game-state))
     (println (:name (get-in game-state [:teams off-team-id])) "have the ball.")
     (println (:name finisher) "takes a" (name (:shot-type shot-result)) "pointer...")
     (println "Possesion time" possession-time)
+    
 
     (if (:shot-made? shot-result)
       (let [assister (simulate-assist finisher (:shot-type shot-result) off-team)
-            points (if (= :3p (:shot-type shot-result)) 3 2)]
+            points (if (= :3p (:shot-type shot-result)) 3 2)
+            assister-pos (when assister (find-player-pos off-team assister))]
         (if assister
           (println "It's good! Assist by" (:name assister))
           (println "It's good! Unassisted."))
@@ -157,7 +168,12 @@
             (update :game-clock - possession-time)
             (assoc :shot-clock 24)
             (update-in [:score off-team-id] + points)
-            (assoc :offense def-team-id)
+            (update-in [:teams off-team-id :on-court finisher-pos :box-score :pts] + points)
+            (update-in [:teams off-team-id :on-court finisher-pos :box-score :fgm] inc)
+            (update-in [:teams off-team-id :on-court finisher-pos :box-score :fga] inc)
+            (update-in [:teams off-team-id :on-court finisher-pos :box-score :3pm] (if is-3p? inc identity))
+            (update-in [:teams off-team-id :on-court finisher-pos :box-score :3pa] (if is-3p? inc identity))
+            (cond-> assister-pos (update-in [:teams off-team-id :on-court assister-pos :box-score :ast] inc))            (assoc :offense def-team-id)
             (assoc :defense off-team-id)))
 
       (let [rebounder (simulate-rebound off-team def-team)]
@@ -167,15 +183,36 @@
         (let [offensive-rebound? (some #(= rebounder %) (vals off-team))]
           (-> game-state
               (update :game-clock - possession-time)
+              (update-in [:teams off-team-id :on-court finisher-pos :box-score :fga] inc)
+              (update-in [:teams off-team-id :on-court finisher-pos :box-score :3pa] (if is-3p? inc identity))
+              (update-in [:teams (if offensive-rebound? off-team-id def-team-id) :on-court (find-player-pos (if offensive-rebound? off-team def-team) rebounder) :box-score :reb] inc)
               (assoc :shot-clock (if offensive-rebound?
                                    14
                                    24))
               (assoc :offense (if offensive-rebound?
-                                off-team-id 
-                                def-team-id)) 
+                                off-team-id
+                                def-team-id))
               (assoc :defense (if offensive-rebound?
                                 def-team-id
                                 off-team-id))))))))
+
+
+(defn print-box-score [game-state]
+  (doseq [team-id [:team-a :team-b]]
+    (let [team (get-in game-state [:teams team-id])]
+      (println "\n---" (:name team) "---")
+      (println (format "%-25s %-5s %-5s %-5s %-5s %-5s" "PLAYER" "PTS" "REB" "AST" "FG" "3P"))
+      (doseq [player (vals (:on-court team))]
+        (let [bs (:box-score player)]
+          (println (format "%-25s %-5s %-5s %-5s %s-%-5s %s-%s"
+                           (:name player)
+                           (:pts bs)
+                           (:reb bs)
+                           (:ast bs)
+                           (:fgm bs)
+                           (:fga bs)
+                           (:3pm bs)
+                           (:3pa bs))))))))
 
 
 (defn -main
@@ -186,10 +223,15 @@
                         run-possession
                         run-possession
                         run-possession
+                        run-possession
+                        run-possession
+                        run-possession
+                        run-possession
+                        run-possession
                         run-possession)]
     (println "\n--- FINAL STATE ---")
     (println "Score ->" (:name (:team-a (:teams initial-game-state)))  (get-in final-state [:score :team-a]) "-"
      (:name (:team-b (:teams initial-game-state))) (get-in final-state [:score :team-b]) )
     (println "Time Remaining:" (int (/ (:game-clock final-state) 60)) "minutes")
-    (println "Possession:" (:name (get-in final-state [:teams (:offense final-state)])))))
-
+    (println "Possession:" (:name (get-in final-state [:teams (:offense final-state)])))
+    (print-box-score final-state)))
