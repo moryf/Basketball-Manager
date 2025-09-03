@@ -118,7 +118,7 @@
 
 ;; Initial game state - fix later, add quarters
 (def initial-game-state
-  {:game-clock 2880 ; 48 minutes * 60 seconds
+  {:game-clock 2880 ; 48 * 60 seconds
    :shot-clock 24
    :offense :team-a 
    :defense :team-b
@@ -196,11 +196,21 @@
                                 def-team-id
                                 off-team-id))))))))
 
-
+;; Function to print the box score at the end of the game
 (defn print-box-score [game-state]
   (doseq [team-id [:team-a :team-b]]
-    (let [team (get-in game-state [:teams team-id])]
+    (let [team (get-in game-state [:teams team-id])
+          team-fga (reduce + (map (comp :fga :box-score) (vals (:on-court team))))
+          team-fgm (reduce + (map (comp :fgm :box-score) (vals (:on-court team))))
+          team-3pa (reduce + (map (comp :3pa :box-score) (vals (:on-court team))))
+          team-3pm (reduce + (map (comp :3pm :box-score) (vals (:on-court team))))
+          team-fg-pct (float (* 100 (/ team-fgm team-fga)))
+          team-3p-pct (float (* 100 (/ team-3pm team-3pa)))]
       (println "\n---" (:name team) "---")
+      (println "FG : " team-fgm "-" team-fga)
+      (println "FG % : " team-fg-pct "%")
+      (println "3p : " team-3pm "-" team-3pa)
+      (println "3p % :" team-3p-pct "%")
       (println (format "%-25s %-5s %-5s %-5s %-5s %-5s" "PLAYER" "PTS" "REB" "AST" "FG" "3P"))
       (doseq [player (vals (:on-court team))]
         (let [bs (:box-score player)]
@@ -214,24 +224,19 @@
                            (:3pm bs)
                            (:3pa bs))))))))
 
+;; Function to recur possesions until the time runs out
+(defn run-game [initial-state]
+  (loop [game-state initial-state]
+    (if (<= (:game-clock game-state) 0)
+      game-state
+      (recur (run-possession game-state)))))
 
 (defn -main
-  "Simulates a series of possessions."
+  "Simulates a full game and prints the final box score."
   [& args]
-  (let [final-state (-> initial-game-state
-                        run-possession
-                        run-possession
-                        run-possession
-                        run-possession
-                        run-possession
-                        run-possession
-                        run-possession
-                        run-possession
-                        run-possession
-                        run-possession)]
-    (println "\n--- FINAL STATE ---")
-    (println "Score ->" (:name (:team-a (:teams initial-game-state)))  (get-in final-state [:score :team-a]) "-"
-     (:name (:team-b (:teams initial-game-state))) (get-in final-state [:score :team-b]) )
-    (println "Time Remaining:" (int (/ (:game-clock final-state) 60)) "minutes")
-    (println "Possession:" (:name (get-in final-state [:teams (:offense final-state)])))
+  (println "Simulating game...")
+  (let [final-state (run-game initial-game-state)]
+    (println "\n--- FINAL SCORE ---")
+    (println (:name team-a) ":" (get-in final-state [:score :team-a]))
+    (println (:name team-b) ":" (get-in final-state [:score :team-b]))
     (print-box-score final-state)))
