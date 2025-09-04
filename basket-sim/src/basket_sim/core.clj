@@ -3,7 +3,9 @@
 
 ;; Helper function to add the initial box score to a player
 (defn with-initial-box-score [player]
-  (assoc player :box-score {:pts 0, :ast 0, :reb 0, :fga 0, :fgm 0, :3pa 0, :3pm 0}))
+  (assoc player
+         :stamina 100
+         :box-score {:pts 0, :ast 0, :reb 0, :fga 0, :fgm 0, :3pa 0, :3pm 0}))
 
 ;; Nuggets
 (def team-a
@@ -68,14 +70,25 @@
         current-player
         (recur (- p (:usage-rate current-player)) rest-players)))))
 
+;; Function that add a penalty to shot percentages based on player's fatigue
+(defn apply-fatigue [player shot-percentage]
+  (let [stamina (:stamina player)
+        fatigue-penalty (cond
+                          (> stamina 75) 1.0   
+                          (> stamina 50) 0.85  
+                          (> stamina 25) 0.65   
+                          :else          0.5)] 
+    (println "Penalty: " fatigue-penalty)
+    (* shot-percentage fatigue-penalty)))
+
 ;;Shot simualtion function
 (defn simulate-shot
   "Simulates shot. a Chooses whether the shot is 2p or 3p based on their tendencies. Hit or miss based on shot percentage"
   [player]
   (let [shot-type (if (< (rand) (:shot-dist-3p player)) :3p :2p)
         shot-made? (if (= shot-type :3p)
-                     (< (rand) (:fg-perc-3p player))
-                     (< (rand) (:fg-perc-2p player)))]
+                     (< (rand) (apply-fatigue player (:fg-perc-3p player)))
+                     (< (rand) (apply-fatigue player (:fg-perc-2p player))))]
     {:shot-type shot-type :shot-made? shot-made?}))
 
 ;; Rebound simulation function
@@ -118,7 +131,7 @@
 
 ;; Initial game state - fix later, add quarters
 (def initial-game-state
-  {:game-clock 2880 ; 48 * 60 seconds
+  {:game-clock 1440 ; 12 * 60 seconds
    :shot-clock 24
    :offense :team-a 
    :defense :team-b
@@ -133,6 +146,12 @@
 
 (defn find-player-pos [team player]
   (some (fn [[pos p]] (when (= p player) pos)) team))
+
+(defn update-stamina [on-court-players]
+  (into {} (map (fn [[pos p]]
+                  [pos (cond (> (p :stamina) 0) (update p :stamina - 1)
+                             :else p)])
+                on-court-players)))
 
 ;; Run possesion function - simulate a possesion and update game state
 (defn run-possession
@@ -167,6 +186,8 @@
         (-> game-state
             (update :game-clock - possession-time)
             (assoc :shot-clock 24)
+            (update-in [:teams :team-a :on-court] update-stamina)
+            (update-in [:teams :team-b :on-court] update-stamina)
             (update-in [:score off-team-id] + points)
             (update-in [:teams off-team-id :on-court finisher-pos :box-score :pts] + points)
             (update-in [:teams off-team-id :on-court finisher-pos :box-score :fgm] inc)
@@ -183,6 +204,8 @@
         (let [offensive-rebound? (some #(= rebounder %) (vals off-team))]
           (-> game-state
               (update :game-clock - possession-time)
+              (update-in [:teams :team-a :on-court] update-stamina)
+              (update-in [:teams :team-b :on-court] update-stamina)
               (update-in [:teams off-team-id :on-court finisher-pos :box-score :fga] inc)
               (update-in [:teams off-team-id :on-court finisher-pos :box-score :3pa] (if is-3p? inc identity))
               (update-in [:teams (if offensive-rebound? off-team-id def-team-id) :on-court (find-player-pos (if offensive-rebound? off-team def-team) rebounder) :box-score :reb] inc)
@@ -211,8 +234,10 @@
       (println "FG % : " team-fg-pct "%")
       (println "3p : " team-3pm "-" team-3pa)
       (println "3p % :" team-3p-pct "%")
-      (println (format "%-25s %-5s %-5s %-5s %-5s %-5s" "PLAYER" "PTS" "REB" "AST" "FG" "3P"))
+      (println (format "%-25s %-5s %-5s %-5s %-5s %-5s" "PLAYER" "PTS" "REB" "AST" "FG" "3P")) 
+      
       (doseq [player (vals (:on-court team))]
+        (println "Stamina" (player :stamina))
         (let [bs (:box-score player)]
           (println (format "%-25s %-5s %-5s %-5s %s-%-5s %s-%s"
                            (:name player)

@@ -16859,3 +16859,5431 @@ clj꞉basket-sim.core꞉> 
 ; Kevon Looney              12    15    6     6-7     0-0
 nil
 clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 18
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 9
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 15
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 16
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 15
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 16
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 22
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 22
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 11
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 10
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 5
+; It's good! Assist by Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 6
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 3p pointer...
+; Possesion time 7
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 9
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 9
+; It's good! Assist by Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 19
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 10
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 13
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 13
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 13
+; It's good! Assist by Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 7
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 14
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 11
+; It's good! Assist by Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 6
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 5
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 21
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 20
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 14
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 15
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 11
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 13
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 22
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 21
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 11
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 6
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 6
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 19
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 10
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 21
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 7
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 16
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 22
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 18
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 22
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 20
+; It's good! Assist by Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 20
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 16
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 16
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 3p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 17
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 11
+; It's good! Assist by Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 9
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 21
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 16
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 14
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 22
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 5
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 8
+; It's good! Assist by Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 16
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 3p pointer...
+; Possesion time 17
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 6
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 15
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 7
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 18
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 18
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 18
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 7
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 17
+; It's good! Assist by Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 7
+; It's good! Assist by Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 15
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 15
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 10
+; It's good! Assist by Kentavious Caldwell-Pope
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 13
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 5
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 11
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 21
+; It's good! Assist by Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 11
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 6
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 16
+; It's good! Assist by Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 14
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Klay Thompson
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 14
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 10
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 21
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 16
+; It's good! Assist by Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 7
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 15
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 20
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 17
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 22
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 16
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 16
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 17
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 22
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Draymond Green
+; 
+; --- FINAL SCORE ---
+; Denver Nuggets : 125
+; Golden State Warriors : 131
+; 
+; --- Denver Nuggets ---
+; FG :  56 - 105
+; FG % :  53.333332 %
+; 3p :  13 - 37
+; 3p % : 35.135136 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Jamal Murray              30    8     8     13-21    4-9
+; Kentavious Caldwell-Pope  14    2     1     5-14    4-9
+; Michael Porter Jr.        15    5     4     6-26    3-16
+; Aaron Gordon              33    13    3     16-19    1-2
+; Nikola Jokic              33    22    15    16-25    1-1
+; 
+; --- Golden State Warriors ---
+; FG :  54 - 109
+; FG % :  49.541283 %
+; 3p :  23 - 48
+; 3p % : 47.916668 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stephen Curry             37    10    13    15-30    7-16
+; Klay Thompson             40    5     5     15-32    10-21
+; Andrew Wiggins            30    6     3     13-22    4-7
+; Draymond Green            14    13    13    6-16    2-4
+; Kevon Looney              10    20    4     5-9     0-0
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/print-box-score
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/with-initial-box-score
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-a
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-b
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/select-finisher
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/apply-fatigue
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-shot
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-rebound
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-assist
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/initial-game-state
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/simulate-possession-time
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/find-player-pos
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/update-stamina
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/print-box-score
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-game
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 22
+; It's good! Assist by Aaron Gordon
+; Execution error (NullPointerException) at basket-sim.core/run-possession (REPL:189).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 6
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 14
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Kevon Looney
+; Execution error (NullPointerException) at basket-sim.core/run-possession (REPL:205).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 13
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 20
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 21
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 10
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Kentavious Caldwell-Pope
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Kentavious Caldwell-Pope
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 5
+; It's good! Assist by Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 13
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 22
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 15
+; It's good! Assist by Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 6
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 6
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 7
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 14
+; It's good! Assist by Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 11
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 13
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 19
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 18
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 5
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 11
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 14
+; It's good! Assist by Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 7
+; It's good! Assist by Aaron Gordon
+; 
+; --- FINAL SCORE ---
+; Denver Nuggets : 32
+; Golden State Warriors : 27
+; 
+; --- Denver Nuggets ---
+; FG :  15 - 27
+; FG % :  55.555557 %
+; 3p :  2 - 8
+; 3p % : 25.0 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stamina 100
+; Jamal Murray              6     3     3     3-7     0-2
+; Stamina 100
+; Kentavious Caldwell-Pope  6     0     2     2-3     2-2
+; Stamina 100
+; Michael Porter Jr.        4     5     3     2-6     0-4
+; Stamina 100
+; Aaron Gordon              10    1     1     5-7     0-0
+; Stamina 100
+; Nikola Jokic              6     7     4     3-4     0-0
+; 
+; --- Golden State Warriors ---
+; FG :  10 - 31
+; FG % :  32.258064 %
+; 3p :  7 - 16
+; 3p % : 43.75 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stamina 100
+; Stephen Curry             12    4     2     4-8     4-7
+; Stamina 100
+; Klay Thompson             11    1     0     4-11    3-9
+; Stamina 100
+; Andrew Wiggins            2     3     2     1-5     0-0
+; Stamina 100
+; Draymond Green            2     2     2     1-4     0-0
+; Stamina 100
+; Kevon Looney              0     7     2     0-3     0-0
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/update-stamina
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 17
+; It's good! Unassisted.
+; Execution error (NullPointerException) at basket-sim.core/run-possession (REPL:189).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/-main
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Michael Porter Jr.
+; Execution error (NullPointerException) at basket-sim.core/run-possession (REPL:189).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/update-stamina
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/run-possession
+clj꞉basket-sim.core꞉> 
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 5
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 3p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 22
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 20
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 5
+; It's good! Assist by Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 21
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 13
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 10
+; It's good! Assist by Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 21
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 22
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 6
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 19
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 18
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 22
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Stephen Curry
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 7
+; It's good! Assist by Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Draymond Green
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 17
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 11
+; It's good! Assist by Michael Porter Jr.
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 22
+; It's good! Assist by Stephen Curry
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Kevon Looney
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 11
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Klay Thompson
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 18
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Draymond Green
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Aaron Gordon
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 19
+; It's good! Assist by Jamal Murray
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 16
+; It's good! Unassisted.
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Nikola Jokic
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Nikola Jokic
+; 
+; --- FINAL SCORE ---
+; Denver Nuggets : 33
+; Golden State Warriors : 35
+; 
+; --- Denver Nuggets ---
+; FG :  15 - 28
+; FG % :  53.57143 %
+; 3p :  3 - 7
+; 3p % : 42.857143 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stamina 43
+; Jamal Murray              4     1     4     2-7     0-2
+; Stamina 43
+; Kentavious Caldwell-Pope  0     2     0     0-3     0-1
+; Stamina 43
+; Michael Porter Jr.        6     1     2     2-6     2-3
+; Stamina 43
+; Aaron Gordon              4     2     2     2-2     0-0
+; Stamina 43
+; Nikola Jokic              19    8     3     9-10    1-1
+; 
+; --- Golden State Warriors ---
+; FG :  14 - 29
+; FG % :  48.275864 %
+; 3p :  7 - 16
+; 3p % : 43.75 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stamina 43
+; Stephen Curry             7     3     2     3-9     1-5
+; Stamina 43
+; Klay Thompson             15    1     2     6-10    3-6
+; Stamina 43
+; Andrew Wiggins            8     4     0     3-5     2-4
+; Stamina 43
+; Draymond Green            5     2     5     2-3     1-1
+; Stamina 43
+; Kevon Looney              0     4     1     0-2     0-0
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/apply-fatigue
+clj꞉basket-sim.core꞉> 
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 22
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 19
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 19
+; It's good! Assist by Andrew Wiggins
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 17
+; It's good! Assist by Aaron Gordon
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 14
+; It's good! Assist by Stephen Curry
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 20
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 14
+; It's good! Assist by Kevon Looney
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 6
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 20
+; It's good! Assist by Klay Thompson
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Jamal Murray
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 10
+; It's good! Unassisted.
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 17
+; It's good! Unassisted.
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 17
+; It's good! Assist by Jamal Murray
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 20
+; It's good! Assist by Jamal Murray
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 6
+; It's good! Unassisted.
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Stephen Curry
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 20
+; It's good! Assist by Kevon Looney
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 21
+; It's good! Unassisted.
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 14
+; It's good! Unassisted.
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 16
+; It's good! Assist by Aaron Gordon
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 15
+; It's good! Assist by Stephen Curry
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Jamal Murray
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.95
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 6
+; It's good! Assist by Stephen Curry
+; Penalty:  0.9
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.9
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.9
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.9
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Kevon Looney
+; Penalty:  0.9
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Stephen Curry
+; Penalty:  0.9
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; 
+; --- FINAL SCORE ---
+; Denver Nuggets : 35
+; Golden State Warriors : 22
+; 
+; --- Denver Nuggets ---
+; FG :  16 - 28
+; FG % :  57.142857 %
+; 3p :  3 - 10
+; 3p % : 30.0 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stamina 44
+; Jamal Murray              4     3     4     2-8     0-4
+; Stamina 44
+; Kentavious Caldwell-Pope  3     3     0     1-2     1-2
+; Stamina 44
+; Michael Porter Jr.        10    5     1     4-7     2-4
+; Stamina 44
+; Aaron Gordon              8     2     2     4-6     0-0
+; Stamina 44
+; Nikola Jokic              10    4     4     5-5     0-0
+; 
+; --- Golden State Warriors ---
+; FG :  10 - 28
+; FG % :  35.714287 %
+; 3p :  2 - 10
+; 3p % : 20.0 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stamina 44
+; Stephen Curry             4     2     3     2-8     0-3
+; Stamina 44
+; Klay Thompson             7     3     1     3-7     1-4
+; Stamina 44
+; Andrew Wiggins            4     3     1     2-7     0-0
+; Stamina 44
+; Draymond Green            3     2     1     1-4     1-3
+; Stamina 44
+; Kevon Looney              4     3     3     2-2     0-0
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/apply-fatigue
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/initial-game-state
+clj꞉basket-sim.core꞉> 
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 21
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 18
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 18
+; It's good! Assist by Klay Thompson
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 16
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 9
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Stephen Curry
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 10
+; It's good! Assist by Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 19
+; It's good! Assist by Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 7
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 7
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 9
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 21
+; It's good! Assist by Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 18
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 11
+; It's good! Unassisted.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 20
+; It's good! Assist by Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 21
+; It's good! Assist by Stephen Curry
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 10
+; It's good! Assist by Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 9
+; It's good! Unassisted.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 7
+; It's good! Unassisted.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 16
+; It's good! Assist by Jamal Murray
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 7
+; It's good! Unassisted.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 16
+; It's good! Assist by Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 22
+; It's good! Unassisted.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 14
+; It's good! Unassisted.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 17
+; It's good! Assist by Jamal Murray
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 11
+; It's good! Assist by Jamal Murray
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 9
+; It's good! Assist by Klay Thompson
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 11
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 6
+; It's good! Assist by Stephen Curry
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 8
+; It's good! Unassisted.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 11
+; It's good! Assist by Andrew Wiggins
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 8
+; It's good! Unassisted.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Stephen Curry
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 5
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 11
+; It's good! Unassisted.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 6
+; It's good! Assist by Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Kevon Looney
+; 
+; --- FINAL SCORE ---
+; Denver Nuggets : 47
+; Golden State Warriors : 44
+; 
+; --- Denver Nuggets ---
+; FG :  22 - 56
+; FG % :  39.285713 %
+; 3p :  3 - 16
+; 3p % : 18.75 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stamina -15
+; Jamal Murray              13    8     3     6-15    1-5
+; Stamina -15
+; Kentavious Caldwell-Pope  6     3     0     3-10    0-5
+; Stamina -15
+; Michael Porter Jr.        10    6     4     4-10    2-6
+; Stamina -15
+; Aaron Gordon              6     8     0     3-8     0-0
+; Stamina -15
+; Nikola Jokic              12    12    6     6-13    0-0
+; 
+; --- Golden State Warriors ---
+; FG :  18 - 59
+; FG % :  30.508474 %
+; 3p :  8 - 23
+; 3p % : 34.782608 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stamina -15
+; Stephen Curry             20    2     2     8-18    4-8
+; Stamina -15
+; Klay Thompson             0     6     2     0-11    0-8
+; Stamina -15
+; Andrew Wiggins            12    2     1     5-18    2-4
+; Stamina -15
+; Draymond Green            8     10    6     3-5     2-3
+; Stamina -15
+; Kevon Looney              4     18    2     2-7     0-0
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/update-stamina
+clj꞉basket-sim.core꞉> 
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 19
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Klay Thompson
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 17
+; It's good! Assist by Aaron Gordon
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 13
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 6
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 10
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Stephen Curry
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 16
+; It's good! Assist by Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Stephen Curry
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 10
+; It's good! Assist by Stephen Curry
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 9
+; It's good! Assist by Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 5
+; It's good! Unassisted.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 21
+; It's good! Unassisted.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 22
+; It's good! Assist by Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 11
+; It's good! Unassisted.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 5
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 7
+; It's good! Assist by Stephen Curry
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 11
+; It's good! Assist by Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 11
+; It's good! Assist by Stephen Curry
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 14
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 14
+; It's good! Unassisted.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 22
+; It's good! Assist by Stephen Curry
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 15
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 11
+; It's good! Assist by Stephen Curry
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 19
+; It's good! Assist by Kevon Looney
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 22
+; It's good! Assist by Jamal Murray
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 20
+; It's good! Assist by Stephen Curry
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 18
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 20
+; It's good! Assist by Andrew Wiggins
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Stephen Curry
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Stephen Curry
+; Execution error (NullPointerException) at basket-sim.core/run-possession (REPL:206).
+; Cannot invoke "Object.getClass()" because "x" is null
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/update-stamina
+clj꞉basket-sim.core꞉> 
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 17
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Stephen Curry
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 3p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Stephen Curry
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 15
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 13
+; It's good! Assist by Aaron Gordon
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 20
+; It's good! Assist by Aaron Gordon
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 22
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 18
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 12
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 7
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 7
+; It's good! Assist by Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 9
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 3p pointer...
+; Possesion time 16
+; It's good! Assist by Draymond Green
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 3p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 12
+; It's good! Unassisted.
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 17
+; It's good! Assist by Klay Thompson
+; Penalty:  1.0
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 22
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 17
+; It's good! Assist by Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Stephen Curry
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 20
+; It's good! Assist by Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 22
+; It's good! Assist by Aaron Gordon
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 15
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 16
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 6
+; It's good! Assist by Klay Thompson
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 5
+; It's good! Assist by Andrew Wiggins
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 21
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 6
+; It's good! Unassisted.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Stephen Curry
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 18
+; It's good! Assist by Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 17
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 3p pointer...
+; Possesion time 20
+; It's good! Assist by Aaron Gordon
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 19
+; It's good! Unassisted.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Klay Thompson
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 20
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.85
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 18
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 11
+; It's good! Assist by Kentavious Caldwell-Pope
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 17
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 12
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 5
+; It's good! Assist by Jamal Murray
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 22
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 12
+; It's good! Assist by Draymond Green
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 6
+; It's good! Assist by Michael Porter Jr.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 8
+; It's good! Assist by Stephen Curry
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 3p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 5
+; It's good! Unassisted.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 11
+; It's good! Assist by Stephen Curry
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 16
+; It's good! Unassisted.
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 11
+; It's good! Assist by Draymond Green
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 17
+; It's good! Assist by Aaron Gordon
+; Penalty:  0.65
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 17
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 2p pointer...
+; Possesion time 18
+; It's good! Assist by Stephen Curry
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 5
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 6
+; It's good! Assist by Stephen Curry
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Nikola Jokic takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 2p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Michael Porter Jr. takes a 3p pointer...
+; Possesion time 10
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 15
+; It's good! Unassisted.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 14
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 8
+; It's good! Assist by Stephen Curry
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 6
+; It's a miss!
+; Rebound by: Kentavious Caldwell-Pope
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 11
+; It's a miss!
+; Rebound by: Michael Porter Jr.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Jamal Murray takes a 2p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Andrew Wiggins
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 22
+; It's good! Assist by Draymond Green
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 13
+; It's a miss!
+; Rebound by: Aaron Gordon
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 2p pointer...
+; Possesion time 7
+; It's a miss!
+; Rebound by: Draymond Green
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Klay Thompson takes a 3p pointer...
+; Possesion time 8
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  14
+; Golden State Warriors have the ball.
+; Stephen Curry takes a 3p pointer...
+; Possesion time 6
+; It's good! Unassisted.
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 19
+; It's a miss!
+; Rebound by: Kevon Looney
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Kevon Looney takes a 2p pointer...
+; Possesion time 18
+; It's good! Assist by Stephen Curry
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Aaron Gordon takes a 3p pointer...
+; Possesion time 20
+; It's good! Assist by Nikola Jokic
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Andrew Wiggins takes a 2p pointer...
+; Possesion time 9
+; It's a miss!
+; Rebound by: Jamal Murray
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Denver Nuggets have the ball.
+; Kentavious Caldwell-Pope takes a 3p pointer...
+; Possesion time 20
+; It's a miss!
+; Rebound by: Klay Thompson
+; Penalty:  0.5
+; -------------------------
+; Shot clock -  24
+; Golden State Warriors have the ball.
+; Draymond Green takes a 2p pointer...
+; Possesion time 21
+; It's a miss!
+; Rebound by: Nikola Jokic
+; 
+; --- FINAL SCORE ---
+; Denver Nuggets : 55
+; Golden State Warriors : 62
+; 
+; --- Denver Nuggets ---
+; FG :  23 - 62
+; FG % :  37.096775 %
+; 3p :  9 - 24
+; 3p % : 37.5 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stamina 0
+; Jamal Murray              12    8     1     5-13    2-2
+; Stamina 0
+; Kentavious Caldwell-Pope  8     2     1     3-8     2-6
+; Stamina 0
+; Michael Porter Jr.        12    7     5     4-10    4-9
+; Stamina 0
+; Aaron Gordon              13    5     5     6-18    1-3
+; Stamina 0
+; Nikola Jokic              10    14    7     5-13    0-4
+; 
+; --- Golden State Warriors ---
+; FG :  26 - 53
+; FG % :  49.056602 %
+; 3p :  10 - 23
+; 3p % : 43.47826 %
+; PLAYER                    PTS   REB   AST   FG    3P   
+; Stamina 0
+; Stephen Curry             28    3     7     11-20    6-11
+; Stamina 0
+; Klay Thompson             15    4     3     6-12    3-8
+; Stamina 0
+; Andrew Wiggins            7     2     1     3-7     1-3
+; Stamina 0
+; Draymond Green            2     8     8     1-5     0-1
+; Stamina 0
+; Kevon Looney              10    13    0     5-9     0-0
+nil
+clj꞉basket-sim.core꞉> 
