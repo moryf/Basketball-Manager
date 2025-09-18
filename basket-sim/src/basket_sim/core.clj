@@ -14,35 +14,42 @@
                            {:pg {:name "Jamal Murray"
                                  :usage-rate 27.5, :shot-dist-2p 0.655, :shot-dist-3p 0.345,
                                  :fg-perc-2p 0.523, :fg-perc-3p 0.425, :orb-perc 2.1, :drb-perc 12.5,
-                                 :ast-perc-2p 0.45, :ast-perc-3p 0.65, :ast-perc 30.1, :tov-pct 9.9, :ftr 0.226, :ft-perc 0.88}
+                                 :ast-perc-2p 0.45, :ast-perc-3p 0.65, :ast-perc 30.1, :tov-pct 9.9, :ftr 0.226, :ft-perc 0.88,
+                                 :obpm 4.3, :dbpm -0.7}
                             :sg {:name "Kentavious Caldwell-Pope"
                                  :usage-rate 12.8, :shot-dist-2p 0.435, :shot-dist-3p 0.565,
                                  :fg-perc-2p 0.528, :fg-perc-3p 0.406, :orb-perc 1.9, :drb-perc 7.8,
-                                 :ast-perc-2p 0.70, :ast-perc-3p 0.95, :ast-perc 10.1, :tov-pct 10.3, :ftr 0.129, :ft-perc 0.82}
+                                 :ast-perc-2p 0.70, :ast-perc-3p 0.95, :ast-perc 10.1, :tov-pct 10.3, :ftr 0.129, :ft-perc 0.82,
+                                 :obpm 0.0, :dbpm 0.9}
                             :sf {:name "Michael Porter Jr."
                                  :usage-rate 20.3, :shot-dist-2p 0.463, :shot-dist-3p 0.537,
                                  :fg-perc-2p 0.596, :fg-perc-3p 0.397, :orb-perc 5.8, :drb-perc 16.6,
-                                 :ast-perc-2p 0.68, :ast-perc-3p 0.90, :ast-perc 6.9, :tov-pct 8.3, :ftr 0.140, :ft-perc 0.79}
+                                 :ast-perc-2p 0.68, :ast-perc-3p 0.90, :ast-perc 6.9, :tov-pct 8.3, :ftr 0.140, :ft-perc 0.79,
+                                 :obpm 2, :dbpm -0.7}
                             :pf {:name "Aaron Gordon"
                                  :usage-rate 17.8, :shot-dist-2p 0.887, :shot-dist-3p 0.113,
                                  :fg-perc-2p 0.612, :fg-perc-3p 0.290, :orb-perc 8.4, :drb-perc 15.0,
-                                 :ast-perc-2p 0.65, :ast-perc-3p 0.98, :ast-perc 14.5, :tov-pct 11.2, :ftr 0.334, :ft-perc 0.72}
+                                 :ast-perc-2p 0.65, :ast-perc-3p 0.98, :ast-perc 14.5, :tov-pct 11.2, :ftr 0.334, :ft-perc 0.72,
+                                 :obpm 1.6, :dbpm 0.4}
                             :c  {:name "Nikola Jokic"
                                  :usage-rate 29.8, :shot-dist-2p 0.826, :shot-dist-3p 0.174,
                                  :fg-perc-2p 0.643, :fg-perc-3p 0.359, :orb-perc 10.9, :drb-perc 31.8,
-                                 :ast-perc-2p 0.55, :ast-perc-3p 0.85, :ast-perc 42.3, :tov-pct 13.5, :ftr 0.392, :ft-perc 0.78}}))
+                                 :ast-perc-2p 0.55, :ast-perc-3p 0.85, :ast-perc 42.3, :tov-pct 13.5, :ftr 0.392, :ft-perc 0.78,
+                                 :obpm 9.2, :dbpm 4.1}}))
    :bench [(with-initial-box-score
              {:name "Reggie Jackson"
               :usage-rate 18.1, :shot-dist-2p 0.583, :shot-dist-3p 0.417,
               :fg-perc-2p 0.488, :fg-perc-3p 0.359, :orb-perc 1.5, :drb-perc 5.5,
               :ast-perc-2p 0.55, :ast-perc-3p 0.80, :ast-perc 24.1,
-              :tov-pct 11.9, :ftr 0.155, :ft-perc 0.86})
+              :tov-pct 11.9, :ftr 0.155, :ft-perc 0.86,
+              :obpm -0.2, :dbpm -1.5})
            (with-initial-box-score
              {:name "Christian Braun"
               :usage-rate 12.5, :shot-dist-2p 0.701, :shot-dist-3p 0.299,
               :fg-perc-2p 0.547, :fg-perc-3p 0.384, :orb-perc 4.4, :drb-perc 8.9,
               :ast-perc-2p 0.60, :ast-perc-3p 0.95, :ast-perc 9.2,
-              :tov-pct 10.1, :ftr 0.231, :ft-perc 0.76})]})
+              :tov-pct 10.1, :ftr 0.231, :ft-perc 0.76,
+              :obpm -0.4, :dbpm 0.9})]})
 
 ;; Warriors
 (def team-b
@@ -51,35 +58,42 @@
                            {:pg {:name "Stephen Curry"
                                  :usage-rate 29.2, :shot-dist-2p 0.463, :shot-dist-3p 0.537,
                                  :fg-perc-2p 0.518, :fg-perc-3p 0.408, :orb-perc 2.0, :drb-perc 12.1,
-                                 :ast-perc-2p 0.50, :ast-perc-3p 0.75, :ast-perc 25.4, :tov-pct 12.1, :ftr 0.222, :ft-perc 0.93}
+                                 :ast-perc-2p 0.50, :ast-perc-3p 0.75, :ast-perc 25.4, :tov-pct 12.1, :ftr 0.222, :ft-perc 0.93,
+                                 :obpm 6.4, :dbpm -1.1}
                             :sf {:name "Andrew Wiggins"
                                  :usage-rate 18.2, :shot-dist-2p 0.662, :shot-dist-3p 0.338,
                                  :fg-perc-2p 0.505, :fg-perc-3p 0.358, :orb-perc 5.2, :drb-perc 11.2,
-                                 :ast-perc-2p 0.60, :ast-perc-3p 0.97, :ast-perc 8.4, :tov-pct 9.8, :ftr 0.201, :ft-perc 0.82}
+                                 :ast-perc-2p 0.60, :ast-perc-3p 0.97, :ast-perc 8.4, :tov-pct 9.8, :ftr 0.201, :ft-perc 0.82,
+                                 :obpm -1.6, :dbpm -0.1}
                             :sg {:name "Klay Thompson"
                                  :usage-rate 22.9, :shot-dist-2p 0.383, :shot-dist-3p 0.617,
                                  :fg-perc-2p 0.493, :fg-perc-3p 0.387, :orb-perc 1.7, :drb-perc 8.7,
-                                 :ast-perc-2p 0.72, :ast-perc-3p 0.96, :ast-perc 13.1, :tov-pct 8.3, :ftr 0.113, :ft-perc 0.91}
+                                 :ast-perc-2p 0.72, :ast-perc-3p 0.96, :ast-perc 13.1, :tov-pct 8.3, :ftr 0.113, :ft-perc 0.91,
+                                 :obpm 0.5, :dbpm -2.2}
                             :pf {:name "Draymond Green"
                                  :usage-rate 13.5, :shot-dist-2p 0.685, :shot-dist-3p 0.315,
                                  :fg-perc-2p 0.547, :fg-perc-3p 0.395, :orb-perc 3.7, :drb-perc 21.0,
-                                 :ast-perc-2p 0.65, :ast-perc-3p 0.99, :ast-perc 28.6, :tov-pct 18.2, :ftr 0.244, :ft-perc 0.71}
+                                 :ast-perc-2p 0.65, :ast-perc-3p 0.99, :ast-perc 28.6, :tov-pct 18.2, :ftr 0.244, :ft-perc 0.71,
+                                 :obpm 1.2, :dbpm 3.8}
                             :c  {:name "Kevon Looney"
                                  :usage-rate 10.1, :shot-dist-2p 0.992, :shot-dist-3p 0.008,
                                  :fg-perc-2p 0.598, :fg-perc-3p 0.000, :orb-perc 14.1, :drb-perc 21.4,
-                                 :ast-perc-2p 0.80, :ast-perc-3p 1.0, :ast-perc 12.5, :tov-pct 13.4, :ftr 0.208, :ft-perc 0.67}}))
+                                 :ast-perc-2p 0.80, :ast-perc-3p 1.0, :ast-perc 12.5, :tov-pct 13.4, :ftr 0.208, :ft-perc 0.67,
+                                 :obpm -0.6, :dbpm 0.0}}))
    :bench [(with-initial-box-score
              {:name "Chris Paul"
               :usage-rate 16.5, :shot-dist-2p 0.672, :shot-dist-3p 0.328,
               :fg-perc-2p 0.481, :fg-perc-3p 0.371, :orb-perc 1.9, :drb-perc 12.5,
               :ast-perc-2p 0.50, :ast-perc-3p 0.85, :ast-perc 36.4,
-              :tov-pct 13.9, :ftr 0.188, :ft-perc 0.82})
+              :tov-pct 13.9, :ftr 0.188, :ft-perc 0.82,
+              :obpm 1.9, :dbpm 1.0})
            (with-initial-box-score
              {:name "Jonathan Kuminga"
               :usage-rate 24.1, :shot-dist-2p 0.871, :shot-dist-3p 0.129,
               :fg-perc-2p 0.575, :fg-perc-3p 0.321, :orb-perc 5.5, :drb-perc 13.5,
               :ast-perc-2p 0.35, :ast-perc-3p 0.90, :ast-perc 12.3,
-              :tov-pct 12.3, :ftr 0.360, :ft-perc 0.74})]})
+              :tov-pct 12.3, :ftr 0.360, :ft-perc 0.74,
+              :obpm 0.1, :dbpm -0.9})]})
 
 ;; Select finisher function based on their usage rate
 (defn select-finisher
@@ -111,6 +125,11 @@
                           (> stamina 25) 0.8
                           :else          0.7)]
     (* shot-percentage fatigue-penalty)))
+
+(defn apply-defense [player defender shot-percentage]
+  "Modifies a players shot percentage based on the defender who's guarding them"
+  (let[bpm-difference (- (:obpm player) (:dbpm defender))]
+   (* shot-percentage (- 1 (/ bpm-difference 100)))))
 
 ;;Shot simualtion function
 (defn simulate-shot

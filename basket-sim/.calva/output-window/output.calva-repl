@@ -56148,3 +56148,11 @@ clj꞉basket-sim.core꞉> 
 ; Jonathan Kuminga          11    3     3     4-9     1-1     2-2     1     100.5
 nil
 clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-b
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/team-a
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/apply-defense
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/apply-defense
+clj꞉basket-sim.core꞉> 
