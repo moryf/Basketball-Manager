@@ -1,4 +1,4 @@
-(ns basket-sim.core
+(ns basket-sim.core 
   (:gen-class))
 
 ;; Helper function to add the initial box score to a player
