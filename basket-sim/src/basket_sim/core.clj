@@ -1,5 +1,40 @@
-(ns basket-sim.core 
+(ns basket-sim.core
+  (:require [clojure.java.io :as io]
+            [clojure.data.csv :as csv])
   (:gen-class))
+
+(def player-data-path "../players_final.csv")
+
+(defn load-players 
+  "Loads all of the players available for a draft from a csv file"
+  [filepath]
+  (with-open [reader (io/reader filepath)]
+    (let [[header & rows] (csv/read-csv reader)
+          keys (mapv keyword header)]
+      (mapv (fn [row]
+              (let [player (zipmap keys row)
+                    get-stat (fn [key] (Double/parseDouble (get player key "0.0")))]
+                {:name (get player :Player)
+                 :usage-rate (get-stat :USG%)
+                 :shot-dist-2p (get-stat :2P_shot)
+                 :shot-dist-3p (get-stat :3P_shot)
+                 :fg-perc-2p (get-stat :2P%)
+                 :fg-perc-3p (get-stat :3P%)
+                 :orb-perc (get-stat :ORB%)
+                 :drb-perc (get-stat :DRB%)
+                 :ast-perc-2p (get-stat :2P.2)
+                 :ast-perc-3p (get-stat :3P.2)
+                 :ast-perc (get-stat :AST%)
+                 :tov-pct (get-stat :TOV%)
+                 :ftr (get-stat :FTr)
+                 :ft-perc (get-stat :FT%)
+                 :obpm (get-stat :OBPM)
+                 :dbpm (get-stat :DBPM)
+                 :per (get-stat :PER▼)}))
+            rows))))
+
+(load-players player-data-path)
+
 
 ;; Helper function to add the initial box score to a player
 (defn with-initial-box-score [player]
@@ -454,5 +489,3 @@
     (println (:name team-a) ":" (get-in final-state [:score :team-a]))
     (println (:name team-b) ":" (get-in final-state [:score :team-b]))
     (print-box-score final-state)))
-
-(-main)

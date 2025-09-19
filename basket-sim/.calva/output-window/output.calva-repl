@@ -37,6 +37,7 @@ You can configure this with the setting:
 ; 
 
 ; Starting Jack-in: pushd c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.3.1"] -- update-in :plugins conj [cider/cider-nrepl,"0.55.4"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; Interrupting Jack-in process.
 ; Jacking in...
 ; Connecting using "Leiningen" project type.
 ; You can make Calva auto-select this.
@@ -44,3 +45,5339 @@ You can configure this with the setting:
 ; 
 
 ; Starting Jack-in: pushd c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.3.1"] -- update-in :plugins conj [cider/cider-nrepl,"0.55.4"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: pushd c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.3.1"] -- update-in :plugins conj [cider/cider-nrepl,"0.55.4"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; Using host:port 127.0.0.1:50661 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉basket-sim.core꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉basket-sim.core꞉> 
+; Jack-in done.
+clj꞉basket-sim.core꞉> 
+; Syntax error compiling at (c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim\project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+clj꞉user꞉> 
+; Syntax error compiling at (c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim\project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+clj꞉user꞉> 
+; Syntax error compiling at (c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim\project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+clj꞉user꞉> 
+nil
+clj꞉basket-sim.core꞉> 
+; Execution error (FileNotFoundException) at basket-sim.core/eval10405$loading (REPL:1).
+; Could not locate clojure/data/csv__init.class, clojure/data/csv.clj or clojure/data/csv.cljc on classpath.
+clj꞉basket-sim.core꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: pushd c:\Users\aleks\OneDrive\Dokumenti\fax\master\clojure\Basketball Manager\basket-sim & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.3.1"] -- update-in :plugins conj [cider/cider-nrepl,"0.55.4"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; Using host:port 127.0.0.1:51597 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉basket-sim.core꞉> 
+; Jack-in done.
+clj꞉basket-sim.core꞉> 
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/read-player-data
+clj꞉basket-sim.core꞉> 
+(["./players_final.csv"])
+clj꞉basket-sim.core꞉> 
+(["./players_final.csv"])
+clj꞉basket-sim.core꞉> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; .\players_final.csv (The system cannot find the file specified)
+clj꞉basket-sim.core꞉> 
+(["Player-additional"
+  "Player"
+  "USG%"
+  "2P_shot"
+  "3P_shot"
+  "2P%"
+  "3P%"
+  "ORB%"
+  "DRB%"
+  "2P.2"
+  "3P.2"
+  "AST%"
+  "TOV%"
+  "FTr"
+  "FT%"
+  "OBPM"
+  "DBPM"
+  "PER▼"]
+ ["jokicni01"
+  "Nikola Jokić"
+  "29.5"
+  "0.757"
+  "0.243"
+  "0.627"
+  "0.417"
+  "9.0"
+  "28.2"
+  "0.653"
+  "0.862"
+  "44.1"
+  "12.8"
+  "0.331"
+  "0.8"
+  "9.9"
+  "3.3"
+  "32.0"]
+ ["gilgesh01"
+  "Shai Gilgeous-Alexander"
+  "34.8"
+  "0.737"
+  "0.263"
+  "0.571"
+  "0.375"
+  "2.8"
+  "12.6"
+  "0.212"
+  "0.35"
+  "31.3"
+  "8.6"
+  "0.404"
+  "0.898"
+  "8.9"
+  "2.6"
+  "30.7"]
+ ["antetgi01"
+  "Giannis Antetokounmpo"
+  "35.2"
+  "0.952"
+  "0.048"
+  "0.62"
+  "0.222"
+  "7.3"
+  "29.7"
+  "0.429"
+  "0.5"
+  "36.0"
+  "11.2"
+  "0.536"
+  "0.617"
+  "6.9"
+  "2.5"
+  "30.5"]
+ ["davisan02"
+  "Anthony Davis"
+  "30.4"
+  "0.864"
+  "0.136"
+  "0.553"
+  "0.282"
+  "9.1"
+  "29.1"
+  "0.605"
+  "0.886"
+  "18.3"
+  "9.5"
+  "0.405"
+  "0.775"
+  "3.9"
+  "1.5"
+  "26.3"]
+ ["wembavi01"
+  "Victor Wembanyama"
+  "30.4"
+  "0.53"
+  "0.47"
+  "0.586"
+  "0.352"
+  "5.7"
+  "29.8"
+  "0.703"
+  "0.859"
+  "18.3"
+  "13.7"
+  "0.221"
+  "0.836"
+  "3.6"
+  "2.9"
+  "24.2"]
+ ["doncilu01"
+  "Luka Dončić"
+  "33.9"
+  "0.531"
+  "0.469"
+  "0.522"
+  "0.368"
+  "2.6"
+  "22.6"
+  "0.261"
+  "0.441"
+  "36.1"
+  "13.0"
+  "0.385"
+  "0.782"
+  "5.5"
+  "1.2"
+  "24.1"]
+ ["townska01"
+  "Karl-Anthony Towns"
+  "27.4"
+  "0.722"
+  "0.278"
+  "0.567"
+  "0.42"
+  "9.8"
+  "32.0"
+  "0.586"
+  "0.972"
+  "13.8"
+  "12.1"
+  "0.337"
+  "0.829"
+  "3.5"
+  "0.1"
+  "23.4"]
+ ["sabondo01"
+  "Domantas Sabonis"
+  "21.6"
+  "0.825"
+  "0.175"
+  "0.627"
+  "0.417"
+  "12.3"
+  "32.6"
+  "0.63"
+  "0.985"
+  "26.0"
+  "16.5"
+  "0.324"
+  "0.754"
+  "4.2"
+  "1.1"
+  "22.9"]
+ ["jamesle01"
+  "LeBron James"
+  "30.1"
+  "0.688"
+  "0.312"
+  "0.574"
+  "0.376"
+  "3.4"
+  "21.2"
+  "0.382"
+  "0.691"
+  "40.3"
+  "15.5"
+  "0.261"
+  "0.782"
+  "4.9"
+  "0.7"
+  "22.7"]
+ ["butleji01"
+  "Jimmy Butler"
+  "20.8"
+  "0.826"
+  "0.174"
+  "0.546"
+  "0.308"
+  "7.7"
+  "10.8"
+  "0.554"
+  "0.875"
+  "25.5"
+  "8.8"
+  "0.657"
+  "0.842"
+  "4.0"
+  "1.0"
+  "22.4"]
+ ["zubaciv01"
+  "Ivica Zubac"
+  "19.5"
+  "1.0"
+  "0.0"
+  "0.628"
+  ""
+  "13.1"
+  "30.2"
+  "0.703"
+  ""
+  "12.8"
+  "10.8"
+  "0.251"
+  "0.661"
+  "2.3"
+  "0.8"
+  "22.3"]
+ ["mobleev01"
+  "Evan Mobley"
+  "23.2"
+  "0.746"
+  "0.254"
+  "0.621"
+  "0.37"
+  "8.4"
+  "24.0"
+  "0.64"
+  "0.894"
+  "15.1"
+  "12.2"
+  "0.337"
+  "0.725"
+  "3.1"
+  "1.5"
+  "22.3"]
+ ["allenja01"
+  "Jarrett Allen"
+  "15.9"
+  "0.992"
+  "0.008"
+  "0.712"
+  "0.0"
+  "10.5"
+  "26.7"
+  "0.825"
+  ""
+  "9.5"
+  "11.3"
+  "0.433"
+  "0.718"
+  "3.0"
+  "1.2"
+  "22.1"]
+ ["halibty01"
+  "Tyrese Haliburton"
+  "21.6"
+  "0.441"
+  "0.559"
+  "0.581"
+  "0.388"
+  "1.9"
+  "9.7"
+  "0.391"
+  "0.528"
+  "38.9"
+  "9.8"
+  "0.221"
+  "0.851"
+  "5.7"
+  "0.2"
+  "21.8"]
+ ["tatumja01"
+  "Jayson Tatum"
+  "31.2"
+  "0.503"
+  "0.497"
+  "0.559"
+  "0.343"
+  "2.0"
+  "23.7"
+  "0.35"
+  "0.46"
+  "27.0"
+  "11.2"
+  "0.3"
+  "0.814"
+  "4.4"
+  "0.8"
+  "21.7"]
+ ["brunsja01"
+  "Jalen Brunson"
+  "29.5"
+  "0.669"
+  "0.331"
+  "0.539"
+  "0.383"
+  "1.4"
+  "7.9"
+  "0.236"
+  "0.461"
+  "32.3"
+  "10.5"
+  "0.373"
+  "0.821"
+  "4.7"
+  "-1.3"
+  "21.6"]
+ ["curryst01"
+  "Stephen Curry"
+  "29.8"
+  "0.377"
+  "0.623"
+  "0.534"
+  "0.397"
+  "1.9"
+  "13.3"
+  "0.478"
+  "0.704"
+  "31.3"
+  "12.6"
+  "0.238"
+  "0.933"
+  "6.4"
+  "0.0"
+  "21.5"]
+ ["durenja01"
+  "Jalen Duren"
+  "16.4"
+  "1.0"
+  "0.0"
+  "0.692"
+  ""
+  "15.2"
+  "28.7"
+  "0.624"
+  ""
+  "14.7"
+  "17.2"
+  "0.443"
+  "0.669"
+  "1.6"
+  "1.5"
+  "21.4"]
+ ["sengual01"
+  "Alperen Şengün"
+  "26.2"
+  "0.921"
+  "0.079"
+  "0.519"
+  "0.233"
+  "11.4"
+  "23.8"
+  "0.473"
+  "0.952"
+  "24.1"
+  "12.7"
+  "0.374"
+  "0.692"
+  "2.6"
+  "1.8"
+  "21.4"]
+ ["lillada01"
+  "Damian Lillard"
+  "27.8"
+  "0.472"
+  "0.528"
+  "0.528"
+  "0.376"
+  "1.6"
+  "12.1"
+  "0.158"
+  "0.574"
+  "29.7"
+  "12.2"
+  "0.396"
+  "0.921"
+  "4.7"
+  "-0.6"
+  "21.3"]
+ ["duranke01"
+  "Kevin Durant"
+  "28.7"
+  "0.669"
+  "0.331"
+  "0.574"
+  "0.43"
+  "1.2"
+  "16.9"
+  "0.433"
+  "0.888"
+  "19.6"
+  "12.9"
+  "0.321"
+  "0.839"
+  "3.9"
+  "-0.7"
+  "21.2"]
+ ["mitchdo01"
+  "Donovan Mitchell"
+  "30.9"
+  "0.52"
+  "0.48"
+  "0.512"
+  "0.368"
+  "2.8"
+  "12.5"
+  "0.222"
+  "0.541"
+  "23.9"
+  "9.2"
+  "0.274"
+  "0.823"
+  "3.8"
+  "-0.2"
+  "20.9"]
+ ["valanjo01"
+  "Jonas Valančiūnas"
+  "22.8"
+  "0.941"
+  "0.059"
+  "0.571"
+  "0.216"
+  "13.3"
+  "30.7"
+  "0.573"
+  "1.0"
+  "17.6"
+  "14.6"
+  "0.263"
+  "0.879"
+  "0.8"
+  "-0.1"
+  "20.8"]
+ ["cunnica01"
+  "Cade Cunningham"
+  "33.2"
+  "0.713"
+  "0.287"
+  "0.515"
+  "0.356"
+  "2.5"
+  "16.5"
+  "0.228"
+  "0.57"
+  "43.0"
+  "16.0"
+  "0.254"
+  "0.846"
+  "3.8"
+  "0.1"
+  "20.6"]
+ ["vucevni01"
+  "Nikola Vučević"
+  "22.4"
+  "0.691"
+  "0.309"
+  "0.587"
+  "0.402"
+  "8.3"
+  "25.2"
+  "0.758"
+  "0.992"
+  "17.1"
+  "9.7"
+  "0.144"
+  "0.805"
+  "2.5"
+  "0.1"
+  "20.3"]
+ ["willija06"
+  "Jalen Williams"
+  "27.5"
+  "0.709"
+  "0.291"
+  "0.533"
+  "0.365"
+  "2.9"
+  "14.6"
+  "0.395"
+  "0.782"
+  "23.4"
+  "10.3"
+  "0.256"
+  "0.789"
+  "2.7"
+  "1.4"
+  "20.3"]
+ ["wagnefr01"
+  "Franz Wagner"
+  "31.0"
+  "0.697"
+  "0.303"
+  "0.535"
+  "0.295"
+  "3.0"
+  "17.1"
+  "0.446"
+  "0.692"
+  "26.6"
+  "9.6"
+  "0.268"
+  "0.871"
+  "2.6"
+  "0.5"
+  "20.1"]
+ ["edwaran01"
+  "Anthony Edwards"
+  "31.4"
+  "0.497"
+  "0.503"
+  "0.501"
+  "0.395"
+  "2.4"
+  "14.8"
+  "0.384"
+  "0.475"
+  "20.9"
+  "12.0"
+  "0.308"
+  "0.837"
+  "4.4"
+  "0.0"
+  "20.1"]
+ ["banchpa01"
+  "Paolo Banchero"
+  "33.6"
+  "0.701"
+  "0.299"
+  "0.509"
+  "0.32"
+  "3.5"
+  "22.4"
+  "0.378"
+  "0.494"
+  "26.0"
+  "11.2"
+  "0.423"
+  "0.727"
+  "3.4"
+  "0.2"
+  "20.0"]
+ ["kesslwa01"
+  "Walker Kessler"
+  "13.7"
+  "0.919"
+  "0.081"
+  "0.706"
+  "0.176"
+  "16.6"
+  "27.1"
+  "0.618"
+  "1.0"
+  "8.3"
+  "15.0"
+  "0.363"
+  "0.52"
+  "1.1"
+  "0.7"
+  "20.0"]
+ ["poeltja01"
+  "Jakob Poeltl"
+  "18.7"
+  "0.995"
+  "0.005"
+  "0.628"
+  "0.333"
+  "11.7"
+  "23.3"
+  "0.746"
+  "1.0"
+  "14.5"
+  "14.7"
+  "0.249"
+  "0.674"
+  "0.7"
+  "1.3"
+  "20.0"]
+ ["hardeja01"
+  "James Harden"
+  "29.6"
+  "0.484"
+  "0.516"
+  "0.472"
+  "0.352"
+  "2.3"
+  "16.1"
+  "0.176"
+  "0.37"
+  "36.8"
+  "18.0"
+  "0.446"
+  "0.874"
+  "3.5"
+  "0.8"
+  "20.0"]
+ ["garlada01"
+  "Darius Garland"
+  "27.2"
+  "0.549"
+  "0.451"
+  "0.53"
+  "0.401"
+  "2.3"
+  "7.6"
+  "0.33"
+  "0.571"
+  "32.2"
+  "12.8"
+  "0.217"
+  "0.878"
+  "3.9"
+  "-0.8"
+  "19.9"]
+ ["irvinky01"
+  "Kyrie Irving"
+  "27.4"
+  "0.62"
+  "0.38"
+  "0.517"
+  "0.401"
+  "3.7"
+  "10.6"
+  "0.32"
+  "0.632"
+  "20.5"
+  "9.7"
+  "0.226"
+  "0.916"
+  "3.9"
+  "-0.5"
+  "19.9"]
+ ["herroty01"
+  "Tyler Herro"
+  "28.0"
+  "0.514"
+  "0.486"
+  "0.565"
+  "0.375"
+  "1.4"
+  "14.6"
+  "0.378"
+  "0.753"
+  "26.2"
+  "11.5"
+  "0.237"
+  "0.878"
+  "3.8"
+  "-0.7"
+  "19.7"]
+ ["jacksja02"
+  "Jaren Jackson Jr."
+  "28.1"
+  "0.679"
+  "0.321"
+  "0.541"
+  "0.375"
+  "4.4"
+  "15.5"
+  "0.451"
+  "0.952"
+  "10.1"
+  "9.9"
+  "0.328"
+  "0.781"
+  "1.6"
+  "0.8"
+  "19.6"]
+ ["maxeyty01"
+  "Tyrese Maxey"
+  "29.8"
+  "0.562"
+  "0.438"
+  "0.515"
+  "0.337"
+  "0.8"
+  "9.6"
+  "0.307"
+  "0.491"
+  "28.0"
+  "9.2"
+  "0.265"
+  "0.879"
+  "3.2"
+  "-1.1"
+  "19.5"]
+ ["moranja01"
+  "Ja Morant"
+  "32.2"
+  "0.679"
+  "0.321"
+  "0.523"
+  "0.309"
+  "2.4"
+  "11.8"
+  "0.237"
+  "0.614"
+  "36.0"
+  "15.2"
+  "0.359"
+  "0.824"
+  "3.1"
+  "-0.7"
+  "19.3"]
+ ["bookede01"
+  "Devin Booker"
+  "29.3"
+  "0.612"
+  "0.388"
+  "0.542"
+  "0.332"
+  "3.1"
+  "8.9"
+  "0.431"
+  "0.716"
+  "30.6"
+  "11.9"
+  "0.34"
+  "0.894"
+  "2.8"
+  "-2.4"
+  "19.3"]
+ ["siakapa01"
+  "Pascal Siakam"
+  "24.2"
+  "0.726"
+  "0.274"
+  "0.568"
+  "0.389"
+  "5.9"
+  "17.6"
+  "0.589"
+  "0.976"
+  "15.7"
+  "7.6"
+  "0.261"
+  "0.734"
+  "2.2"
+  "-0.5"
+  "19.2"]
+ ["ballla01"
+  "LaMelo Ball"
+  "35.9"
+  "0.474"
+  "0.526"
+  "0.478"
+  "0.339"
+  "3.3"
+  "13.4"
+  "0.233"
+  "0.62"
+  "43.8"
+  "13.1"
+  "0.228"
+  "0.843"
+  "4.1"
+  "-0.9"
+  "19.1"]
+ ["okongon01"
+  "Onyeka Okongwu"
+  "17.3"
+  "0.784"
+  "0.216"
+  "0.634"
+  "0.324"
+  "11.4"
+  "24.0"
+  "0.768"
+  "1.0"
+  "11.4"
+  "10.4"
+  "0.316"
+  "0.759"
+  "1.2"
+  "0.2"
+  "19.0"]
+ ["adebaba01"
+  "Bam Adebayo"
+  "23.5"
+  "0.801"
+  "0.199"
+  "0.517"
+  "0.357"
+  "7.7"
+  "23.1"
+  "0.605"
+  "0.886"
+  "20.0"
+  "11.4"
+  "0.295"
+  "0.765"
+  "1.0"
+  "1.0"
+  "18.9"]
+ ["harteis01"
+  "Isaiah Hartenstein"
+  "16.7"
+  "0.96"
+  "0.04"
+  "0.605"
+  "0.0"
+  "11.2"
+  "29.6"
+  "0.81"
+  ""
+  "18.3"
+  "15.3"
+  "0.244"
+  "0.675"
+  "0.6"
+  "2.6"
+  "18.9"]
+ ["thompam01"
+  "Amen Thompson"
+  "17.5"
+  "0.869"
+  "0.131"
+  "0.599"
+  "0.275"
+  "9.0"
+  "18.2"
+  "0.523"
+  "0.96"
+  "16.9"
+  "14.6"
+  "0.354"
+  "0.684"
+  "1.4"
+  "2.6"
+  "18.7"]
+ ["foxde01"
+  "De'Aaron Fox"
+  "28.3"
+  "0.672"
+  "0.328"
+  "0.538"
+  "0.31"
+  "2.7"
+  "12.1"
+  "0.318"
+  "0.669"
+  "27.2"
+  "11.8"
+  "0.273"
+  "0.827"
+  "1.3"
+  "-1.0"
+  "18.3"]
+ ["youngtr01"
+  "Trae Young"
+  "29.6"
+  "0.533"
+  "0.467"
+  "0.474"
+  "0.34"
+  "1.4"
+  "8.2"
+  "0.287"
+  "0.294"
+  "46.4"
+  "17.9"
+  "0.408"
+  "0.875"
+  "3.3"
+  "-2.7"
+  "18.3"]
+ ["goberru01"
+  "Rudy Gobert"
+  "13.0"
+  "1.0"
+  "0.0"
+  "0.669"
+  ""
+  "12.5"
+  "23.8"
+  "0.707"
+  ""
+  "7.5"
+  "12.4"
+  "0.535"
+  "0.674"
+  "0.6"
+  "1.3"
+  "18.3"]
+ ["johnsca02"
+  "Cameron Johnson"
+  "22.9"
+  "0.454"
+  "0.546"
+  "0.578"
+  "0.39"
+  "3.3"
+  "12.8"
+  "0.556"
+  "0.906"
+  "18.5"
+  "10.5"
+  "0.301"
+  "0.893"
+  "3.5"
+  "-0.4"
+  "18.2"]
+ ...)
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/player-data-path
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/with-initial-box-score
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/read-player-data
+clj꞉basket-sim.core꞉> 
+(["Player-additional"
+  "Player"
+  "USG%"
+  "2P_shot"
+  "3P_shot"
+  "2P%"
+  "3P%"
+  "ORB%"
+  "DRB%"
+  "2P.2"
+  "3P.2"
+  "AST%"
+  "TOV%"
+  "FTr"
+  "FT%"
+  "OBPM"
+  "DBPM"
+  "PER▼"]
+ ["jokicni01"
+  "Nikola Jokić"
+  "29.5"
+  "0.757"
+  "0.243"
+  "0.627"
+  "0.417"
+  "9.0"
+  "28.2"
+  "0.653"
+  "0.862"
+  "44.1"
+  "12.8"
+  "0.331"
+  "0.8"
+  "9.9"
+  "3.3"
+  "32.0"]
+ ["gilgesh01"
+  "Shai Gilgeous-Alexander"
+  "34.8"
+  "0.737"
+  "0.263"
+  "0.571"
+  "0.375"
+  "2.8"
+  "12.6"
+  "0.212"
+  "0.35"
+  "31.3"
+  "8.6"
+  "0.404"
+  "0.898"
+  "8.9"
+  "2.6"
+  "30.7"]
+ ["antetgi01"
+  "Giannis Antetokounmpo"
+  "35.2"
+  "0.952"
+  "0.048"
+  "0.62"
+  "0.222"
+  "7.3"
+  "29.7"
+  "0.429"
+  "0.5"
+  "36.0"
+  "11.2"
+  "0.536"
+  "0.617"
+  "6.9"
+  "2.5"
+  "30.5"]
+ ["davisan02"
+  "Anthony Davis"
+  "30.4"
+  "0.864"
+  "0.136"
+  "0.553"
+  "0.282"
+  "9.1"
+  "29.1"
+  "0.605"
+  "0.886"
+  "18.3"
+  "9.5"
+  "0.405"
+  "0.775"
+  "3.9"
+  "1.5"
+  "26.3"]
+ ["wembavi01"
+  "Victor Wembanyama"
+  "30.4"
+  "0.53"
+  "0.47"
+  "0.586"
+  "0.352"
+  "5.7"
+  "29.8"
+  "0.703"
+  "0.859"
+  "18.3"
+  "13.7"
+  "0.221"
+  "0.836"
+  "3.6"
+  "2.9"
+  "24.2"]
+ ["doncilu01"
+  "Luka Dončić"
+  "33.9"
+  "0.531"
+  "0.469"
+  "0.522"
+  "0.368"
+  "2.6"
+  "22.6"
+  "0.261"
+  "0.441"
+  "36.1"
+  "13.0"
+  "0.385"
+  "0.782"
+  "5.5"
+  "1.2"
+  "24.1"]
+ ["townska01"
+  "Karl-Anthony Towns"
+  "27.4"
+  "0.722"
+  "0.278"
+  "0.567"
+  "0.42"
+  "9.8"
+  "32.0"
+  "0.586"
+  "0.972"
+  "13.8"
+  "12.1"
+  "0.337"
+  "0.829"
+  "3.5"
+  "0.1"
+  "23.4"]
+ ["sabondo01"
+  "Domantas Sabonis"
+  "21.6"
+  "0.825"
+  "0.175"
+  "0.627"
+  "0.417"
+  "12.3"
+  "32.6"
+  "0.63"
+  "0.985"
+  "26.0"
+  "16.5"
+  "0.324"
+  "0.754"
+  "4.2"
+  "1.1"
+  "22.9"]
+ ["jamesle01"
+  "LeBron James"
+  "30.1"
+  "0.688"
+  "0.312"
+  "0.574"
+  "0.376"
+  "3.4"
+  "21.2"
+  "0.382"
+  "0.691"
+  "40.3"
+  "15.5"
+  "0.261"
+  "0.782"
+  "4.9"
+  "0.7"
+  "22.7"]
+ ["butleji01"
+  "Jimmy Butler"
+  "20.8"
+  "0.826"
+  "0.174"
+  "0.546"
+  "0.308"
+  "7.7"
+  "10.8"
+  "0.554"
+  "0.875"
+  "25.5"
+  "8.8"
+  "0.657"
+  "0.842"
+  "4.0"
+  "1.0"
+  "22.4"]
+ ["zubaciv01"
+  "Ivica Zubac"
+  "19.5"
+  "1.0"
+  "0.0"
+  "0.628"
+  ""
+  "13.1"
+  "30.2"
+  "0.703"
+  ""
+  "12.8"
+  "10.8"
+  "0.251"
+  "0.661"
+  "2.3"
+  "0.8"
+  "22.3"]
+ ["mobleev01"
+  "Evan Mobley"
+  "23.2"
+  "0.746"
+  "0.254"
+  "0.621"
+  "0.37"
+  "8.4"
+  "24.0"
+  "0.64"
+  "0.894"
+  "15.1"
+  "12.2"
+  "0.337"
+  "0.725"
+  "3.1"
+  "1.5"
+  "22.3"]
+ ["allenja01"
+  "Jarrett Allen"
+  "15.9"
+  "0.992"
+  "0.008"
+  "0.712"
+  "0.0"
+  "10.5"
+  "26.7"
+  "0.825"
+  ""
+  "9.5"
+  "11.3"
+  "0.433"
+  "0.718"
+  "3.0"
+  "1.2"
+  "22.1"]
+ ["halibty01"
+  "Tyrese Haliburton"
+  "21.6"
+  "0.441"
+  "0.559"
+  "0.581"
+  "0.388"
+  "1.9"
+  "9.7"
+  "0.391"
+  "0.528"
+  "38.9"
+  "9.8"
+  "0.221"
+  "0.851"
+  "5.7"
+  "0.2"
+  "21.8"]
+ ["tatumja01"
+  "Jayson Tatum"
+  "31.2"
+  "0.503"
+  "0.497"
+  "0.559"
+  "0.343"
+  "2.0"
+  "23.7"
+  "0.35"
+  "0.46"
+  "27.0"
+  "11.2"
+  "0.3"
+  "0.814"
+  "4.4"
+  "0.8"
+  "21.7"]
+ ["brunsja01"
+  "Jalen Brunson"
+  "29.5"
+  "0.669"
+  "0.331"
+  "0.539"
+  "0.383"
+  "1.4"
+  "7.9"
+  "0.236"
+  "0.461"
+  "32.3"
+  "10.5"
+  "0.373"
+  "0.821"
+  "4.7"
+  "-1.3"
+  "21.6"]
+ ["curryst01"
+  "Stephen Curry"
+  "29.8"
+  "0.377"
+  "0.623"
+  "0.534"
+  "0.397"
+  "1.9"
+  "13.3"
+  "0.478"
+  "0.704"
+  "31.3"
+  "12.6"
+  "0.238"
+  "0.933"
+  "6.4"
+  "0.0"
+  "21.5"]
+ ["durenja01"
+  "Jalen Duren"
+  "16.4"
+  "1.0"
+  "0.0"
+  "0.692"
+  ""
+  "15.2"
+  "28.7"
+  "0.624"
+  ""
+  "14.7"
+  "17.2"
+  "0.443"
+  "0.669"
+  "1.6"
+  "1.5"
+  "21.4"]
+ ["sengual01"
+  "Alperen Şengün"
+  "26.2"
+  "0.921"
+  "0.079"
+  "0.519"
+  "0.233"
+  "11.4"
+  "23.8"
+  "0.473"
+  "0.952"
+  "24.1"
+  "12.7"
+  "0.374"
+  "0.692"
+  "2.6"
+  "1.8"
+  "21.4"]
+ ["lillada01"
+  "Damian Lillard"
+  "27.8"
+  "0.472"
+  "0.528"
+  "0.528"
+  "0.376"
+  "1.6"
+  "12.1"
+  "0.158"
+  "0.574"
+  "29.7"
+  "12.2"
+  "0.396"
+  "0.921"
+  "4.7"
+  "-0.6"
+  "21.3"]
+ ["duranke01"
+  "Kevin Durant"
+  "28.7"
+  "0.669"
+  "0.331"
+  "0.574"
+  "0.43"
+  "1.2"
+  "16.9"
+  "0.433"
+  "0.888"
+  "19.6"
+  "12.9"
+  "0.321"
+  "0.839"
+  "3.9"
+  "-0.7"
+  "21.2"]
+ ["mitchdo01"
+  "Donovan Mitchell"
+  "30.9"
+  "0.52"
+  "0.48"
+  "0.512"
+  "0.368"
+  "2.8"
+  "12.5"
+  "0.222"
+  "0.541"
+  "23.9"
+  "9.2"
+  "0.274"
+  "0.823"
+  "3.8"
+  "-0.2"
+  "20.9"]
+ ["valanjo01"
+  "Jonas Valančiūnas"
+  "22.8"
+  "0.941"
+  "0.059"
+  "0.571"
+  "0.216"
+  "13.3"
+  "30.7"
+  "0.573"
+  "1.0"
+  "17.6"
+  "14.6"
+  "0.263"
+  "0.879"
+  "0.8"
+  "-0.1"
+  "20.8"]
+ ["cunnica01"
+  "Cade Cunningham"
+  "33.2"
+  "0.713"
+  "0.287"
+  "0.515"
+  "0.356"
+  "2.5"
+  "16.5"
+  "0.228"
+  "0.57"
+  "43.0"
+  "16.0"
+  "0.254"
+  "0.846"
+  "3.8"
+  "0.1"
+  "20.6"]
+ ["vucevni01"
+  "Nikola Vučević"
+  "22.4"
+  "0.691"
+  "0.309"
+  "0.587"
+  "0.402"
+  "8.3"
+  "25.2"
+  "0.758"
+  "0.992"
+  "17.1"
+  "9.7"
+  "0.144"
+  "0.805"
+  "2.5"
+  "0.1"
+  "20.3"]
+ ["willija06"
+  "Jalen Williams"
+  "27.5"
+  "0.709"
+  "0.291"
+  "0.533"
+  "0.365"
+  "2.9"
+  "14.6"
+  "0.395"
+  "0.782"
+  "23.4"
+  "10.3"
+  "0.256"
+  "0.789"
+  "2.7"
+  "1.4"
+  "20.3"]
+ ["wagnefr01"
+  "Franz Wagner"
+  "31.0"
+  "0.697"
+  "0.303"
+  "0.535"
+  "0.295"
+  "3.0"
+  "17.1"
+  "0.446"
+  "0.692"
+  "26.6"
+  "9.6"
+  "0.268"
+  "0.871"
+  "2.6"
+  "0.5"
+  "20.1"]
+ ["edwaran01"
+  "Anthony Edwards"
+  "31.4"
+  "0.497"
+  "0.503"
+  "0.501"
+  "0.395"
+  "2.4"
+  "14.8"
+  "0.384"
+  "0.475"
+  "20.9"
+  "12.0"
+  "0.308"
+  "0.837"
+  "4.4"
+  "0.0"
+  "20.1"]
+ ["banchpa01"
+  "Paolo Banchero"
+  "33.6"
+  "0.701"
+  "0.299"
+  "0.509"
+  "0.32"
+  "3.5"
+  "22.4"
+  "0.378"
+  "0.494"
+  "26.0"
+  "11.2"
+  "0.423"
+  "0.727"
+  "3.4"
+  "0.2"
+  "20.0"]
+ ["kesslwa01"
+  "Walker Kessler"
+  "13.7"
+  "0.919"
+  "0.081"
+  "0.706"
+  "0.176"
+  "16.6"
+  "27.1"
+  "0.618"
+  "1.0"
+  "8.3"
+  "15.0"
+  "0.363"
+  "0.52"
+  "1.1"
+  "0.7"
+  "20.0"]
+ ["poeltja01"
+  "Jakob Poeltl"
+  "18.7"
+  "0.995"
+  "0.005"
+  "0.628"
+  "0.333"
+  "11.7"
+  "23.3"
+  "0.746"
+  "1.0"
+  "14.5"
+  "14.7"
+  "0.249"
+  "0.674"
+  "0.7"
+  "1.3"
+  "20.0"]
+ ["hardeja01"
+  "James Harden"
+  "29.6"
+  "0.484"
+  "0.516"
+  "0.472"
+  "0.352"
+  "2.3"
+  "16.1"
+  "0.176"
+  "0.37"
+  "36.8"
+  "18.0"
+  "0.446"
+  "0.874"
+  "3.5"
+  "0.8"
+  "20.0"]
+ ["garlada01"
+  "Darius Garland"
+  "27.2"
+  "0.549"
+  "0.451"
+  "0.53"
+  "0.401"
+  "2.3"
+  "7.6"
+  "0.33"
+  "0.571"
+  "32.2"
+  "12.8"
+  "0.217"
+  "0.878"
+  "3.9"
+  "-0.8"
+  "19.9"]
+ ["irvinky01"
+  "Kyrie Irving"
+  "27.4"
+  "0.62"
+  "0.38"
+  "0.517"
+  "0.401"
+  "3.7"
+  "10.6"
+  "0.32"
+  "0.632"
+  "20.5"
+  "9.7"
+  "0.226"
+  "0.916"
+  "3.9"
+  "-0.5"
+  "19.9"]
+ ["herroty01"
+  "Tyler Herro"
+  "28.0"
+  "0.514"
+  "0.486"
+  "0.565"
+  "0.375"
+  "1.4"
+  "14.6"
+  "0.378"
+  "0.753"
+  "26.2"
+  "11.5"
+  "0.237"
+  "0.878"
+  "3.8"
+  "-0.7"
+  "19.7"]
+ ["jacksja02"
+  "Jaren Jackson Jr."
+  "28.1"
+  "0.679"
+  "0.321"
+  "0.541"
+  "0.375"
+  "4.4"
+  "15.5"
+  "0.451"
+  "0.952"
+  "10.1"
+  "9.9"
+  "0.328"
+  "0.781"
+  "1.6"
+  "0.8"
+  "19.6"]
+ ["maxeyty01"
+  "Tyrese Maxey"
+  "29.8"
+  "0.562"
+  "0.438"
+  "0.515"
+  "0.337"
+  "0.8"
+  "9.6"
+  "0.307"
+  "0.491"
+  "28.0"
+  "9.2"
+  "0.265"
+  "0.879"
+  "3.2"
+  "-1.1"
+  "19.5"]
+ ["moranja01"
+  "Ja Morant"
+  "32.2"
+  "0.679"
+  "0.321"
+  "0.523"
+  "0.309"
+  "2.4"
+  "11.8"
+  "0.237"
+  "0.614"
+  "36.0"
+  "15.2"
+  "0.359"
+  "0.824"
+  "3.1"
+  "-0.7"
+  "19.3"]
+ ["bookede01"
+  "Devin Booker"
+  "29.3"
+  "0.612"
+  "0.388"
+  "0.542"
+  "0.332"
+  "3.1"
+  "8.9"
+  "0.431"
+  "0.716"
+  "30.6"
+  "11.9"
+  "0.34"
+  "0.894"
+  "2.8"
+  "-2.4"
+  "19.3"]
+ ["siakapa01"
+  "Pascal Siakam"
+  "24.2"
+  "0.726"
+  "0.274"
+  "0.568"
+  "0.389"
+  "5.9"
+  "17.6"
+  "0.589"
+  "0.976"
+  "15.7"
+  "7.6"
+  "0.261"
+  "0.734"
+  "2.2"
+  "-0.5"
+  "19.2"]
+ ["ballla01"
+  "LaMelo Ball"
+  "35.9"
+  "0.474"
+  "0.526"
+  "0.478"
+  "0.339"
+  "3.3"
+  "13.4"
+  "0.233"
+  "0.62"
+  "43.8"
+  "13.1"
+  "0.228"
+  "0.843"
+  "4.1"
+  "-0.9"
+  "19.1"]
+ ["okongon01"
+  "Onyeka Okongwu"
+  "17.3"
+  "0.784"
+  "0.216"
+  "0.634"
+  "0.324"
+  "11.4"
+  "24.0"
+  "0.768"
+  "1.0"
+  "11.4"
+  "10.4"
+  "0.316"
+  "0.759"
+  "1.2"
+  "0.2"
+  "19.0"]
+ ["adebaba01"
+  "Bam Adebayo"
+  "23.5"
+  "0.801"
+  "0.199"
+  "0.517"
+  "0.357"
+  "7.7"
+  "23.1"
+  "0.605"
+  "0.886"
+  "20.0"
+  "11.4"
+  "0.295"
+  "0.765"
+  "1.0"
+  "1.0"
+  "18.9"]
+ ["harteis01"
+  "Isaiah Hartenstein"
+  "16.7"
+  "0.96"
+  "0.04"
+  "0.605"
+  "0.0"
+  "11.2"
+  "29.6"
+  "0.81"
+  ""
+  "18.3"
+  "15.3"
+  "0.244"
+  "0.675"
+  "0.6"
+  "2.6"
+  "18.9"]
+ ["thompam01"
+  "Amen Thompson"
+  "17.5"
+  "0.869"
+  "0.131"
+  "0.599"
+  "0.275"
+  "9.0"
+  "18.2"
+  "0.523"
+  "0.96"
+  "16.9"
+  "14.6"
+  "0.354"
+  "0.684"
+  "1.4"
+  "2.6"
+  "18.7"]
+ ["foxde01"
+  "De'Aaron Fox"
+  "28.3"
+  "0.672"
+  "0.328"
+  "0.538"
+  "0.31"
+  "2.7"
+  "12.1"
+  "0.318"
+  "0.669"
+  "27.2"
+  "11.8"
+  "0.273"
+  "0.827"
+  "1.3"
+  "-1.0"
+  "18.3"]
+ ["youngtr01"
+  "Trae Young"
+  "29.6"
+  "0.533"
+  "0.467"
+  "0.474"
+  "0.34"
+  "1.4"
+  "8.2"
+  "0.287"
+  "0.294"
+  "46.4"
+  "17.9"
+  "0.408"
+  "0.875"
+  "3.3"
+  "-2.7"
+  "18.3"]
+ ["goberru01"
+  "Rudy Gobert"
+  "13.0"
+  "1.0"
+  "0.0"
+  "0.669"
+  ""
+  "12.5"
+  "23.8"
+  "0.707"
+  ""
+  "7.5"
+  "12.4"
+  "0.535"
+  "0.674"
+  "0.6"
+  "1.3"
+  "18.3"]
+ ["johnsca02"
+  "Cameron Johnson"
+  "22.9"
+  "0.454"
+  "0.546"
+  "0.578"
+  "0.39"
+  "3.3"
+  "12.8"
+  "0.556"
+  "0.906"
+  "18.5"
+  "10.5"
+  "0.301"
+  "0.893"
+  "3.5"
+  "-0.4"
+  "18.2"]
+ ...)
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+; Execution error (NullPointerException) at jdk.internal.math.FloatingDecimal/readJavaFormatString (FloatingDecimal.java:1838).
+; Cannot invoke "String.trim()" because "in" is null
+clj꞉basket-sim.core꞉> 
+nil
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/player-data-path
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+; Execution error (NullPointerException) at jdk.internal.math.FloatingDecimal/readJavaFormatString (FloatingDecimal.java:1838).
+; Cannot invoke "String.trim()" because "in" is null
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+; Execution error (NumberFormatException) at jdk.internal.math.FloatingDecimal/readJavaFormatString (FloatingDecimal.java:1842).
+; empty String
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/player-data-path
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+; Execution error (NumberFormatException) at jdk.internal.math.FloatingDecimal/readJavaFormatString (FloatingDecimal.java:1842).
+; empty String
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/player-data-path
+clj꞉basket-sim.core꞉> 
+; Execution error (NullPointerException) at jdk.internal.math.FloatingDecimal/readJavaFormatString (FloatingDecimal.java:1838).
+; Cannot invoke "String.trim()" because "in" is null
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/player-data-path
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+; Execution error (NullPointerException) at jdk.internal.math.FloatingDecimal/readJavaFormatString (FloatingDecimal.java:1838).
+; Cannot invoke "String.trim()" because "in" is null
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+; Execution error (NumberFormatException) at jdk.internal.math.FloatingDecimal/readJavaFormatString (FloatingDecimal.java:1842).
+; empty String
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+[{:orb-perc "4.4",
+  :dbpm "0.9",
+  :drb-perc "10.8",
+  :name "Haywood Highsmith",
+  :ftr "0.11",
+  :ast-perc-3p "0.978",
+  :shot-dist-3p "0.596",
+  :per "9.9",
+  :shot-dist-2p "0.404",
+  :obpm "-2.7",
+  :tov-pct "11.6",
+  :ast-perc-2p "0.667",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.57",
+  :ft-perc "0.721",
+  :ast-perc "8.4",
+  :usage-rate "11.3"}
+ {:orb-perc "3.1",
+  :dbpm "0.2",
+  :drb-perc "6.7",
+  :name "Josh Green",
+  :ftr "0.171",
+  :ast-perc-3p "0.979",
+  :shot-dist-3p "0.589",
+  :per "7.8",
+  :shot-dist-2p "0.411",
+  :obpm "-4.5",
+  :tov-pct "13.4",
+  :ast-perc-2p "0.614",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.48",
+  :ft-perc "0.681",
+  :ast-perc "8.2",
+  :usage-rate "11.8"}
+ {:orb-perc "5",
+  :dbpm "0.1",
+  :drb-perc "10.4",
+  :name "Dorian Finney-Smith",
+  :ftr "0.103",
+  :ast-perc-3p "0.992",
+  :shot-dist-3p "0.722",
+  :per "10.1",
+  :shot-dist-2p "0.278",
+  :obpm "-1.1",
+  :tov-pct "11",
+  :ast-perc-2p "0.697",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.545",
+  :ft-perc "0.667",
+  :ast-perc "6.9",
+  :usage-rate "12.3"}
+ {:orb-perc "1.6",
+  :dbpm "1.6",
+  :drb-perc "7.2",
+  :name "Kentavious Caldwell-Pope",
+  :ftr "0.175",
+  :ast-perc-3p "0.929",
+  :shot-dist-3p "0.607",
+  :per "9.9",
+  :shot-dist-2p "0.393",
+  :obpm "-3",
+  :tov-pct "9.6",
+  :ast-perc-2p "0.698",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.589",
+  :ft-perc "0.863",
+  :ast-perc "8.7",
+  :usage-rate "12.4"}
+ {:orb-perc "1.8",
+  :dbpm "0.3",
+  :drb-perc "12.2",
+  :name "Taurean Prince",
+  :ftr "0.093",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.652",
+  :per "9.8",
+  :shot-dist-2p "0.348",
+  :obpm "-2",
+  :tov-pct "13.3",
+  :ast-perc-2p "0.773",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.492",
+  :ft-perc "0.813",
+  :ast-perc "9.4",
+  :usage-rate "12.5"}
+ {:orb-perc "1.2",
+  :dbpm "-0.4",
+  :drb-perc "9.8",
+  :name "A.J. Green",
+  :ftr "0.064",
+  :ast-perc-3p "0.942",
+  :shot-dist-3p "0.856",
+  :per "9.2",
+  :shot-dist-2p "0.144",
+  :obpm "-1.7",
+  :tov-pct "8.4",
+  :ast-perc-2p "0.741",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.443",
+  :ft-perc "0.815",
+  :ast-perc "8.5",
+  :usage-rate "12.6"}
+ {:orb-perc "3.4",
+  :dbpm "2",
+  :drb-perc "8.8",
+  :name "Keon Ellis",
+  :ftr "0.185",
+  :ast-perc-3p "0.921",
+  :shot-dist-3p "0.692",
+  :per "13.5",
+  :shot-dist-2p "0.308",
+  :obpm "-0.1",
+  :tov-pct "12.4",
+  :ast-perc-2p "0.682",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.615",
+  :ft-perc "0.849",
+  :ast-perc "8",
+  :usage-rate "12.7"}
+ {:orb-perc "3.4",
+  :dbpm "3.4",
+  :drb-perc "12.4",
+  :name "Kris Dunn",
+  :ftr "0.05",
+  :ast-perc-3p "0.933",
+  :shot-dist-3p "0.513",
+  :per "11.3",
+  :shot-dist-2p "0.487",
+  :obpm "-2.8",
+  :tov-pct "14.2",
+  :ast-perc-2p "0.556",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.549",
+  :ft-perc "0.682",
+  :ast-perc "15.6",
+  :usage-rate "12.7"}
+ {:orb-perc "4.1",
+  :dbpm "2.6",
+  :drb-perc "8.8",
+  :name "Cason Wallace",
+  :ftr "0.076",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.425",
+  :per "12.3",
+  :shot-dist-2p "0.575",
+  :obpm "-1.5",
+  :tov-pct "10.5",
+  :ast-perc-2p "0.563",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.562",
+  :ft-perc "0.811",
+  :ast-perc "11.5",
+  :usage-rate "12.8"}
+ {:orb-perc "12.5",
+  :dbpm "1.3",
+  :drb-perc "23.8",
+  :name "Rudy Gobert",
+  :ftr "0.535",
+  :ast-perc-3p "",
+  :shot-dist-3p "0",
+  :per "18.3",
+  :shot-dist-2p "1",
+  :obpm "0.6",
+  :tov-pct "12.4",
+  :ast-perc-2p "0.707",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.669",
+  :ft-perc "0.674",
+  :ast-perc "7.5",
+  :usage-rate "13"}
+ {:orb-perc "1.5",
+  :dbpm "-0.1",
+  :drb-perc "5.2",
+  :name "Gabe Vincent",
+  :ftr "0.05",
+  :ast-perc-3p "0.872",
+  :shot-dist-3p "0.736",
+  :per "7.4",
+  :shot-dist-2p "0.264",
+  :obpm "-3.8",
+  :tov-pct "8.7",
+  :ast-perc-2p "0.593",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.532",
+  :ft-perc "0.714",
+  :ast-perc "8.7",
+  :usage-rate "13.5"}
+ {:orb-perc "4.7",
+  :dbpm "0.8",
+  :drb-perc "10.3",
+  :name "Luguentz Dort",
+  :ftr "0.078",
+  :ast-perc-3p "0.959",
+  :shot-dist-3p "0.696",
+  :per "11.3",
+  :shot-dist-2p "0.304",
+  :obpm "-0.6",
+  :tov-pct "7.7",
+  :ast-perc-2p "0.67",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.489",
+  :ft-perc "0.717",
+  :ast-perc "6.9",
+  :usage-rate "13.6"}
+ {:orb-perc "1.9",
+  :dbpm "0.2",
+  :drb-perc "7.1",
+  :name "Davion Mitchell",
+  :ftr "0.176",
+  :ast-perc-3p "0.821",
+  :shot-dist-3p "0.443",
+  :per "10.2",
+  :shot-dist-2p "0.557",
+  :obpm "-2.8",
+  :tov-pct "20",
+  :ast-perc-2p "0.281",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.525",
+  :ft-perc "0.69",
+  :ast-perc "24.2",
+  :usage-rate "13.6"}
+ {:orb-perc "16.6",
+  :dbpm "0.7",
+  :drb-perc "27.1",
+  :name "Walker Kessler",
+  :ftr "0.363",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.081",
+  :per "20",
+  :shot-dist-2p "0.919",
+  :obpm "1.1",
+  :tov-pct "15",
+  :ast-perc-2p "0.618",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.706",
+  :ft-perc "0.52",
+  :ast-perc "8.3",
+  :usage-rate "13.7"}
+ {:orb-perc "5.2",
+  :dbpm "1.1",
+  :drb-perc "18.9",
+  :name "Al Horford",
+  :ftr "0.082",
+  :ast-perc-3p "0.991",
+  :shot-dist-3p "0.681",
+  :per "12.9",
+  :shot-dist-2p "0.319",
+  :obpm "0.1",
+  :tov-pct "8.8",
+  :ast-perc-2p "0.827",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.551",
+  :ft-perc "0.895",
+  :ast-perc "10.4",
+  :usage-rate "13.8"}
+ {:orb-perc "3.3",
+  :dbpm "0.3",
+  :drb-perc "11.8",
+  :name "Peyton Watson",
+  :ftr "0.32",
+  :ast-perc-3p "0.979",
+  :shot-dist-3p "0.318",
+  :per "11.4",
+  :shot-dist-2p "0.682",
+  :obpm "-2.1",
+  :tov-pct "10.3",
+  :ast-perc-2p "0.801",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.534",
+  :ft-perc "0.693",
+  :ast-perc "7",
+  :usage-rate "13.9"}
+ {:orb-perc "1.5",
+  :dbpm "0.5",
+  :drb-perc "12.3",
+  :name "Chris Paul",
+  :ftr "0.158",
+  :ast-perc-3p "0.493",
+  :shot-dist-3p "0.636",
+  :per "14.7",
+  :shot-dist-2p "0.364",
+  :obpm "0.3",
+  :tov-pct "17.1",
+  :ast-perc-2p "0.22",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.514",
+  :ft-perc "0.924",
+  :ast-perc "34.8",
+  :usage-rate "14"}
+ {:orb-perc "13.7",
+  :dbpm "-1.4",
+  :drb-perc "19.7",
+  :name "Yves Missi",
+  :ftr "0.415",
+  :ast-perc-3p "0",
+  :shot-dist-3p "0.002",
+  :per "15.4",
+  :shot-dist-2p "0.998",
+  :obpm "-1.6",
+  :tov-pct "12.4",
+  :ast-perc-2p "0.677",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.548",
+  :ft-perc "0.623",
+  :ast-perc "7.2",
+  :usage-rate "14.3"}
+ {:orb-perc "3.1",
+  :dbpm "-0.1",
+  :drb-perc "12.7",
+  :name "Sam Hauser",
+  :ftr "0.023",
+  :ast-perc-3p "0.952",
+  :shot-dist-3p "0.842",
+  :per "12.8",
+  :shot-dist-2p "0.158",
+  :obpm "0.9",
+  :tov-pct "4.6",
+  :ast-perc-2p "0.813",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.64",
+  :ft-perc "1",
+  :ast-perc "5.8",
+  :usage-rate "14.3"}
+ {:orb-perc "2.1",
+  :dbpm "1.3",
+  :drb-perc "9.3",
+  :name "Mike Conley",
+  :ftr "0.192",
+  :ast-perc-3p "0.819",
+  :shot-dist-3p "0.662",
+  :per "13.3",
+  :shot-dist-2p "0.338",
+  :obpm "-0.1",
+  :tov-pct "12.9",
+  :ast-perc-2p "0.433",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.38",
+  :ft-perc "0.9",
+  :ast-perc "24.5",
+  :usage-rate "14.4"}
+ {:orb-perc "7.2",
+  :dbpm "0.8",
+  :drb-perc "12.1",
+  :name "Toumani Camara",
+  :ftr "0.176",
+  :ast-perc-3p "0.956",
+  :shot-dist-3p "0.503",
+  :per "12.5",
+  :shot-dist-2p "0.497",
+  :obpm "-0.9",
+  :tov-pct "12.4",
+  :ast-perc-2p "0.658",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.542",
+  :ft-perc "0.722",
+  :ast-perc "9.6",
+  :usage-rate "14.4"}
+ {:orb-perc "3.7",
+  :dbpm "0.2",
+  :drb-perc "11.4",
+  :name "Ochai Agbaji",
+  :ftr "0.09",
+  :ast-perc-3p "0.96",
+  :shot-dist-3p "0.474",
+  :per "12",
+  :shot-dist-2p "0.526",
+  :obpm "-0.9",
+  :tov-pct "8.9",
+  :ast-perc-2p "0.794",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.587",
+  :ft-perc "0.708",
+  :ast-perc "7.9",
+  :usage-rate "14.6"}
+ {:orb-perc "6.3",
+  :dbpm "-0.8",
+  :drb-perc "15.5",
+  :name "Keegan Murray",
+  :ftr "0.088",
+  :ast-perc-3p "0.987",
+  :shot-dist-3p "0.548",
+  :per "12",
+  :shot-dist-2p "0.452",
+  :obpm "-0.8",
+  :tov-pct "6.6",
+  :ast-perc-2p "0.652",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.566",
+  :ft-perc "0.833",
+  :ast-perc "5.6",
+  :usage-rate "15"}
+ {:orb-perc "2",
+  :dbpm "-0.5",
+  :drb-perc "11.2",
+  :name "Max Christie",
+  :ftr "0.258",
+  :ast-perc-3p "0.957",
+  :shot-dist-3p "0.532",
+  :per "10.4",
+  :shot-dist-2p "0.468",
+  :obpm "-2.1",
+  :tov-pct "11.8",
+  :ast-perc-2p "0.606",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.496",
+  :ft-perc "0.855",
+  :ast-perc "9.2",
+  :usage-rate "15.2"}
+ {:orb-perc "4.9",
+  :dbpm "-0.3",
+  :drb-perc "12.7",
+  :name "Tristan Da Silva",
+  :ftr "0.13",
+  :ast-perc-3p "0.95",
+  :shot-dist-3p "0.495",
+  :per "9.9",
+  :shot-dist-2p "0.505",
+  :obpm "-2.3",
+  :tov-pct "9.9",
+  :ast-perc-2p "0.613",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.488",
+  :ft-perc "0.873",
+  :ast-perc "10.3",
+  :usage-rate "15.2"}
+ {:orb-perc "6.4",
+  :dbpm "1.8",
+  :drb-perc "22.6",
+  :name "Josh Hart",
+  :ftr "0.266",
+  :ast-perc-3p "0.869",
+  :shot-dist-3p "0.327",
+  :per "16.5",
+  :shot-dist-2p "0.673",
+  :obpm "1.1",
+  :tov-pct "15.5",
+  :ast-perc-2p "0.613",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.618",
+  :ft-perc "0.776",
+  :ast-perc "20.7",
+  :usage-rate "15.3"}
+ {:orb-perc "2.1",
+  :dbpm "-0.2",
+  :drb-perc "8.2",
+  :name "Amir Coffey",
+  :ftr "0.253",
+  :ast-perc-3p "0.97",
+  :shot-dist-3p "0.484",
+  :per "11.2",
+  :shot-dist-2p "0.516",
+  :obpm "-1.5",
+  :tov-pct "7.4",
+  :ast-perc-2p "0.683",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.529",
+  :ft-perc "0.891",
+  :ast-perc "6.1",
+  :usage-rate "15.3"}
+ {:orb-perc "3.3",
+  :dbpm "-0.1",
+  :drb-perc "17.5",
+  :name "Royce O'Neale",
+  :ftr "0.046",
+  :ast-perc-3p "0.961",
+  :shot-dist-3p "0.774",
+  :per "12.6",
+  :shot-dist-2p "0.226",
+  :obpm "0.2",
+  :tov-pct "10.1",
+  :ast-perc-2p "0.71",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.481",
+  :ft-perc "0.731",
+  :ast-perc "12.3",
+  :usage-rate "15.5"}
+ {:orb-perc "0.9",
+  :dbpm "-0.9",
+  :drb-perc "8.4",
+  :name "Tim Hardaway Jr.",
+  :ftr "0.213",
+  :ast-perc-3p "0.923",
+  :shot-dist-3p "0.672",
+  :per "9.8",
+  :shot-dist-2p "0.328",
+  :obpm "-1.1",
+  :tov-pct "6.1",
+  :ast-perc-2p "0.815",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.484",
+  :ft-perc "0.855",
+  :ast-perc "7.6",
+  :usage-rate "15.5"}
+ {:orb-perc "4.7",
+  :dbpm "-1.7",
+  :drb-perc "10.3",
+  :name "Harrison Barnes",
+  :ftr "0.291",
+  :ast-perc-3p "0.981",
+  :shot-dist-3p "0.527",
+  :per "14.9",
+  :shot-dist-2p "0.473",
+  :obpm "1.7",
+  :tov-pct "6.1",
+  :ast-perc-2p "0.586",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.591",
+  :ft-perc "0.809",
+  :ast-perc "8.6",
+  :usage-rate "15.7"}
+ {:orb-perc "4.2",
+  :dbpm "-0.5",
+  :drb-perc "12.2",
+  :name "Christian Braun",
+  :ftr "0.261",
+  :ast-perc-3p "0.888",
+  :shot-dist-3p "0.273",
+  :per "16",
+  :shot-dist-2p "0.727",
+  :obpm "0.8",
+  :tov-pct "8.1",
+  :ast-perc-2p "0.762",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.648",
+  :ft-perc "0.827",
+  :ast-perc "10.1",
+  :usage-rate "15.8"}
+ {:orb-perc "5",
+  :dbpm "0.4",
+  :drb-perc "11.8",
+  :name "Brook Lopez",
+  :ftr "0.178",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.482",
+  :per "14.8",
+  :shot-dist-2p "0.518",
+  :obpm "0.4",
+  :tov-pct "9.1",
+  :ast-perc-2p "0.745",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.636",
+  :ft-perc "0.826",
+  :ast-perc "7.8",
+  :usage-rate "15.8"}
+ {:orb-perc "4.9",
+  :dbpm "-0.6",
+  :drb-perc "12.6",
+  :name "Rui Hachimura",
+  :ftr "0.196",
+  :ast-perc-3p "0.961",
+  :shot-dist-3p "0.429",
+  :per "13.6",
+  :shot-dist-2p "0.571",
+  :obpm "-0.1",
+  :tov-pct "7.3",
+  :ast-perc-2p "0.817",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.581",
+  :ft-perc "0.77",
+  :ast-perc "6.4",
+  :usage-rate "15.8"}
+ {:orb-perc "4.4",
+  :dbpm "1",
+  :drb-perc "10.8",
+  :name "Jrue Holiday",
+  :ftr "0.134",
+  :ast-perc-3p "0.861",
+  :shot-dist-3p "0.534",
+  :per "13.5",
+  :shot-dist-2p "0.466",
+  :obpm "-0.3",
+  :tov-pct "11.3",
+  :ast-perc-2p "0.493",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.547",
+  :ft-perc "0.909",
+  :ast-perc "17.3",
+  :usage-rate "15.8"}
+ {:orb-perc "1.4",
+  :dbpm "-1.3",
+  :drb-perc "13.1",
+  :name "Bub Carrington",
+  :ftr "0.114",
+  :ast-perc-3p "0.667",
+  :shot-dist-3p "0.544",
+  :per "9",
+  :shot-dist-2p "0.456",
+  :obpm "-3.3",
+  :tov-pct "15.2",
+  :ast-perc-2p "0.481",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.475",
+  :ft-perc "0.812",
+  :ast-perc "21.2",
+  :usage-rate "15.8"}
+ {:orb-perc "10.5",
+  :dbpm "1.2",
+  :drb-perc "26.7",
+  :name "Jarrett Allen",
+  :ftr "0.433",
+  :ast-perc-3p "0",
+  :shot-dist-3p "0.008",
+  :per "22.1",
+  :shot-dist-2p "0.992",
+  :obpm "3",
+  :tov-pct "11.3",
+  :ast-perc-2p "0.825",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.712",
+  :ft-perc "0.718",
+  :ast-perc "9.5",
+  :usage-rate "15.9"}
+ {:orb-perc "3.9",
+  :dbpm "2.8",
+  :drb-perc "19",
+  :name "Draymond Green",
+  :ftr "0.289",
+  :ast-perc-3p "0.988",
+  :shot-dist-3p "0.483",
+  :per "12.4",
+  :shot-dist-2p "0.517",
+  :obpm "-2.3",
+  :tov-pct "23.3",
+  :ast-perc-2p "0.809",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.517",
+  :ft-perc "0.687",
+  :ast-perc "26.2",
+  :usage-rate "15.9"}
+ {:orb-perc "4.6",
+  :dbpm "-1",
+  :drb-perc "9.3",
+  :name "Jaylen Wells",
+  :ftr "0.2",
+  :ast-perc-3p "0.906",
+  :shot-dist-3p "0.58",
+  :per "10.5",
+  :shot-dist-2p "0.42",
+  :obpm "-1.2",
+  :tov-pct "8.6",
+  :ast-perc-2p "0.658",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.525",
+  :ft-perc "0.822",
+  :ast-perc "8.4",
+  :usage-rate "15.9"}
+ {:orb-perc "2.8",
+  :dbpm "-0.3",
+  :drb-perc "13.7",
+  :name "Kyshawn George",
+  :ftr "0.17",
+  :ast-perc-3p "0.921",
+  :shot-dist-3p "0.648",
+  :per "8.8",
+  :shot-dist-2p "0.352",
+  :obpm "-3.8",
+  :tov-pct "14.2",
+  :ast-perc-2p "0.573",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.464",
+  :ft-perc "0.753",
+  :ast-perc "13.3",
+  :usage-rate "15.9"}
+ {:orb-perc "9.4",
+  :dbpm "0.9",
+  :drb-perc "23.4",
+  :name "Wendell Carter Jr.",
+  :ftr "0.356",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.322",
+  :per "13.7",
+  :shot-dist-2p "0.678",
+  :obpm "-2.2",
+  :tov-pct "11.9",
+  :ast-perc-2p "0.757",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.568",
+  :ft-perc "0.737",
+  :ast-perc "11.5",
+  :usage-rate "16"}
+ {:orb-perc "2.9",
+  :dbpm "0.4",
+  :drb-perc "11.1",
+  :name "Nickeil Alexander-Walker",
+  :ftr "0.192",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.601",
+  :per "11.6",
+  :shot-dist-2p "0.399",
+  :obpm "-0.8",
+  :tov-pct "12.9",
+  :ast-perc-2p "0.612",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.524",
+  :ft-perc "0.78",
+  :ast-perc "15",
+  :usage-rate "16"}
+ {:orb-perc "2.1",
+  :dbpm "-1.3",
+  :drb-perc "7.8",
+  :name "Tyus Jones",
+  :ftr "0.083",
+  :ast-perc-3p "0.873",
+  :shot-dist-3p "0.587",
+  :per "14.5",
+  :shot-dist-2p "0.413",
+  :obpm "1.4",
+  :tov-pct "11.4",
+  :ast-perc-2p "0.393",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.496",
+  :ft-perc "0.895",
+  :ast-perc "27.7",
+  :usage-rate "16.2"}
+ {:orb-perc "7.7",
+  :dbpm "-1.1",
+  :drb-perc "16.3",
+  :name "Guerschon Yabusele",
+  :ftr "0.245",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.487",
+  :per "14.7",
+  :shot-dist-2p "0.513",
+  :obpm "0.1",
+  :tov-pct "12.2",
+  :ast-perc-2p "0.725",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.616",
+  :ft-perc "0.725",
+  :ast-perc "11.6",
+  :usage-rate "16.3"}
+ {:orb-perc "5.6",
+  :dbpm "1.4",
+  :drb-perc "14.2",
+  :name "Jaden McDaniels",
+  :ftr "0.153",
+  :ast-perc-3p "0.95",
+  :shot-dist-3p "0.363",
+  :per "13.3",
+  :shot-dist-2p "0.637",
+  :obpm "-1.4",
+  :tov-pct "9.6",
+  :ast-perc-2p "0.611",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.561",
+  :ft-perc "0.813",
+  :ast-perc "9",
+  :usage-rate "16.3"}
+ {:orb-perc "2",
+  :dbpm "0.3",
+  :drb-perc "10.7",
+  :name "Andrew Nembhard",
+  :ftr "0.252",
+  :ast-perc-3p "0.824",
+  :shot-dist-3p "0.325",
+  :per "11.7",
+  :shot-dist-2p "0.675",
+  :obpm "-2.6",
+  :tov-pct "15.8",
+  :ast-perc-2p "0.474",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.538",
+  :ft-perc "0.794",
+  :ast-perc "22.5",
+  :usage-rate "16.3"}
+ {:orb-perc "15.2",
+  :dbpm "1.5",
+  :drb-perc "28.7",
+  :name "Jalen Duren",
+  :ftr "0.443",
+  :ast-perc-3p "0",
+  :shot-dist-3p "0",
+  :per "21.4",
+  :shot-dist-2p "1",
+  :obpm "1.6",
+  :tov-pct "17.2",
+  :ast-perc-2p "0.624",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.692",
+  :ft-perc "0.669",
+  :ast-perc "14.7",
+  :usage-rate "16.4"}
+ {:orb-perc "6.4",
+  :dbpm "0.1",
+  :drb-perc "18.6",
+  :name "Jabari Smith Jr.",
+  :ftr "0.223",
+  :ast-perc-3p "0.969",
+  :shot-dist-3p "0.489",
+  :per "12.6",
+  :shot-dist-2p "0.511",
+  :obpm "-0.8",
+  :tov-pct "8.9",
+  :ast-perc-2p "0.567",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.519",
+  :ft-perc "0.825",
+  :ast-perc "4.7",
+  :usage-rate "16.4"}
+ {:orb-perc "5.7",
+  :dbpm "0.7",
+  :drb-perc "10.1",
+  :name "Derrick Jones Jr.",
+  :ftr "0.2",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.372",
+  :per "13.5",
+  :shot-dist-2p "0.628",
+  :obpm "-1",
+  :tov-pct "9.3",
+  :ast-perc-2p "0.741",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.627",
+  :ft-perc "0.703",
+  :ast-perc "4.6",
+  :usage-rate "16.5"}
+ {:orb-perc "4",
+  :dbpm "-1.3",
+  :drb-perc "11.4",
+  :name "Jalen Wilson",
+  :ftr "0.266",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.584",
+  :per "9.5",
+  :shot-dist-2p "0.416",
+  :obpm "-2.6",
+  :tov-pct "10.2",
+  :ast-perc-2p "0.597",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.481",
+  :ft-perc "0.818",
+  :ast-perc "10.8",
+  :usage-rate "16.6"}
+ {:orb-perc "11.2",
+  :dbpm "2.6",
+  :drb-perc "29.6",
+  :name "Isaiah Hartenstein",
+  :ftr "0.244",
+  :ast-perc-3p "",
+  :shot-dist-3p "0.04",
+  :per "18.9",
+  :shot-dist-2p "0.96",
+  :obpm "0.6",
+  :tov-pct "15.3",
+  :ast-perc-2p "0.81",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.605",
+  :ft-perc "0.675",
+  :ast-perc "18.3",
+  :usage-rate "16.7"}
+ ...]
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/player-data-path
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+[{:orb-perc "16.6",
+  :dbpm "0.7",
+  :drb-perc "27.1",
+  :name "Walker Kessler",
+  :ftr "0.363",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.081",
+  :per "20",
+  :shot-dist-2p "0.919",
+  :obpm "1.1",
+  :tov-pct "15",
+  :ast-perc-2p "0.618",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.706",
+  :ft-perc "0.52",
+  :ast-perc "8.3",
+  :usage-rate "13.7"}
+ {:orb-perc "13.3",
+  :dbpm "-0.1",
+  :drb-perc "30.7",
+  :name "Jonas Valančiūnas",
+  :ftr "0.263",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.059",
+  :per "20.8",
+  :shot-dist-2p "0.941",
+  :obpm "0.8",
+  :tov-pct "14.6",
+  :ast-perc-2p "0.573",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.571",
+  :ft-perc "0.879",
+  :ast-perc "17.6",
+  :usage-rate "22.8"}
+ {:orb-perc "9.4",
+  :dbpm "0.9",
+  :drb-perc "23.4",
+  :name "Wendell Carter Jr.",
+  :ftr "0.356",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.322",
+  :per "13.7",
+  :shot-dist-2p "0.678",
+  :obpm "-2.2",
+  :tov-pct "11.9",
+  :ast-perc-2p "0.757",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.568",
+  :ft-perc "0.737",
+  :ast-perc "11.5",
+  :usage-rate "16"}
+ {:orb-perc "9",
+  :dbpm "1.5",
+  :drb-perc "22.7",
+  :name "Nic Claxton",
+  :ftr "0.271",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.037",
+  :per "16.5",
+  :shot-dist-2p "0.963",
+  :obpm "-1.1",
+  :tov-pct "12",
+  :ast-perc-2p "0.673",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.576",
+  :ft-perc "0.513",
+  :ast-perc "13.7",
+  :usage-rate "16.8"}
+ {:orb-perc "4.4",
+  :dbpm "-0.5",
+  :drb-perc "14",
+  :name "Naji Marshall",
+  :ftr "0.225",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.306",
+  :per "15.1",
+  :shot-dist-2p "0.694",
+  :obpm "-0.3",
+  :tov-pct "12.5",
+  :ast-perc-2p "0.483",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.611",
+  :ft-perc "0.813",
+  :ast-perc "15.8",
+  :usage-rate "20"}
+ {:orb-perc "11.4",
+  :dbpm "0.2",
+  :drb-perc "24",
+  :name "Onyeka Okongwu",
+  :ftr "0.316",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.216",
+  :per "19",
+  :shot-dist-2p "0.784",
+  :obpm "1.2",
+  :tov-pct "10.4",
+  :ast-perc-2p "0.768",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.634",
+  :ft-perc "0.759",
+  :ast-perc "11.4",
+  :usage-rate "17.3"}
+ {:orb-perc "11.7",
+  :dbpm "1.3",
+  :drb-perc "23.3",
+  :name "Jakob Poeltl",
+  :ftr "0.249",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.005",
+  :per "20",
+  :shot-dist-2p "0.995",
+  :obpm "0.7",
+  :tov-pct "14.7",
+  :ast-perc-2p "0.746",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.628",
+  :ft-perc "0.674",
+  :ast-perc "14.5",
+  :usage-rate "18.7"}
+ {:orb-perc "4",
+  :dbpm "-1.3",
+  :drb-perc "11.4",
+  :name "Jalen Wilson",
+  :ftr "0.266",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.584",
+  :per "9.5",
+  :shot-dist-2p "0.416",
+  :obpm "-2.6",
+  :tov-pct "10.2",
+  :ast-perc-2p "0.597",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.481",
+  :ft-perc "0.818",
+  :ast-perc "10.8",
+  :usage-rate "16.6"}
+ {:orb-perc "5.7",
+  :dbpm "0.7",
+  :drb-perc "10.1",
+  :name "Derrick Jones Jr.",
+  :ftr "0.2",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.372",
+  :per "13.5",
+  :shot-dist-2p "0.628",
+  :obpm "-1",
+  :tov-pct "9.3",
+  :ast-perc-2p "0.741",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.627",
+  :ft-perc "0.703",
+  :ast-perc "4.6",
+  :usage-rate "16.5"}
+ {:orb-perc "7.7",
+  :dbpm "-1.1",
+  :drb-perc "16.3",
+  :name "Guerschon Yabusele",
+  :ftr "0.245",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.487",
+  :per "14.7",
+  :shot-dist-2p "0.513",
+  :obpm "0.1",
+  :tov-pct "12.2",
+  :ast-perc-2p "0.725",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.616",
+  :ft-perc "0.725",
+  :ast-perc "11.6",
+  :usage-rate "16.3"}
+ {:orb-perc "8.3",
+  :dbpm "0.1",
+  :drb-perc "25.2",
+  :name "Nikola Vučević",
+  :ftr "0.144",
+  :ast-perc-3p "0.992",
+  :shot-dist-3p "0.309",
+  :per "20.3",
+  :shot-dist-2p "0.691",
+  :obpm "2.5",
+  :tov-pct "9.7",
+  :ast-perc-2p "0.758",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.587",
+  :ft-perc "0.805",
+  :ast-perc "17.1",
+  :usage-rate "22.4"}
+ {:orb-perc "5",
+  :dbpm "0.1",
+  :drb-perc "10.4",
+  :name "Dorian Finney-Smith",
+  :ftr "0.103",
+  :ast-perc-3p "0.992",
+  :shot-dist-3p "0.722",
+  :per "10.1",
+  :shot-dist-2p "0.278",
+  :obpm "-1.1",
+  :tov-pct "11",
+  :ast-perc-2p "0.697",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.545",
+  :ft-perc "0.667",
+  :ast-perc "6.9",
+  :usage-rate "12.3"}
+ {:orb-perc "5.2",
+  :dbpm "1.1",
+  :drb-perc "18.9",
+  :name "Al Horford",
+  :ftr "0.082",
+  :ast-perc-3p "0.991",
+  :shot-dist-3p "0.681",
+  :per "12.9",
+  :shot-dist-2p "0.319",
+  :obpm "0.1",
+  :tov-pct "8.8",
+  :ast-perc-2p "0.827",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.551",
+  :ft-perc "0.895",
+  :ast-perc "10.4",
+  :usage-rate "13.8"}
+ {:orb-perc "3.9",
+  :dbpm "2.8",
+  :drb-perc "19",
+  :name "Draymond Green",
+  :ftr "0.289",
+  :ast-perc-3p "0.988",
+  :shot-dist-3p "0.483",
+  :per "12.4",
+  :shot-dist-2p "0.517",
+  :obpm "-2.3",
+  :tov-pct "23.3",
+  :ast-perc-2p "0.809",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.517",
+  :ft-perc "0.687",
+  :ast-perc "26.2",
+  :usage-rate "15.9"}
+ {:orb-perc "3.1",
+  :dbpm "-1.2",
+  :drb-perc "14.3",
+  :name "Georges Niang",
+  :ftr "0.094",
+  :ast-perc-3p "0.988",
+  :shot-dist-3p "0.66",
+  :per "11.2",
+  :shot-dist-2p "0.34",
+  :obpm "-1.1",
+  :tov-pct "11.3",
+  :ast-perc-2p "0.833",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.569",
+  :ft-perc "0.793",
+  :ast-perc "8.8",
+  :usage-rate "17.9"}
+ {:orb-perc "6.3",
+  :dbpm "-0.8",
+  :drb-perc "15.5",
+  :name "Keegan Murray",
+  :ftr "0.088",
+  :ast-perc-3p "0.987",
+  :shot-dist-3p "0.548",
+  :per "12",
+  :shot-dist-2p "0.452",
+  :obpm "-0.8",
+  :tov-pct "6.6",
+  :ast-perc-2p "0.652",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.566",
+  :ft-perc "0.833",
+  :ast-perc "5.6",
+  :usage-rate "15"}
+ {:orb-perc "4.1",
+  :dbpm "2.6",
+  :drb-perc "8.8",
+  :name "Cason Wallace",
+  :ftr "0.076",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.425",
+  :per "12.3",
+  :shot-dist-2p "0.575",
+  :obpm "-1.5",
+  :tov-pct "10.5",
+  :ast-perc-2p "0.563",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.562",
+  :ft-perc "0.811",
+  :ast-perc "11.5",
+  :usage-rate "12.8"}
+ {:orb-perc "5",
+  :dbpm "0.4",
+  :drb-perc "11.8",
+  :name "Brook Lopez",
+  :ftr "0.178",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.482",
+  :per "14.8",
+  :shot-dist-2p "0.518",
+  :obpm "0.4",
+  :tov-pct "9.1",
+  :ast-perc-2p "0.745",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.636",
+  :ft-perc "0.826",
+  :ast-perc "7.8",
+  :usage-rate "15.8"}
+ {:orb-perc "2.9",
+  :dbpm "0.4",
+  :drb-perc "11.1",
+  :name "Nickeil Alexander-Walker",
+  :ftr "0.192",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.601",
+  :per "11.6",
+  :shot-dist-2p "0.399",
+  :obpm "-0.8",
+  :tov-pct "12.9",
+  :ast-perc-2p "0.612",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.524",
+  :ft-perc "0.78",
+  :ast-perc "15",
+  :usage-rate "16"}
+ {:orb-perc "1.8",
+  :dbpm "0.3",
+  :drb-perc "12.2",
+  :name "Taurean Prince",
+  :ftr "0.093",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.652",
+  :per "9.8",
+  :shot-dist-2p "0.348",
+  :obpm "-2",
+  :tov-pct "13.3",
+  :ast-perc-2p "0.773",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.492",
+  :ft-perc "0.813",
+  :ast-perc "9.4",
+  :usage-rate "12.5"}
+ {:orb-perc "12.3",
+  :dbpm "1.1",
+  :drb-perc "32.6",
+  :name "Domantas Sabonis",
+  :ftr "0.324",
+  :ast-perc-3p "0.985",
+  :shot-dist-3p "0.175",
+  :per "22.9",
+  :shot-dist-2p "0.825",
+  :obpm "4.2",
+  :tov-pct "16.5",
+  :ast-perc-2p "0.63",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.627",
+  :ft-perc "0.754",
+  :ast-perc "26",
+  :usage-rate "21.6"}
+ {:orb-perc "4.3",
+  :dbpm "-0.1",
+  :drb-perc "17.5",
+  :name "Ziaire Williams",
+  :ftr "0.237",
+  :ast-perc-3p "0.981",
+  :shot-dist-3p "0.581",
+  :per "11.9",
+  :shot-dist-2p "0.419",
+  :obpm "-2.2",
+  :tov-pct "10.5",
+  :ast-perc-2p "0.631",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.509",
+  :ft-perc "0.821",
+  :ast-perc "8.5",
+  :usage-rate "18.2"}
+ {:orb-perc "4.7",
+  :dbpm "0.4",
+  :drb-perc "19.4",
+  :name "Myles Turner",
+  :ftr "0.293",
+  :ast-perc-3p "0.981",
+  :shot-dist-3p "0.486",
+  :per "16.1",
+  :shot-dist-2p "0.514",
+  :obpm "0",
+  :tov-pct "11.8",
+  :ast-perc-2p "0.846",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.561",
+  :ft-perc "0.773",
+  :ast-perc "7.1",
+  :usage-rate "20.7"}
+ {:orb-perc "4.7",
+  :dbpm "-1.7",
+  :drb-perc "10.3",
+  :name "Harrison Barnes",
+  :ftr "0.291",
+  :ast-perc-3p "0.981",
+  :shot-dist-3p "0.527",
+  :per "14.9",
+  :shot-dist-2p "0.473",
+  :obpm "1.7",
+  :tov-pct "6.1",
+  :ast-perc-2p "0.586",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.591",
+  :ft-perc "0.809",
+  :ast-perc "8.6",
+  :usage-rate "15.7"}
+ {:orb-perc "3.3",
+  :dbpm "0.3",
+  :drb-perc "11.8",
+  :name "Peyton Watson",
+  :ftr "0.32",
+  :ast-perc-3p "0.979",
+  :shot-dist-3p "0.318",
+  :per "11.4",
+  :shot-dist-2p "0.682",
+  :obpm "-2.1",
+  :tov-pct "10.3",
+  :ast-perc-2p "0.801",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.534",
+  :ft-perc "0.693",
+  :ast-perc "7",
+  :usage-rate "13.9"}
+ {:orb-perc "3.9",
+  :dbpm "-0.5",
+  :drb-perc "15.2",
+  :name "Matas Buzelis",
+  :ftr "0.195",
+  :ast-perc-3p "0.979",
+  :shot-dist-3p "0.479",
+  :per "12.5",
+  :shot-dist-2p "0.521",
+  :obpm "-2",
+  :tov-pct "10.9",
+  :ast-perc-2p "0.699",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.54",
+  :ft-perc "0.815",
+  :ast-perc "7.2",
+  :usage-rate "18.7"}
+ {:orb-perc "3.1",
+  :dbpm "0.2",
+  :drb-perc "6.7",
+  :name "Josh Green",
+  :ftr "0.171",
+  :ast-perc-3p "0.979",
+  :shot-dist-3p "0.589",
+  :per "7.8",
+  :shot-dist-2p "0.411",
+  :obpm "-4.5",
+  :tov-pct "13.4",
+  :ast-perc-2p "0.614",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.48",
+  :ft-perc "0.681",
+  :ast-perc "8.2",
+  :usage-rate "11.8"}
+ {:orb-perc "4.4",
+  :dbpm "0.9",
+  :drb-perc "10.8",
+  :name "Haywood Highsmith",
+  :ftr "0.11",
+  :ast-perc-3p "0.978",
+  :shot-dist-3p "0.596",
+  :per "9.9",
+  :shot-dist-2p "0.404",
+  :obpm "-2.7",
+  :tov-pct "11.6",
+  :ast-perc-2p "0.667",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.57",
+  :ft-perc "0.721",
+  :ast-perc "8.4",
+  :usage-rate "11.3"}
+ {:orb-perc "4.1",
+  :dbpm "1.8",
+  :drb-perc "12.1",
+  :name "Scotty Pippen Jr.",
+  :ftr "0.288",
+  :ast-perc-3p "0.977",
+  :shot-dist-3p "0.369",
+  :per "15.8",
+  :shot-dist-2p "0.631",
+  :obpm "0",
+  :tov-pct "17.1",
+  :ast-perc-2p "0.5",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.528",
+  :ft-perc "0.713",
+  :ast-perc "27.1",
+  :usage-rate "19.3"}
+ {:orb-perc "5.9",
+  :dbpm "-0.5",
+  :drb-perc "17.6",
+  :name "Pascal Siakam",
+  :ftr "0.261",
+  :ast-perc-3p "0.976",
+  :shot-dist-3p "0.274",
+  :per "19.2",
+  :shot-dist-2p "0.726",
+  :obpm "2.2",
+  :tov-pct "7.6",
+  :ast-perc-2p "0.589",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.568",
+  :ft-perc "0.734",
+  :ast-perc "15.7",
+  :usage-rate "24.2"}
+ {:orb-perc "5",
+  :dbpm "-1.8",
+  :drb-perc "11.1",
+  :name "Zaccharie Risacher",
+  :ftr "0.191",
+  :ast-perc-3p "0.975",
+  :shot-dist-3p "0.442",
+  :per "12.2",
+  :shot-dist-2p "0.558",
+  :obpm "-1.7",
+  :tov-pct "9.8",
+  :ast-perc-2p "0.732",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.54",
+  :ft-perc "0.711",
+  :ast-perc "7.1",
+  :usage-rate "20.9"}
+ {:orb-perc "5.1",
+  :dbpm "-0.6",
+  :drb-perc "15.4",
+  :name "Kelly Oubre Jr.",
+  :ftr "0.25",
+  :ast-perc-3p "0.972",
+  :shot-dist-3p "0.327",
+  :per "13.5",
+  :shot-dist-2p "0.673",
+  :obpm "-1.7",
+  :tov-pct "8.9",
+  :ast-perc-2p "0.534",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.555",
+  :ft-perc "0.751",
+  :ast-perc "7.9",
+  :usage-rate "18.9"}
+ {:orb-perc "3.7",
+  :dbpm "-0.9",
+  :drb-perc "13.9",
+  :name "Julian Champagnie",
+  :ftr "0.141",
+  :ast-perc-3p "0.972",
+  :shot-dist-3p "0.722",
+  :per "12.2",
+  :shot-dist-2p "0.278",
+  :obpm "-0.3",
+  :tov-pct "9.5",
+  :ast-perc-2p "0.735",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.53",
+  :ft-perc "0.904",
+  :ast-perc "7.9",
+  :usage-rate "17.2"}
+ {:orb-perc "9.8",
+  :dbpm "0.1",
+  :drb-perc "32",
+  :name "Karl-Anthony Towns",
+  :ftr "0.337",
+  :ast-perc-3p "0.972",
+  :shot-dist-3p "0.278",
+  :per "23.4",
+  :shot-dist-2p "0.722",
+  :obpm "3.5",
+  :tov-pct "12.1",
+  :ast-perc-2p "0.586",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.567",
+  :ft-perc "0.829",
+  :ast-perc "13.8",
+  :usage-rate "27.4"}
+ {:orb-perc "2.1",
+  :dbpm "-0.2",
+  :drb-perc "8.2",
+  :name "Amir Coffey",
+  :ftr "0.253",
+  :ast-perc-3p "0.97",
+  :shot-dist-3p "0.484",
+  :per "11.2",
+  :shot-dist-2p "0.516",
+  :obpm "-1.5",
+  :tov-pct "7.4",
+  :ast-perc-2p "0.683",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.529",
+  :ft-perc "0.891",
+  :ast-perc "6.1",
+  :usage-rate "15.3"}
+ {:orb-perc "6.4",
+  :dbpm "0.1",
+  :drb-perc "18.6",
+  :name "Jabari Smith Jr.",
+  :ftr "0.223",
+  :ast-perc-3p "0.969",
+  :shot-dist-3p "0.489",
+  :per "12.6",
+  :shot-dist-2p "0.511",
+  :obpm "-0.8",
+  :tov-pct "8.9",
+  :ast-perc-2p "0.567",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.519",
+  :ft-perc "0.825",
+  :ast-perc "4.7",
+  :usage-rate "16.4"}
+ {:orb-perc "3.3",
+  :dbpm "0",
+  :drb-perc "9.2",
+  :name "Moses Moody",
+  :ftr "0.234",
+  :ast-perc-3p "0.968",
+  :shot-dist-3p "0.593",
+  :per "12.4",
+  :shot-dist-2p "0.407",
+  :obpm "-0.9",
+  :tov-pct "7.9",
+  :ast-perc-2p "0.667",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.519",
+  :ft-perc "0.797",
+  :ast-perc "8.3",
+  :usage-rate "17.4"}
+ {:orb-perc "6.1",
+  :dbpm "0.7",
+  :drb-perc "20.3",
+  :name "Santi Aldama",
+  :ftr "0.145",
+  :ast-perc-3p "0.967",
+  :shot-dist-3p "0.503",
+  :per "16.8",
+  :shot-dist-2p "0.497",
+  :obpm "2.5",
+  :tov-pct "9.3",
+  :ast-perc-2p "0.642",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.599",
+  :ft-perc "0.691",
+  :ast-perc "15.2",
+  :usage-rate "18.5"}
+ {:orb-perc "2.5",
+  :dbpm "-1",
+  :drb-perc "11.3",
+  :name "Grayson Allen",
+  :ftr "0.233",
+  :ast-perc-3p "0.966",
+  :shot-dist-3p "0.716",
+  :per "13.7",
+  :shot-dist-2p "0.284",
+  :obpm "0.7",
+  :tov-pct "12.2",
+  :ast-perc-2p "0.7",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.504",
+  :ft-perc "0.816",
+  :ast-perc "12.5",
+  :usage-rate "17.6"}
+ {:orb-perc "4.1",
+  :dbpm "-0.1",
+  :drb-perc "18.7",
+  :name "Obi Toppin",
+  :ftr "0.19",
+  :ast-perc-3p "0.964",
+  :shot-dist-3p "0.503",
+  :per "17.4",
+  :shot-dist-2p "0.497",
+  :obpm "1.8",
+  :tov-pct "9.5",
+  :ast-perc-2p "0.758",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.695",
+  :ft-perc "0.781",
+  :ast-perc "11.9",
+  :usage-rate "20.1"}
+ {:orb-perc "1.8",
+  :dbpm "-0.3",
+  :drb-perc "10",
+  :name "Jerami Grant",
+  :ftr "0.289",
+  :ast-perc-3p "0.963",
+  :shot-dist-3p "0.516",
+  :per "10.9",
+  :shot-dist-2p "0.484",
+  :obpm "-1.4",
+  :tov-pct "9.1",
+  :ast-perc-2p "0.519",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.381",
+  :ft-perc "0.849",
+  :ast-perc "9.5",
+  :usage-rate "19.4"}
+ {:orb-perc "3.3",
+  :dbpm "0",
+  :drb-perc "9.1",
+  :name "Dillon Brooks",
+  :ftr "0.135",
+  :ast-perc-3p "0.962",
+  :shot-dist-3p "0.524",
+  :per "11",
+  :shot-dist-2p "0.476",
+  :obpm "-1.4",
+  :tov-pct "7.4",
+  :ast-perc-2p "0.444",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.465",
+  :ft-perc "0.818",
+  :ast-perc "7.4",
+  :usage-rate "17.7"}
+ {:orb-perc "3.3",
+  :dbpm "-0.1",
+  :drb-perc "17.5",
+  :name "Royce O'Neale",
+  :ftr "0.046",
+  :ast-perc-3p "0.961",
+  :shot-dist-3p "0.774",
+  :per "12.6",
+  :shot-dist-2p "0.226",
+  :obpm "0.2",
+  :tov-pct "10.1",
+  :ast-perc-2p "0.71",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.481",
+  :ft-perc "0.731",
+  :ast-perc "12.3",
+  :usage-rate "15.5"}
+ {:orb-perc "4.9",
+  :dbpm "-0.6",
+  :drb-perc "12.6",
+  :name "Rui Hachimura",
+  :ftr "0.196",
+  :ast-perc-3p "0.961",
+  :shot-dist-3p "0.429",
+  :per "13.6",
+  :shot-dist-2p "0.571",
+  :obpm "-0.1",
+  :tov-pct "7.3",
+  :ast-perc-2p "0.817",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.581",
+  :ft-perc "0.77",
+  :ast-perc "6.4",
+  :usage-rate "15.8"}
+ {:orb-perc "9",
+  :dbpm "2.6",
+  :drb-perc "18.2",
+  :name "Amen Thompson",
+  :ftr "0.354",
+  :ast-perc-3p "0.96",
+  :shot-dist-3p "0.131",
+  :per "18.7",
+  :shot-dist-2p "0.869",
+  :obpm "1.4",
+  :tov-pct "14.6",
+  :ast-perc-2p "0.523",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.599",
+  :ft-perc "0.684",
+  :ast-perc "16.9",
+  :usage-rate "17.5"}
+ {:orb-perc "3.7",
+  :dbpm "0.2",
+  :drb-perc "11.4",
+  :name "Ochai Agbaji",
+  :ftr "0.09",
+  :ast-perc-3p "0.96",
+  :shot-dist-3p "0.474",
+  :per "12",
+  :shot-dist-2p "0.526",
+  :obpm "-0.9",
+  :tov-pct "8.9",
+  :ast-perc-2p "0.794",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.587",
+  :ft-perc "0.708",
+  :ast-perc "7.9",
+  :usage-rate "14.6"}
+ {:orb-perc "4.7",
+  :dbpm "0.8",
+  :drb-perc "10.3",
+  :name "Luguentz Dort",
+  :ftr "0.078",
+  :ast-perc-3p "0.959",
+  :shot-dist-3p "0.696",
+  :per "11.3",
+  :shot-dist-2p "0.304",
+  :obpm "-0.6",
+  :tov-pct "7.7",
+  :ast-perc-2p "0.67",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.489",
+  :ft-perc "0.717",
+  :ast-perc "6.9",
+  :usage-rate "13.6"}
+ {:orb-perc "2.7",
+  :dbpm "-0.9",
+  :drb-perc "7",
+  :name "Mikal Bridges",
+  :ftr "0.1",
+  :ast-perc-3p "0.957",
+  :shot-dist-3p "0.391",
+  :per "14",
+  :shot-dist-2p "0.609",
+  :obpm "0.4",
+  :tov-pct "9.7",
+  :ast-perc-2p "0.682",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.594",
+  :ft-perc "0.814",
+  :ast-perc "14.4",
+  :usage-rate "19.6"}
+ {:orb-perc "2",
+  :dbpm "-0.5",
+  :drb-perc "11.2",
+  :name "Max Christie",
+  :ftr "0.258",
+  :ast-perc-3p "0.957",
+  :shot-dist-3p "0.532",
+  :per "10.4",
+  :shot-dist-2p "0.468",
+  :obpm "-2.1",
+  :tov-pct "11.8",
+  :ast-perc-2p "0.606",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.496",
+  :ft-perc "0.855",
+  :ast-perc "9.2",
+  :usage-rate "15.2"}
+ {:orb-perc "7.2",
+  :dbpm "0.8",
+  :drb-perc "12.1",
+  :name "Toumani Camara",
+  :ftr "0.176",
+  :ast-perc-3p "0.956",
+  :shot-dist-3p "0.503",
+  :per "12.5",
+  :shot-dist-2p "0.497",
+  :obpm "-0.9",
+  :tov-pct "12.4",
+  :ast-perc-2p "0.658",
+  :fg-perc-3p nil,
+  :fg-perc-2p "0.542",
+  :ft-perc "0.722",
+  :ast-perc "9.6",
+  :usage-rate "14.4"}
+ ...]
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+[{:orb-perc "16.6",
+  :dbpm "0.7",
+  :drb-perc "27.1",
+  :name "Walker Kessler",
+  :ftr "0.363",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.081",
+  :per "20",
+  :shot-dist-2p "0.919",
+  :obpm "1.1",
+  :tov-pct "15",
+  :ast-perc-2p "0.618",
+  :fg-perc-3p "0.176",
+  :fg-perc-2p "0.706",
+  :ft-perc "0.52",
+  :ast-perc "8.3",
+  :usage-rate "13.7"}
+ {:orb-perc "13.3",
+  :dbpm "-0.1",
+  :drb-perc "30.7",
+  :name "Jonas Valančiūnas",
+  :ftr "0.263",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.059",
+  :per "20.8",
+  :shot-dist-2p "0.941",
+  :obpm "0.8",
+  :tov-pct "14.6",
+  :ast-perc-2p "0.573",
+  :fg-perc-3p "0.216",
+  :fg-perc-2p "0.571",
+  :ft-perc "0.879",
+  :ast-perc "17.6",
+  :usage-rate "22.8"}
+ {:orb-perc "9.4",
+  :dbpm "0.9",
+  :drb-perc "23.4",
+  :name "Wendell Carter Jr.",
+  :ftr "0.356",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.322",
+  :per "13.7",
+  :shot-dist-2p "0.678",
+  :obpm "-2.2",
+  :tov-pct "11.9",
+  :ast-perc-2p "0.757",
+  :fg-perc-3p "0.234",
+  :fg-perc-2p "0.568",
+  :ft-perc "0.737",
+  :ast-perc "11.5",
+  :usage-rate "16"}
+ {:orb-perc "9",
+  :dbpm "1.5",
+  :drb-perc "22.7",
+  :name "Nic Claxton",
+  :ftr "0.271",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.037",
+  :per "16.5",
+  :shot-dist-2p "0.963",
+  :obpm "-1.1",
+  :tov-pct "12",
+  :ast-perc-2p "0.673",
+  :fg-perc-3p "0.238",
+  :fg-perc-2p "0.576",
+  :ft-perc "0.513",
+  :ast-perc "13.7",
+  :usage-rate "16.8"}
+ {:orb-perc "4.4",
+  :dbpm "-0.5",
+  :drb-perc "14",
+  :name "Naji Marshall",
+  :ftr "0.225",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.306",
+  :per "15.1",
+  :shot-dist-2p "0.694",
+  :obpm "-0.3",
+  :tov-pct "12.5",
+  :ast-perc-2p "0.483",
+  :fg-perc-3p "0.275",
+  :fg-perc-2p "0.611",
+  :ft-perc "0.813",
+  :ast-perc "15.8",
+  :usage-rate "20"}
+ {:orb-perc "11.4",
+  :dbpm "0.2",
+  :drb-perc "24",
+  :name "Onyeka Okongwu",
+  :ftr "0.316",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.216",
+  :per "19",
+  :shot-dist-2p "0.784",
+  :obpm "1.2",
+  :tov-pct "10.4",
+  :ast-perc-2p "0.768",
+  :fg-perc-3p "0.324",
+  :fg-perc-2p "0.634",
+  :ft-perc "0.759",
+  :ast-perc "11.4",
+  :usage-rate "17.3"}
+ {:orb-perc "11.7",
+  :dbpm "1.3",
+  :drb-perc "23.3",
+  :name "Jakob Poeltl",
+  :ftr "0.249",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.005",
+  :per "20",
+  :shot-dist-2p "0.995",
+  :obpm "0.7",
+  :tov-pct "14.7",
+  :ast-perc-2p "0.746",
+  :fg-perc-3p "0.333",
+  :fg-perc-2p "0.628",
+  :ft-perc "0.674",
+  :ast-perc "14.5",
+  :usage-rate "18.7"}
+ {:orb-perc "4",
+  :dbpm "-1.3",
+  :drb-perc "11.4",
+  :name "Jalen Wilson",
+  :ftr "0.266",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.584",
+  :per "9.5",
+  :shot-dist-2p "0.416",
+  :obpm "-2.6",
+  :tov-pct "10.2",
+  :ast-perc-2p "0.597",
+  :fg-perc-3p "0.337",
+  :fg-perc-2p "0.481",
+  :ft-perc "0.818",
+  :ast-perc "10.8",
+  :usage-rate "16.6"}
+ {:orb-perc "5.7",
+  :dbpm "0.7",
+  :drb-perc "10.1",
+  :name "Derrick Jones Jr.",
+  :ftr "0.2",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.372",
+  :per "13.5",
+  :shot-dist-2p "0.628",
+  :obpm "-1",
+  :tov-pct "9.3",
+  :ast-perc-2p "0.741",
+  :fg-perc-3p "0.356",
+  :fg-perc-2p "0.627",
+  :ft-perc "0.703",
+  :ast-perc "4.6",
+  :usage-rate "16.5"}
+ {:orb-perc "7.7",
+  :dbpm "-1.1",
+  :drb-perc "16.3",
+  :name "Guerschon Yabusele",
+  :ftr "0.245",
+  :ast-perc-3p "1",
+  :shot-dist-3p "0.487",
+  :per "14.7",
+  :shot-dist-2p "0.513",
+  :obpm "0.1",
+  :tov-pct "12.2",
+  :ast-perc-2p "0.725",
+  :fg-perc-3p "0.38",
+  :fg-perc-2p "0.616",
+  :ft-perc "0.725",
+  :ast-perc "11.6",
+  :usage-rate "16.3"}
+ {:orb-perc "8.3",
+  :dbpm "0.1",
+  :drb-perc "25.2",
+  :name "Nikola Vučević",
+  :ftr "0.144",
+  :ast-perc-3p "0.992",
+  :shot-dist-3p "0.309",
+  :per "20.3",
+  :shot-dist-2p "0.691",
+  :obpm "2.5",
+  :tov-pct "9.7",
+  :ast-perc-2p "0.758",
+  :fg-perc-3p "0.402",
+  :fg-perc-2p "0.587",
+  :ft-perc "0.805",
+  :ast-perc "17.1",
+  :usage-rate "22.4"}
+ {:orb-perc "5",
+  :dbpm "0.1",
+  :drb-perc "10.4",
+  :name "Dorian Finney-Smith",
+  :ftr "0.103",
+  :ast-perc-3p "0.992",
+  :shot-dist-3p "0.722",
+  :per "10.1",
+  :shot-dist-2p "0.278",
+  :obpm "-1.1",
+  :tov-pct "11",
+  :ast-perc-2p "0.697",
+  :fg-perc-3p "0.411",
+  :fg-perc-2p "0.545",
+  :ft-perc "0.667",
+  :ast-perc "6.9",
+  :usage-rate "12.3"}
+ {:orb-perc "5.2",
+  :dbpm "1.1",
+  :drb-perc "18.9",
+  :name "Al Horford",
+  :ftr "0.082",
+  :ast-perc-3p "0.991",
+  :shot-dist-3p "0.681",
+  :per "12.9",
+  :shot-dist-2p "0.319",
+  :obpm "0.1",
+  :tov-pct "8.8",
+  :ast-perc-2p "0.827",
+  :fg-perc-3p "0.363",
+  :fg-perc-2p "0.551",
+  :ft-perc "0.895",
+  :ast-perc "10.4",
+  :usage-rate "13.8"}
+ {:orb-perc "3.9",
+  :dbpm "2.8",
+  :drb-perc "19",
+  :name "Draymond Green",
+  :ftr "0.289",
+  :ast-perc-3p "0.988",
+  :shot-dist-3p "0.483",
+  :per "12.4",
+  :shot-dist-2p "0.517",
+  :obpm "-2.3",
+  :tov-pct "23.3",
+  :ast-perc-2p "0.809",
+  :fg-perc-3p "0.325",
+  :fg-perc-2p "0.517",
+  :ft-perc "0.687",
+  :ast-perc "26.2",
+  :usage-rate "15.9"}
+ {:orb-perc "3.1",
+  :dbpm "-1.2",
+  :drb-perc "14.3",
+  :name "Georges Niang",
+  :ftr "0.094",
+  :ast-perc-3p "0.988",
+  :shot-dist-3p "0.66",
+  :per "11.2",
+  :shot-dist-2p "0.34",
+  :obpm "-1.1",
+  :tov-pct "11.3",
+  :ast-perc-2p "0.833",
+  :fg-perc-3p "0.406",
+  :fg-perc-2p "0.569",
+  :ft-perc "0.793",
+  :ast-perc "8.8",
+  :usage-rate "17.9"}
+ {:orb-perc "6.3",
+  :dbpm "-0.8",
+  :drb-perc "15.5",
+  :name "Keegan Murray",
+  :ftr "0.088",
+  :ast-perc-3p "0.987",
+  :shot-dist-3p "0.548",
+  :per "12",
+  :shot-dist-2p "0.452",
+  :obpm "-0.8",
+  :tov-pct "6.6",
+  :ast-perc-2p "0.652",
+  :fg-perc-3p "0.343",
+  :fg-perc-2p "0.566",
+  :ft-perc "0.833",
+  :ast-perc "5.6",
+  :usage-rate "15"}
+ {:orb-perc "4.1",
+  :dbpm "2.6",
+  :drb-perc "8.8",
+  :name "Cason Wallace",
+  :ftr "0.076",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.425",
+  :per "12.3",
+  :shot-dist-2p "0.575",
+  :obpm "-1.5",
+  :tov-pct "10.5",
+  :ast-perc-2p "0.563",
+  :fg-perc-3p "0.356",
+  :fg-perc-2p "0.562",
+  :ft-perc "0.811",
+  :ast-perc "11.5",
+  :usage-rate "12.8"}
+ {:orb-perc "5",
+  :dbpm "0.4",
+  :drb-perc "11.8",
+  :name "Brook Lopez",
+  :ftr "0.178",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.482",
+  :per "14.8",
+  :shot-dist-2p "0.518",
+  :obpm "0.4",
+  :tov-pct "9.1",
+  :ast-perc-2p "0.745",
+  :fg-perc-3p "0.373",
+  :fg-perc-2p "0.636",
+  :ft-perc "0.826",
+  :ast-perc "7.8",
+  :usage-rate "15.8"}
+ {:orb-perc "2.9",
+  :dbpm "0.4",
+  :drb-perc "11.1",
+  :name "Nickeil Alexander-Walker",
+  :ftr "0.192",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.601",
+  :per "11.6",
+  :shot-dist-2p "0.399",
+  :obpm "-0.8",
+  :tov-pct "12.9",
+  :ast-perc-2p "0.612",
+  :fg-perc-3p "0.381",
+  :fg-perc-2p "0.524",
+  :ft-perc "0.78",
+  :ast-perc "15",
+  :usage-rate "16"}
+ {:orb-perc "1.8",
+  :dbpm "0.3",
+  :drb-perc "12.2",
+  :name "Taurean Prince",
+  :ftr "0.093",
+  :ast-perc-3p "0.986",
+  :shot-dist-3p "0.652",
+  :per "9.8",
+  :shot-dist-2p "0.348",
+  :obpm "-2",
+  :tov-pct "13.3",
+  :ast-perc-2p "0.773",
+  :fg-perc-3p "0.439",
+  :fg-perc-2p "0.492",
+  :ft-perc "0.813",
+  :ast-perc "9.4",
+  :usage-rate "12.5"}
+ {:orb-perc "12.3",
+  :dbpm "1.1",
+  :drb-perc "32.6",
+  :name "Domantas Sabonis",
+  :ftr "0.324",
+  :ast-perc-3p "0.985",
+  :shot-dist-3p "0.175",
+  :per "22.9",
+  :shot-dist-2p "0.825",
+  :obpm "4.2",
+  :tov-pct "16.5",
+  :ast-perc-2p "0.63",
+  :fg-perc-3p "0.417",
+  :fg-perc-2p "0.627",
+  :ft-perc "0.754",
+  :ast-perc "26",
+  :usage-rate "21.6"}
+ {:orb-perc "4.3",
+  :dbpm "-0.1",
+  :drb-perc "17.5",
+  :name "Ziaire Williams",
+  :ftr "0.237",
+  :ast-perc-3p "0.981",
+  :shot-dist-3p "0.581",
+  :per "11.9",
+  :shot-dist-2p "0.419",
+  :obpm "-2.2",
+  :tov-pct "10.5",
+  :ast-perc-2p "0.631",
+  :fg-perc-3p "0.341",
+  :fg-perc-2p "0.509",
+  :ft-perc "0.821",
+  :ast-perc "8.5",
+  :usage-rate "18.2"}
+ {:orb-perc "4.7",
+  :dbpm "0.4",
+  :drb-perc "19.4",
+  :name "Myles Turner",
+  :ftr "0.293",
+  :ast-perc-3p "0.981",
+  :shot-dist-3p "0.486",
+  :per "16.1",
+  :shot-dist-2p "0.514",
+  :obpm "0",
+  :tov-pct "11.8",
+  :ast-perc-2p "0.846",
+  :fg-perc-3p "0.396",
+  :fg-perc-2p "0.561",
+  :ft-perc "0.773",
+  :ast-perc "7.1",
+  :usage-rate "20.7"}
+ {:orb-perc "4.7",
+  :dbpm "-1.7",
+  :drb-perc "10.3",
+  :name "Harrison Barnes",
+  :ftr "0.291",
+  :ast-perc-3p "0.981",
+  :shot-dist-3p "0.527",
+  :per "14.9",
+  :shot-dist-2p "0.473",
+  :obpm "1.7",
+  :tov-pct "6.1",
+  :ast-perc-2p "0.586",
+  :fg-perc-3p "0.433",
+  :fg-perc-2p "0.591",
+  :ft-perc "0.809",
+  :ast-perc "8.6",
+  :usage-rate "15.7"}
+ {:orb-perc "3.3",
+  :dbpm "0.3",
+  :drb-perc "11.8",
+  :name "Peyton Watson",
+  :ftr "0.32",
+  :ast-perc-3p "0.979",
+  :shot-dist-3p "0.318",
+  :per "11.4",
+  :shot-dist-2p "0.682",
+  :obpm "-2.1",
+  :tov-pct "10.3",
+  :ast-perc-2p "0.801",
+  :fg-perc-3p "0.353",
+  :fg-perc-2p "0.534",
+  :ft-perc "0.693",
+  :ast-perc "7",
+  :usage-rate "13.9"}
+ {:orb-perc "3.9",
+  :dbpm "-0.5",
+  :drb-perc "15.2",
+  :name "Matas Buzelis",
+  :ftr "0.195",
+  :ast-perc-3p "0.979",
+  :shot-dist-3p "0.479",
+  :per "12.5",
+  :shot-dist-2p "0.521",
+  :obpm "-2",
+  :tov-pct "10.9",
+  :ast-perc-2p "0.699",
+  :fg-perc-3p "0.361",
+  :fg-perc-2p "0.54",
+  :ft-perc "0.815",
+  :ast-perc "7.2",
+  :usage-rate "18.7"}
+ {:orb-perc "3.1",
+  :dbpm "0.2",
+  :drb-perc "6.7",
+  :name "Josh Green",
+  :ftr "0.171",
+  :ast-perc-3p "0.979",
+  :shot-dist-3p "0.589",
+  :per "7.8",
+  :shot-dist-2p "0.411",
+  :obpm "-4.5",
+  :tov-pct "13.4",
+  :ast-perc-2p "0.614",
+  :fg-perc-3p "0.391",
+  :fg-perc-2p "0.48",
+  :ft-perc "0.681",
+  :ast-perc "8.2",
+  :usage-rate "11.8"}
+ {:orb-perc "4.4",
+  :dbpm "0.9",
+  :drb-perc "10.8",
+  :name "Haywood Highsmith",
+  :ftr "0.11",
+  :ast-perc-3p "0.978",
+  :shot-dist-3p "0.596",
+  :per "9.9",
+  :shot-dist-2p "0.404",
+  :obpm "-2.7",
+  :tov-pct "11.6",
+  :ast-perc-2p "0.667",
+  :fg-perc-3p "0.382",
+  :fg-perc-2p "0.57",
+  :ft-perc "0.721",
+  :ast-perc "8.4",
+  :usage-rate "11.3"}
+ {:orb-perc "4.1",
+  :dbpm "1.8",
+  :drb-perc "12.1",
+  :name "Scotty Pippen Jr.",
+  :ftr "0.288",
+  :ast-perc-3p "0.977",
+  :shot-dist-3p "0.369",
+  :per "15.8",
+  :shot-dist-2p "0.631",
+  :obpm "0",
+  :tov-pct "17.1",
+  :ast-perc-2p "0.5",
+  :fg-perc-3p "0.397",
+  :fg-perc-2p "0.528",
+  :ft-perc "0.713",
+  :ast-perc "27.1",
+  :usage-rate "19.3"}
+ {:orb-perc "5.9",
+  :dbpm "-0.5",
+  :drb-perc "17.6",
+  :name "Pascal Siakam",
+  :ftr "0.261",
+  :ast-perc-3p "0.976",
+  :shot-dist-3p "0.274",
+  :per "19.2",
+  :shot-dist-2p "0.726",
+  :obpm "2.2",
+  :tov-pct "7.6",
+  :ast-perc-2p "0.589",
+  :fg-perc-3p "0.389",
+  :fg-perc-2p "0.568",
+  :ft-perc "0.734",
+  :ast-perc "15.7",
+  :usage-rate "24.2"}
+ {:orb-perc "5",
+  :dbpm "-1.8",
+  :drb-perc "11.1",
+  :name "Zaccharie Risacher",
+  :ftr "0.191",
+  :ast-perc-3p "0.975",
+  :shot-dist-3p "0.442",
+  :per "12.2",
+  :shot-dist-2p "0.558",
+  :obpm "-1.7",
+  :tov-pct "9.8",
+  :ast-perc-2p "0.732",
+  :fg-perc-3p "0.355",
+  :fg-perc-2p "0.54",
+  :ft-perc "0.711",
+  :ast-perc "7.1",
+  :usage-rate "20.9"}
+ {:orb-perc "5.1",
+  :dbpm "-0.6",
+  :drb-perc "15.4",
+  :name "Kelly Oubre Jr.",
+  :ftr "0.25",
+  :ast-perc-3p "0.972",
+  :shot-dist-3p "0.327",
+  :per "13.5",
+  :shot-dist-2p "0.673",
+  :obpm "-1.7",
+  :tov-pct "8.9",
+  :ast-perc-2p "0.534",
+  :fg-perc-3p "0.293",
+  :fg-perc-2p "0.555",
+  :ft-perc "0.751",
+  :ast-perc "7.9",
+  :usage-rate "18.9"}
+ {:orb-perc "3.7",
+  :dbpm "-0.9",
+  :drb-perc "13.9",
+  :name "Julian Champagnie",
+  :ftr "0.141",
+  :ast-perc-3p "0.972",
+  :shot-dist-3p "0.722",
+  :per "12.2",
+  :shot-dist-2p "0.278",
+  :obpm "-0.3",
+  :tov-pct "9.5",
+  :ast-perc-2p "0.735",
+  :fg-perc-3p "0.371",
+  :fg-perc-2p "0.53",
+  :ft-perc "0.904",
+  :ast-perc "7.9",
+  :usage-rate "17.2"}
+ {:orb-perc "9.8",
+  :dbpm "0.1",
+  :drb-perc "32",
+  :name "Karl-Anthony Towns",
+  :ftr "0.337",
+  :ast-perc-3p "0.972",
+  :shot-dist-3p "0.278",
+  :per "23.4",
+  :shot-dist-2p "0.722",
+  :obpm "3.5",
+  :tov-pct "12.1",
+  :ast-perc-2p "0.586",
+  :fg-perc-3p "0.42",
+  :fg-perc-2p "0.567",
+  :ft-perc "0.829",
+  :ast-perc "13.8",
+  :usage-rate "27.4"}
+ {:orb-perc "2.1",
+  :dbpm "-0.2",
+  :drb-perc "8.2",
+  :name "Amir Coffey",
+  :ftr "0.253",
+  :ast-perc-3p "0.97",
+  :shot-dist-3p "0.484",
+  :per "11.2",
+  :shot-dist-2p "0.516",
+  :obpm "-1.5",
+  :tov-pct "7.4",
+  :ast-perc-2p "0.683",
+  :fg-perc-3p "0.409",
+  :fg-perc-2p "0.529",
+  :ft-perc "0.891",
+  :ast-perc "6.1",
+  :usage-rate "15.3"}
+ {:orb-perc "6.4",
+  :dbpm "0.1",
+  :drb-perc "18.6",
+  :name "Jabari Smith Jr.",
+  :ftr "0.223",
+  :ast-perc-3p "0.969",
+  :shot-dist-3p "0.489",
+  :per "12.6",
+  :shot-dist-2p "0.511",
+  :obpm "-0.8",
+  :tov-pct "8.9",
+  :ast-perc-2p "0.567",
+  :fg-perc-3p "0.354",
+  :fg-perc-2p "0.519",
+  :ft-perc "0.825",
+  :ast-perc "4.7",
+  :usage-rate "16.4"}
+ {:orb-perc "3.3",
+  :dbpm "0",
+  :drb-perc "9.2",
+  :name "Moses Moody",
+  :ftr "0.234",
+  :ast-perc-3p "0.968",
+  :shot-dist-3p "0.593",
+  :per "12.4",
+  :shot-dist-2p "0.407",
+  :obpm "-0.9",
+  :tov-pct "7.9",
+  :ast-perc-2p "0.667",
+  :fg-perc-3p "0.374",
+  :fg-perc-2p "0.519",
+  :ft-perc "0.797",
+  :ast-perc "8.3",
+  :usage-rate "17.4"}
+ {:orb-perc "6.1",
+  :dbpm "0.7",
+  :drb-perc "20.3",
+  :name "Santi Aldama",
+  :ftr "0.145",
+  :ast-perc-3p "0.967",
+  :shot-dist-3p "0.503",
+  :per "16.8",
+  :shot-dist-2p "0.497",
+  :obpm "2.5",
+  :tov-pct "9.3",
+  :ast-perc-2p "0.642",
+  :fg-perc-3p "0.368",
+  :fg-perc-2p "0.599",
+  :ft-perc "0.691",
+  :ast-perc "15.2",
+  :usage-rate "18.5"}
+ {:orb-perc "2.5",
+  :dbpm "-1",
+  :drb-perc "11.3",
+  :name "Grayson Allen",
+  :ftr "0.233",
+  :ast-perc-3p "0.966",
+  :shot-dist-3p "0.716",
+  :per "13.7",
+  :shot-dist-2p "0.284",
+  :obpm "0.7",
+  :tov-pct "12.2",
+  :ast-perc-2p "0.7",
+  :fg-perc-3p "0.426",
+  :fg-perc-2p "0.504",
+  :ft-perc "0.816",
+  :ast-perc "12.5",
+  :usage-rate "17.6"}
+ {:orb-perc "4.1",
+  :dbpm "-0.1",
+  :drb-perc "18.7",
+  :name "Obi Toppin",
+  :ftr "0.19",
+  :ast-perc-3p "0.964",
+  :shot-dist-3p "0.503",
+  :per "17.4",
+  :shot-dist-2p "0.497",
+  :obpm "1.8",
+  :tov-pct "9.5",
+  :ast-perc-2p "0.758",
+  :fg-perc-3p "0.365",
+  :fg-perc-2p "0.695",
+  :ft-perc "0.781",
+  :ast-perc "11.9",
+  :usage-rate "20.1"}
+ {:orb-perc "1.8",
+  :dbpm "-0.3",
+  :drb-perc "10",
+  :name "Jerami Grant",
+  :ftr "0.289",
+  :ast-perc-3p "0.963",
+  :shot-dist-3p "0.516",
+  :per "10.9",
+  :shot-dist-2p "0.484",
+  :obpm "-1.4",
+  :tov-pct "9.1",
+  :ast-perc-2p "0.519",
+  :fg-perc-3p "0.365",
+  :fg-perc-2p "0.381",
+  :ft-perc "0.849",
+  :ast-perc "9.5",
+  :usage-rate "19.4"}
+ {:orb-perc "3.3",
+  :dbpm "0",
+  :drb-perc "9.1",
+  :name "Dillon Brooks",
+  :ftr "0.135",
+  :ast-perc-3p "0.962",
+  :shot-dist-3p "0.524",
+  :per "11",
+  :shot-dist-2p "0.476",
+  :obpm "-1.4",
+  :tov-pct "7.4",
+  :ast-perc-2p "0.444",
+  :fg-perc-3p "0.397",
+  :fg-perc-2p "0.465",
+  :ft-perc "0.818",
+  :ast-perc "7.4",
+  :usage-rate "17.7"}
+ {:orb-perc "3.3",
+  :dbpm "-0.1",
+  :drb-perc "17.5",
+  :name "Royce O'Neale",
+  :ftr "0.046",
+  :ast-perc-3p "0.961",
+  :shot-dist-3p "0.774",
+  :per "12.6",
+  :shot-dist-2p "0.226",
+  :obpm "0.2",
+  :tov-pct "10.1",
+  :ast-perc-2p "0.71",
+  :fg-perc-3p "0.406",
+  :fg-perc-2p "0.481",
+  :ft-perc "0.731",
+  :ast-perc "12.3",
+  :usage-rate "15.5"}
+ {:orb-perc "4.9",
+  :dbpm "-0.6",
+  :drb-perc "12.6",
+  :name "Rui Hachimura",
+  :ftr "0.196",
+  :ast-perc-3p "0.961",
+  :shot-dist-3p "0.429",
+  :per "13.6",
+  :shot-dist-2p "0.571",
+  :obpm "-0.1",
+  :tov-pct "7.3",
+  :ast-perc-2p "0.817",
+  :fg-perc-3p "0.413",
+  :fg-perc-2p "0.581",
+  :ft-perc "0.77",
+  :ast-perc "6.4",
+  :usage-rate "15.8"}
+ {:orb-perc "9",
+  :dbpm "2.6",
+  :drb-perc "18.2",
+  :name "Amen Thompson",
+  :ftr "0.354",
+  :ast-perc-3p "0.96",
+  :shot-dist-3p "0.131",
+  :per "18.7",
+  :shot-dist-2p "0.869",
+  :obpm "1.4",
+  :tov-pct "14.6",
+  :ast-perc-2p "0.523",
+  :fg-perc-3p "0.275",
+  :fg-perc-2p "0.599",
+  :ft-perc "0.684",
+  :ast-perc "16.9",
+  :usage-rate "17.5"}
+ {:orb-perc "3.7",
+  :dbpm "0.2",
+  :drb-perc "11.4",
+  :name "Ochai Agbaji",
+  :ftr "0.09",
+  :ast-perc-3p "0.96",
+  :shot-dist-3p "0.474",
+  :per "12",
+  :shot-dist-2p "0.526",
+  :obpm "-0.9",
+  :tov-pct "8.9",
+  :ast-perc-2p "0.794",
+  :fg-perc-3p "0.399",
+  :fg-perc-2p "0.587",
+  :ft-perc "0.708",
+  :ast-perc "7.9",
+  :usage-rate "14.6"}
+ {:orb-perc "4.7",
+  :dbpm "0.8",
+  :drb-perc "10.3",
+  :name "Luguentz Dort",
+  :ftr "0.078",
+  :ast-perc-3p "0.959",
+  :shot-dist-3p "0.696",
+  :per "11.3",
+  :shot-dist-2p "0.304",
+  :obpm "-0.6",
+  :tov-pct "7.7",
+  :ast-perc-2p "0.67",
+  :fg-perc-3p "0.412",
+  :fg-perc-2p "0.489",
+  :ft-perc "0.717",
+  :ast-perc "6.9",
+  :usage-rate "13.6"}
+ {:orb-perc "2.7",
+  :dbpm "-0.9",
+  :drb-perc "7",
+  :name "Mikal Bridges",
+  :ftr "0.1",
+  :ast-perc-3p "0.957",
+  :shot-dist-3p "0.391",
+  :per "14",
+  :shot-dist-2p "0.609",
+  :obpm "0.4",
+  :tov-pct "9.7",
+  :ast-perc-2p "0.682",
+  :fg-perc-3p "0.354",
+  :fg-perc-2p "0.594",
+  :ft-perc "0.814",
+  :ast-perc "14.4",
+  :usage-rate "19.6"}
+ {:orb-perc "2",
+  :dbpm "-0.5",
+  :drb-perc "11.2",
+  :name "Max Christie",
+  :ftr "0.258",
+  :ast-perc-3p "0.957",
+  :shot-dist-3p "0.532",
+  :per "10.4",
+  :shot-dist-2p "0.468",
+  :obpm "-2.1",
+  :tov-pct "11.8",
+  :ast-perc-2p "0.606",
+  :fg-perc-3p "0.366",
+  :fg-perc-2p "0.496",
+  :ft-perc "0.855",
+  :ast-perc "9.2",
+  :usage-rate "15.2"}
+ {:orb-perc "7.2",
+  :dbpm "0.8",
+  :drb-perc "12.1",
+  :name "Toumani Camara",
+  :ftr "0.176",
+  :ast-perc-3p "0.956",
+  :shot-dist-3p "0.503",
+  :per "12.5",
+  :shot-dist-2p "0.497",
+  :obpm "-0.9",
+  :tov-pct "12.4",
+  :ast-perc-2p "0.658",
+  :fg-perc-3p "0.375",
+  :fg-perc-2p "0.542",
+  :ft-perc "0.722",
+  :ast-perc "9.6",
+  :usage-rate "14.4"}
+ ...]
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/load-players
+clj꞉basket-sim.core꞉> 
+[{:orb-perc 16.6,
+  :dbpm 0.7,
+  :drb-perc 27.1,
+  :name "Walker Kessler",
+  :ftr 0.363,
+  :ast-perc-3p 1.0,
+  :shot-dist-3p 0.081,
+  :per 20.0,
+  :shot-dist-2p 0.919,
+  :obpm 1.1,
+  :tov-pct 15.0,
+  :ast-perc-2p 0.618,
+  :fg-perc-3p 0.176,
+  :fg-perc-2p 0.706,
+  :ft-perc 0.52,
+  :ast-perc 8.3,
+  :usage-rate 13.7}
+ {:orb-perc 13.3,
+  :dbpm -0.1,
+  :drb-perc 30.7,
+  :name "Jonas Valančiūnas",
+  :ftr 0.263,
+  :ast-perc-3p 1.0,
+  :shot-dist-3p 0.059,
+  :per 20.8,
+  :shot-dist-2p 0.941,
+  :obpm 0.8,
+  :tov-pct 14.6,
+  :ast-perc-2p 0.573,
+  :fg-perc-3p 0.216,
+  :fg-perc-2p 0.571,
+  :ft-perc 0.879,
+  :ast-perc 17.6,
+  :usage-rate 22.8}
+ {:orb-perc 9.4,
+  :dbpm 0.9,
+  :drb-perc 23.4,
+  :name "Wendell Carter Jr.",
+  :ftr 0.356,
+  :ast-perc-3p 1.0,
+  :shot-dist-3p 0.322,
+  :per 13.7,
+  :shot-dist-2p 0.678,
+  :obpm -2.2,
+  :tov-pct 11.9,
+  :ast-perc-2p 0.757,
+  :fg-perc-3p 0.234,
+  :fg-perc-2p 0.568,
+  :ft-perc 0.737,
+  :ast-perc 11.5,
+  :usage-rate 16.0}
+ {:orb-perc 9.0,
+  :dbpm 1.5,
+  :drb-perc 22.7,
+  :name "Nic Claxton",
+  :ftr 0.271,
+  :ast-perc-3p 1.0,
+  :shot-dist-3p 0.037,
+  :per 16.5,
+  :shot-dist-2p 0.963,
+  :obpm -1.1,
+  :tov-pct 12.0,
+  :ast-perc-2p 0.673,
+  :fg-perc-3p 0.238,
+  :fg-perc-2p 0.576,
+  :ft-perc 0.513,
+  :ast-perc 13.7,
+  :usage-rate 16.8}
+ {:orb-perc 4.4,
+  :dbpm -0.5,
+  :drb-perc 14.0,
+  :name "Naji Marshall",
+  :ftr 0.225,
+  :ast-perc-3p 1.0,
+  :shot-dist-3p 0.306,
+  :per 15.1,
+  :shot-dist-2p 0.694,
+  :obpm -0.3,
+  :tov-pct 12.5,
+  :ast-perc-2p 0.483,
+  :fg-perc-3p 0.275,
+  :fg-perc-2p 0.611,
+  :ft-perc 0.813,
+  :ast-perc 15.8,
+  :usage-rate 20.0}
+ {:orb-perc 11.4,
+  :dbpm 0.2,
+  :drb-perc 24.0,
+  :name "Onyeka Okongwu",
+  :ftr 0.316,
+  :ast-perc-3p 1.0,
+  :shot-dist-3p 0.216,
+  :per 19.0,
+  :shot-dist-2p 0.784,
+  :obpm 1.2,
+  :tov-pct 10.4,
+  :ast-perc-2p 0.768,
+  :fg-perc-3p 0.324,
+  :fg-perc-2p 0.634,
+  :ft-perc 0.759,
+  :ast-perc 11.4,
+  :usage-rate 17.3}
+ {:orb-perc 11.7,
+  :dbpm 1.3,
+  :drb-perc 23.3,
+  :name "Jakob Poeltl",
+  :ftr 0.249,
+  :ast-perc-3p 1.0,
+  :shot-dist-3p 0.005,
+  :per 20.0,
+  :shot-dist-2p 0.995,
+  :obpm 0.7,
+  :tov-pct 14.7,
+  :ast-perc-2p 0.746,
+  :fg-perc-3p 0.333,
+  :fg-perc-2p 0.628,
+  :ft-perc 0.674,
+  :ast-perc 14.5,
+  :usage-rate 18.7}
+ {:orb-perc 4.0,
+  :dbpm -1.3,
+  :drb-perc 11.4,
+  :name "Jalen Wilson",
+  :ftr 0.266,
+  :ast-perc-3p 1.0,
+  :shot-dist-3p 0.584,
+  :per 9.5,
+  :shot-dist-2p 0.416,
+  :obpm -2.6,
+  :tov-pct 10.2,
+  :ast-perc-2p 0.597,
+  :fg-perc-3p 0.337,
+  :fg-perc-2p 0.481,
+  :ft-perc 0.818,
+  :ast-perc 10.8,
+  :usage-rate 16.6}
+ {:orb-perc 5.7,
+  :dbpm 0.7,
+  :drb-perc 10.1,
+  :name "Derrick Jones Jr.",
+  :ftr 0.2,
+  :ast-perc-3p 1.0,
+  :shot-dist-3p 0.372,
+  :per 13.5,
+  :shot-dist-2p 0.628,
+  :obpm -1.0,
+  :tov-pct 9.3,
+  :ast-perc-2p 0.741,
+  :fg-perc-3p 0.356,
+  :fg-perc-2p 0.627,
+  :ft-perc 0.703,
+  :ast-perc 4.6,
+  :usage-rate 16.5}
+ {:orb-perc 7.7,
+  :dbpm -1.1,
+  :drb-perc 16.3,
+  :name "Guerschon Yabusele",
+  :ftr 0.245,
+  :ast-perc-3p 1.0,
+  :shot-dist-3p 0.487,
+  :per 14.7,
+  :shot-dist-2p 0.513,
+  :obpm 0.1,
+  :tov-pct 12.2,
+  :ast-perc-2p 0.725,
+  :fg-perc-3p 0.38,
+  :fg-perc-2p 0.616,
+  :ft-perc 0.725,
+  :ast-perc 11.6,
+  :usage-rate 16.3}
+ {:orb-perc 8.3,
+  :dbpm 0.1,
+  :drb-perc 25.2,
+  :name "Nikola Vučević",
+  :ftr 0.144,
+  :ast-perc-3p 0.992,
+  :shot-dist-3p 0.309,
+  :per 20.3,
+  :shot-dist-2p 0.691,
+  :obpm 2.5,
+  :tov-pct 9.7,
+  :ast-perc-2p 0.758,
+  :fg-perc-3p 0.402,
+  :fg-perc-2p 0.587,
+  :ft-perc 0.805,
+  :ast-perc 17.1,
+  :usage-rate 22.4}
+ {:orb-perc 5.0,
+  :dbpm 0.1,
+  :drb-perc 10.4,
+  :name "Dorian Finney-Smith",
+  :ftr 0.103,
+  :ast-perc-3p 0.992,
+  :shot-dist-3p 0.722,
+  :per 10.1,
+  :shot-dist-2p 0.278,
+  :obpm -1.1,
+  :tov-pct 11.0,
+  :ast-perc-2p 0.697,
+  :fg-perc-3p 0.411,
+  :fg-perc-2p 0.545,
+  :ft-perc 0.667,
+  :ast-perc 6.9,
+  :usage-rate 12.3}
+ {:orb-perc 5.2,
+  :dbpm 1.1,
+  :drb-perc 18.9,
+  :name "Al Horford",
+  :ftr 0.082,
+  :ast-perc-3p 0.991,
+  :shot-dist-3p 0.681,
+  :per 12.9,
+  :shot-dist-2p 0.319,
+  :obpm 0.1,
+  :tov-pct 8.8,
+  :ast-perc-2p 0.827,
+  :fg-perc-3p 0.363,
+  :fg-perc-2p 0.551,
+  :ft-perc 0.895,
+  :ast-perc 10.4,
+  :usage-rate 13.8}
+ {:orb-perc 3.9,
+  :dbpm 2.8,
+  :drb-perc 19.0,
+  :name "Draymond Green",
+  :ftr 0.289,
+  :ast-perc-3p 0.988,
+  :shot-dist-3p 0.483,
+  :per 12.4,
+  :shot-dist-2p 0.517,
+  :obpm -2.3,
+  :tov-pct 23.3,
+  :ast-perc-2p 0.809,
+  :fg-perc-3p 0.325,
+  :fg-perc-2p 0.517,
+  :ft-perc 0.687,
+  :ast-perc 26.2,
+  :usage-rate 15.9}
+ {:orb-perc 3.1,
+  :dbpm -1.2,
+  :drb-perc 14.3,
+  :name "Georges Niang",
+  :ftr 0.094,
+  :ast-perc-3p 0.988,
+  :shot-dist-3p 0.66,
+  :per 11.2,
+  :shot-dist-2p 0.34,
+  :obpm -1.1,
+  :tov-pct 11.3,
+  :ast-perc-2p 0.833,
+  :fg-perc-3p 0.406,
+  :fg-perc-2p 0.569,
+  :ft-perc 0.793,
+  :ast-perc 8.8,
+  :usage-rate 17.9}
+ {:orb-perc 6.3,
+  :dbpm -0.8,
+  :drb-perc 15.5,
+  :name "Keegan Murray",
+  :ftr 0.088,
+  :ast-perc-3p 0.987,
+  :shot-dist-3p 0.548,
+  :per 12.0,
+  :shot-dist-2p 0.452,
+  :obpm -0.8,
+  :tov-pct 6.6,
+  :ast-perc-2p 0.652,
+  :fg-perc-3p 0.343,
+  :fg-perc-2p 0.566,
+  :ft-perc 0.833,
+  :ast-perc 5.6,
+  :usage-rate 15.0}
+ {:orb-perc 4.1,
+  :dbpm 2.6,
+  :drb-perc 8.8,
+  :name "Cason Wallace",
+  :ftr 0.076,
+  :ast-perc-3p 0.986,
+  :shot-dist-3p 0.425,
+  :per 12.3,
+  :shot-dist-2p 0.575,
+  :obpm -1.5,
+  :tov-pct 10.5,
+  :ast-perc-2p 0.563,
+  :fg-perc-3p 0.356,
+  :fg-perc-2p 0.562,
+  :ft-perc 0.811,
+  :ast-perc 11.5,
+  :usage-rate 12.8}
+ {:orb-perc 5.0,
+  :dbpm 0.4,
+  :drb-perc 11.8,
+  :name "Brook Lopez",
+  :ftr 0.178,
+  :ast-perc-3p 0.986,
+  :shot-dist-3p 0.482,
+  :per 14.8,
+  :shot-dist-2p 0.518,
+  :obpm 0.4,
+  :tov-pct 9.1,
+  :ast-perc-2p 0.745,
+  :fg-perc-3p 0.373,
+  :fg-perc-2p 0.636,
+  :ft-perc 0.826,
+  :ast-perc 7.8,
+  :usage-rate 15.8}
+ {:orb-perc 2.9,
+  :dbpm 0.4,
+  :drb-perc 11.1,
+  :name "Nickeil Alexander-Walker",
+  :ftr 0.192,
+  :ast-perc-3p 0.986,
+  :shot-dist-3p 0.601,
+  :per 11.6,
+  :shot-dist-2p 0.399,
+  :obpm -0.8,
+  :tov-pct 12.9,
+  :ast-perc-2p 0.612,
+  :fg-perc-3p 0.381,
+  :fg-perc-2p 0.524,
+  :ft-perc 0.78,
+  :ast-perc 15.0,
+  :usage-rate 16.0}
+ {:orb-perc 1.8,
+  :dbpm 0.3,
+  :drb-perc 12.2,
+  :name "Taurean Prince",
+  :ftr 0.093,
+  :ast-perc-3p 0.986,
+  :shot-dist-3p 0.652,
+  :per 9.8,
+  :shot-dist-2p 0.348,
+  :obpm -2.0,
+  :tov-pct 13.3,
+  :ast-perc-2p 0.773,
+  :fg-perc-3p 0.439,
+  :fg-perc-2p 0.492,
+  :ft-perc 0.813,
+  :ast-perc 9.4,
+  :usage-rate 12.5}
+ {:orb-perc 12.3,
+  :dbpm 1.1,
+  :drb-perc 32.6,
+  :name "Domantas Sabonis",
+  :ftr 0.324,
+  :ast-perc-3p 0.985,
+  :shot-dist-3p 0.175,
+  :per 22.9,
+  :shot-dist-2p 0.825,
+  :obpm 4.2,
+  :tov-pct 16.5,
+  :ast-perc-2p 0.63,
+  :fg-perc-3p 0.417,
+  :fg-perc-2p 0.627,
+  :ft-perc 0.754,
+  :ast-perc 26.0,
+  :usage-rate 21.6}
+ {:orb-perc 4.3,
+  :dbpm -0.1,
+  :drb-perc 17.5,
+  :name "Ziaire Williams",
+  :ftr 0.237,
+  :ast-perc-3p 0.981,
+  :shot-dist-3p 0.581,
+  :per 11.9,
+  :shot-dist-2p 0.419,
+  :obpm -2.2,
+  :tov-pct 10.5,
+  :ast-perc-2p 0.631,
+  :fg-perc-3p 0.341,
+  :fg-perc-2p 0.509,
+  :ft-perc 0.821,
+  :ast-perc 8.5,
+  :usage-rate 18.2}
+ {:orb-perc 4.7,
+  :dbpm 0.4,
+  :drb-perc 19.4,
+  :name "Myles Turner",
+  :ftr 0.293,
+  :ast-perc-3p 0.981,
+  :shot-dist-3p 0.486,
+  :per 16.1,
+  :shot-dist-2p 0.514,
+  :obpm 0.0,
+  :tov-pct 11.8,
+  :ast-perc-2p 0.846,
+  :fg-perc-3p 0.396,
+  :fg-perc-2p 0.561,
+  :ft-perc 0.773,
+  :ast-perc 7.1,
+  :usage-rate 20.7}
+ {:orb-perc 4.7,
+  :dbpm -1.7,
+  :drb-perc 10.3,
+  :name "Harrison Barnes",
+  :ftr 0.291,
+  :ast-perc-3p 0.981,
+  :shot-dist-3p 0.527,
+  :per 14.9,
+  :shot-dist-2p 0.473,
+  :obpm 1.7,
+  :tov-pct 6.1,
+  :ast-perc-2p 0.586,
+  :fg-perc-3p 0.433,
+  :fg-perc-2p 0.591,
+  :ft-perc 0.809,
+  :ast-perc 8.6,
+  :usage-rate 15.7}
+ {:orb-perc 3.3,
+  :dbpm 0.3,
+  :drb-perc 11.8,
+  :name "Peyton Watson",
+  :ftr 0.32,
+  :ast-perc-3p 0.979,
+  :shot-dist-3p 0.318,
+  :per 11.4,
+  :shot-dist-2p 0.682,
+  :obpm -2.1,
+  :tov-pct 10.3,
+  :ast-perc-2p 0.801,
+  :fg-perc-3p 0.353,
+  :fg-perc-2p 0.534,
+  :ft-perc 0.693,
+  :ast-perc 7.0,
+  :usage-rate 13.9}
+ {:orb-perc 3.9,
+  :dbpm -0.5,
+  :drb-perc 15.2,
+  :name "Matas Buzelis",
+  :ftr 0.195,
+  :ast-perc-3p 0.979,
+  :shot-dist-3p 0.479,
+  :per 12.5,
+  :shot-dist-2p 0.521,
+  :obpm -2.0,
+  :tov-pct 10.9,
+  :ast-perc-2p 0.699,
+  :fg-perc-3p 0.361,
+  :fg-perc-2p 0.54,
+  :ft-perc 0.815,
+  :ast-perc 7.2,
+  :usage-rate 18.7}
+ {:orb-perc 3.1,
+  :dbpm 0.2,
+  :drb-perc 6.7,
+  :name "Josh Green",
+  :ftr 0.171,
+  :ast-perc-3p 0.979,
+  :shot-dist-3p 0.589,
+  :per 7.8,
+  :shot-dist-2p 0.411,
+  :obpm -4.5,
+  :tov-pct 13.4,
+  :ast-perc-2p 0.614,
+  :fg-perc-3p 0.391,
+  :fg-perc-2p 0.48,
+  :ft-perc 0.681,
+  :ast-perc 8.2,
+  :usage-rate 11.8}
+ {:orb-perc 4.4,
+  :dbpm 0.9,
+  :drb-perc 10.8,
+  :name "Haywood Highsmith",
+  :ftr 0.11,
+  :ast-perc-3p 0.978,
+  :shot-dist-3p 0.596,
+  :per 9.9,
+  :shot-dist-2p 0.404,
+  :obpm -2.7,
+  :tov-pct 11.6,
+  :ast-perc-2p 0.667,
+  :fg-perc-3p 0.382,
+  :fg-perc-2p 0.57,
+  :ft-perc 0.721,
+  :ast-perc 8.4,
+  :usage-rate 11.3}
+ {:orb-perc 4.1,
+  :dbpm 1.8,
+  :drb-perc 12.1,
+  :name "Scotty Pippen Jr.",
+  :ftr 0.288,
+  :ast-perc-3p 0.977,
+  :shot-dist-3p 0.369,
+  :per 15.8,
+  :shot-dist-2p 0.631,
+  :obpm 0.0,
+  :tov-pct 17.1,
+  :ast-perc-2p 0.5,
+  :fg-perc-3p 0.397,
+  :fg-perc-2p 0.528,
+  :ft-perc 0.713,
+  :ast-perc 27.1,
+  :usage-rate 19.3}
+ {:orb-perc 5.9,
+  :dbpm -0.5,
+  :drb-perc 17.6,
+  :name "Pascal Siakam",
+  :ftr 0.261,
+  :ast-perc-3p 0.976,
+  :shot-dist-3p 0.274,
+  :per 19.2,
+  :shot-dist-2p 0.726,
+  :obpm 2.2,
+  :tov-pct 7.6,
+  :ast-perc-2p 0.589,
+  :fg-perc-3p 0.389,
+  :fg-perc-2p 0.568,
+  :ft-perc 0.734,
+  :ast-perc 15.7,
+  :usage-rate 24.2}
+ {:orb-perc 5.0,
+  :dbpm -1.8,
+  :drb-perc 11.1,
+  :name "Zaccharie Risacher",
+  :ftr 0.191,
+  :ast-perc-3p 0.975,
+  :shot-dist-3p 0.442,
+  :per 12.2,
+  :shot-dist-2p 0.558,
+  :obpm -1.7,
+  :tov-pct 9.8,
+  :ast-perc-2p 0.732,
+  :fg-perc-3p 0.355,
+  :fg-perc-2p 0.54,
+  :ft-perc 0.711,
+  :ast-perc 7.1,
+  :usage-rate 20.9}
+ {:orb-perc 5.1,
+  :dbpm -0.6,
+  :drb-perc 15.4,
+  :name "Kelly Oubre Jr.",
+  :ftr 0.25,
+  :ast-perc-3p 0.972,
+  :shot-dist-3p 0.327,
+  :per 13.5,
+  :shot-dist-2p 0.673,
+  :obpm -1.7,
+  :tov-pct 8.9,
+  :ast-perc-2p 0.534,
+  :fg-perc-3p 0.293,
+  :fg-perc-2p 0.555,
+  :ft-perc 0.751,
+  :ast-perc 7.9,
+  :usage-rate 18.9}
+ {:orb-perc 3.7,
+  :dbpm -0.9,
+  :drb-perc 13.9,
+  :name "Julian Champagnie",
+  :ftr 0.141,
+  :ast-perc-3p 0.972,
+  :shot-dist-3p 0.722,
+  :per 12.2,
+  :shot-dist-2p 0.278,
+  :obpm -0.3,
+  :tov-pct 9.5,
+  :ast-perc-2p 0.735,
+  :fg-perc-3p 0.371,
+  :fg-perc-2p 0.53,
+  :ft-perc 0.904,
+  :ast-perc 7.9,
+  :usage-rate 17.2}
+ {:orb-perc 9.8,
+  :dbpm 0.1,
+  :drb-perc 32.0,
+  :name "Karl-Anthony Towns",
+  :ftr 0.337,
+  :ast-perc-3p 0.972,
+  :shot-dist-3p 0.278,
+  :per 23.4,
+  :shot-dist-2p 0.722,
+  :obpm 3.5,
+  :tov-pct 12.1,
+  :ast-perc-2p 0.586,
+  :fg-perc-3p 0.42,
+  :fg-perc-2p 0.567,
+  :ft-perc 0.829,
+  :ast-perc 13.8,
+  :usage-rate 27.4}
+ {:orb-perc 2.1,
+  :dbpm -0.2,
+  :drb-perc 8.2,
+  :name "Amir Coffey",
+  :ftr 0.253,
+  :ast-perc-3p 0.97,
+  :shot-dist-3p 0.484,
+  :per 11.2,
+  :shot-dist-2p 0.516,
+  :obpm -1.5,
+  :tov-pct 7.4,
+  :ast-perc-2p 0.683,
+  :fg-perc-3p 0.409,
+  :fg-perc-2p 0.529,
+  :ft-perc 0.891,
+  :ast-perc 6.1,
+  :usage-rate 15.3}
+ {:orb-perc 6.4,
+  :dbpm 0.1,
+  :drb-perc 18.6,
+  :name "Jabari Smith Jr.",
+  :ftr 0.223,
+  :ast-perc-3p 0.969,
+  :shot-dist-3p 0.489,
+  :per 12.6,
+  :shot-dist-2p 0.511,
+  :obpm -0.8,
+  :tov-pct 8.9,
+  :ast-perc-2p 0.567,
+  :fg-perc-3p 0.354,
+  :fg-perc-2p 0.519,
+  :ft-perc 0.825,
+  :ast-perc 4.7,
+  :usage-rate 16.4}
+ {:orb-perc 3.3,
+  :dbpm 0.0,
+  :drb-perc 9.2,
+  :name "Moses Moody",
+  :ftr 0.234,
+  :ast-perc-3p 0.968,
+  :shot-dist-3p 0.593,
+  :per 12.4,
+  :shot-dist-2p 0.407,
+  :obpm -0.9,
+  :tov-pct 7.9,
+  :ast-perc-2p 0.667,
+  :fg-perc-3p 0.374,
+  :fg-perc-2p 0.519,
+  :ft-perc 0.797,
+  :ast-perc 8.3,
+  :usage-rate 17.4}
+ {:orb-perc 6.1,
+  :dbpm 0.7,
+  :drb-perc 20.3,
+  :name "Santi Aldama",
+  :ftr 0.145,
+  :ast-perc-3p 0.967,
+  :shot-dist-3p 0.503,
+  :per 16.8,
+  :shot-dist-2p 0.497,
+  :obpm 2.5,
+  :tov-pct 9.3,
+  :ast-perc-2p 0.642,
+  :fg-perc-3p 0.368,
+  :fg-perc-2p 0.599,
+  :ft-perc 0.691,
+  :ast-perc 15.2,
+  :usage-rate 18.5}
+ {:orb-perc 2.5,
+  :dbpm -1.0,
+  :drb-perc 11.3,
+  :name "Grayson Allen",
+  :ftr 0.233,
+  :ast-perc-3p 0.966,
+  :shot-dist-3p 0.716,
+  :per 13.7,
+  :shot-dist-2p 0.284,
+  :obpm 0.7,
+  :tov-pct 12.2,
+  :ast-perc-2p 0.7,
+  :fg-perc-3p 0.426,
+  :fg-perc-2p 0.504,
+  :ft-perc 0.816,
+  :ast-perc 12.5,
+  :usage-rate 17.6}
+ {:orb-perc 4.1,
+  :dbpm -0.1,
+  :drb-perc 18.7,
+  :name "Obi Toppin",
+  :ftr 0.19,
+  :ast-perc-3p 0.964,
+  :shot-dist-3p 0.503,
+  :per 17.4,
+  :shot-dist-2p 0.497,
+  :obpm 1.8,
+  :tov-pct 9.5,
+  :ast-perc-2p 0.758,
+  :fg-perc-3p 0.365,
+  :fg-perc-2p 0.695,
+  :ft-perc 0.781,
+  :ast-perc 11.9,
+  :usage-rate 20.1}
+ {:orb-perc 1.8,
+  :dbpm -0.3,
+  :drb-perc 10.0,
+  :name "Jerami Grant",
+  :ftr 0.289,
+  :ast-perc-3p 0.963,
+  :shot-dist-3p 0.516,
+  :per 10.9,
+  :shot-dist-2p 0.484,
+  :obpm -1.4,
+  :tov-pct 9.1,
+  :ast-perc-2p 0.519,
+  :fg-perc-3p 0.365,
+  :fg-perc-2p 0.381,
+  :ft-perc 0.849,
+  :ast-perc 9.5,
+  :usage-rate 19.4}
+ {:orb-perc 3.3,
+  :dbpm 0.0,
+  :drb-perc 9.1,
+  :name "Dillon Brooks",
+  :ftr 0.135,
+  :ast-perc-3p 0.962,
+  :shot-dist-3p 0.524,
+  :per 11.0,
+  :shot-dist-2p 0.476,
+  :obpm -1.4,
+  :tov-pct 7.4,
+  :ast-perc-2p 0.444,
+  :fg-perc-3p 0.397,
+  :fg-perc-2p 0.465,
+  :ft-perc 0.818,
+  :ast-perc 7.4,
+  :usage-rate 17.7}
+ {:orb-perc 3.3,
+  :dbpm -0.1,
+  :drb-perc 17.5,
+  :name "Royce O'Neale",
+  :ftr 0.046,
+  :ast-perc-3p 0.961,
+  :shot-dist-3p 0.774,
+  :per 12.6,
+  :shot-dist-2p 0.226,
+  :obpm 0.2,
+  :tov-pct 10.1,
+  :ast-perc-2p 0.71,
+  :fg-perc-3p 0.406,
+  :fg-perc-2p 0.481,
+  :ft-perc 0.731,
+  :ast-perc 12.3,
+  :usage-rate 15.5}
+ {:orb-perc 4.9,
+  :dbpm -0.6,
+  :drb-perc 12.6,
+  :name "Rui Hachimura",
+  :ftr 0.196,
+  :ast-perc-3p 0.961,
+  :shot-dist-3p 0.429,
+  :per 13.6,
+  :shot-dist-2p 0.571,
+  :obpm -0.1,
+  :tov-pct 7.3,
+  :ast-perc-2p 0.817,
+  :fg-perc-3p 0.413,
+  :fg-perc-2p 0.581,
+  :ft-perc 0.77,
+  :ast-perc 6.4,
+  :usage-rate 15.8}
+ {:orb-perc 9.0,
+  :dbpm 2.6,
+  :drb-perc 18.2,
+  :name "Amen Thompson",
+  :ftr 0.354,
+  :ast-perc-3p 0.96,
+  :shot-dist-3p 0.131,
+  :per 18.7,
+  :shot-dist-2p 0.869,
+  :obpm 1.4,
+  :tov-pct 14.6,
+  :ast-perc-2p 0.523,
+  :fg-perc-3p 0.275,
+  :fg-perc-2p 0.599,
+  :ft-perc 0.684,
+  :ast-perc 16.9,
+  :usage-rate 17.5}
+ {:orb-perc 3.7,
+  :dbpm 0.2,
+  :drb-perc 11.4,
+  :name "Ochai Agbaji",
+  :ftr 0.09,
+  :ast-perc-3p 0.96,
+  :shot-dist-3p 0.474,
+  :per 12.0,
+  :shot-dist-2p 0.526,
+  :obpm -0.9,
+  :tov-pct 8.9,
+  :ast-perc-2p 0.794,
+  :fg-perc-3p 0.399,
+  :fg-perc-2p 0.587,
+  :ft-perc 0.708,
+  :ast-perc 7.9,
+  :usage-rate 14.6}
+ {:orb-perc 4.7,
+  :dbpm 0.8,
+  :drb-perc 10.3,
+  :name "Luguentz Dort",
+  :ftr 0.078,
+  :ast-perc-3p 0.959,
+  :shot-dist-3p 0.696,
+  :per 11.3,
+  :shot-dist-2p 0.304,
+  :obpm -0.6,
+  :tov-pct 7.7,
+  :ast-perc-2p 0.67,
+  :fg-perc-3p 0.412,
+  :fg-perc-2p 0.489,
+  :ft-perc 0.717,
+  :ast-perc 6.9,
+  :usage-rate 13.6}
+ {:orb-perc 2.7,
+  :dbpm -0.9,
+  :drb-perc 7.0,
+  :name "Mikal Bridges",
+  :ftr 0.1,
+  :ast-perc-3p 0.957,
+  :shot-dist-3p 0.391,
+  :per 14.0,
+  :shot-dist-2p 0.609,
+  :obpm 0.4,
+  :tov-pct 9.7,
+  :ast-perc-2p 0.682,
+  :fg-perc-3p 0.354,
+  :fg-perc-2p 0.594,
+  :ft-perc 0.814,
+  :ast-perc 14.4,
+  :usage-rate 19.6}
+ {:orb-perc 2.0,
+  :dbpm -0.5,
+  :drb-perc 11.2,
+  :name "Max Christie",
+  :ftr 0.258,
+  :ast-perc-3p 0.957,
+  :shot-dist-3p 0.532,
+  :per 10.4,
+  :shot-dist-2p 0.468,
+  :obpm -2.1,
+  :tov-pct 11.8,
+  :ast-perc-2p 0.606,
+  :fg-perc-3p 0.366,
+  :fg-perc-2p 0.496,
+  :ft-perc 0.855,
+  :ast-perc 9.2,
+  :usage-rate 15.2}
+ {:orb-perc 7.2,
+  :dbpm 0.8,
+  :drb-perc 12.1,
+  :name "Toumani Camara",
+  :ftr 0.176,
+  :ast-perc-3p 0.956,
+  :shot-dist-3p 0.503,
+  :per 12.5,
+  :shot-dist-2p 0.497,
+  :obpm -0.9,
+  :tov-pct 12.4,
+  :ast-perc-2p 0.658,
+  :fg-perc-3p 0.375,
+  :fg-perc-2p 0.542,
+  :ft-perc 0.722,
+  :ast-perc 9.6,
+  :usage-rate 14.4}
+ ...]
+clj꞉basket-sim.core꞉> 
