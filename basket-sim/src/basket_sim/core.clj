@@ -14,7 +14,7 @@
   (with-open [reader (io/reader filepath)]
     (let [[header & rows] (csv/read-csv reader)
           keys (mapv keyword header)]
-      (mapv (fn [row]
+      (sort #(> (:per %1) (:per %2)) (mapv (fn [row]
               (let [player (zipmap keys row)
                     get-stat (fn [key] (Double/parseDouble (get player key "0.0")))]
                 {:name (get player :Player)
@@ -34,7 +34,7 @@
                  :obpm (get-stat :OBPM)
                  :dbpm (get-stat :DBPM)
                  :per (get-stat :PER▼)}))
-            rows))))
+            rows)))))
 
 (def draft-order [:pg :sg :sf :pf :c :bench :bench :bench :bench :bench])
 
@@ -45,11 +45,15 @@
    :per-cap per-cap
    :current-pick 0
    :turn :team-a
-   :teams {:team-a {:name "Tim 1"
+   :teams {:team-a {:name (do
+                            (println "Unesite ime prvog tima")
+                            (read-line))
                     :on-court {}
                     :bench []
                     :per-left per-cap}
-           :team-b {:name "Tim 2"
+           :team-b {:name (do
+                            (println "Unesite ime drugog tima")
+                            (read-line))
                     :on-court {}
                     :bench []
                     :per-left per-cap}}})
@@ -57,22 +61,72 @@
 
 (defn print-draft-state
   [draft-state]
+  (Thread/sleep 1000)
   (println "Currently picking for team: " (get-in draft-state [:teams (:turn draft-state) :name]))
-  (println "Picking for position: " (nth (:draft-order draft-state) (:current-pick draft-state)))
+  (Thread/sleep 1000)
+  (println "Picking for position: " (nth (:draft-order draft-state) (quot (:current-pick draft-state) 2)))
+  (Thread/sleep 1000)
   (println "Remaining PER: " (get-in draft-state [:teams (:turn draft-state) :per-left]))
+  (Thread/sleep 1000)
   (println "Available players:")
   (doseq [[index player] (map-indexed vector (:available-players draft-state))]
     (println index ". " (:name player) " PER: " (:per player))))
 
 (print-draft-state (initial-draft-state (sort #(> (:per %1) (:per %2)) (load-players player-data-path)) 160))
 
-
-
 ;; Helper function to add the initial box score to a player
 (defn with-initial-box-score [player]
   (assoc player
          :stamina 100.0
          :box-score {:pts 0, :ast 0, :reb 0, :fga 0, :fgm 0, :3pa 0, :3pm 0, :fta 0, :ftm 0, :tov 0}))
+
+(defn apply-per-penalty [team]
+  (let [penalty-fn (fn [p]
+                     (-> p
+                         (update :obpm + (:per-left team))
+                         (update :dbpm + (:per-left team))))]
+    (if (< (:per-left team) 0)
+      (do
+        (println "Applying a penalty to : " (:name team) ". Penalty : " (:per-left team))
+       (-> team
+          (assoc :on-court (into {} (map (fn [[pos p]]
+                                           [pos (penalty-fn p)])
+                                         (:on-court team))))
+          (assoc :bench (mapv penalty-fn (:bench team)))))
+      team)))
+
+(defn run-draft
+  [all-players per-cap]
+  (loop [draft-state (initial-draft-state all-players per-cap)]
+    (if (>= (:current-pick draft-state) (* 2 (count (:draft-order draft-state))))
+      (let [final-teams (:teams draft-state)]
+        (-> final-teams
+            (update :team-a apply-per-penalty)
+            (update :team-b apply-per-penalty)))
+      (let [turn (:turn draft-state)
+            opponent (if (= turn :team-a) :team-b :team-a)
+            current-team (get-in draft-state [:teams turn])
+            current-pick (:current-pick draft-state)
+            draft-round (quot current-pick 2)
+            current-pos (nth (:draft-order draft-state) draft-round)]
+        (print-draft-state draft-state)
+        (println "Pick a player by a number:")
+        (let [player-index (Integer/parseInt (read-line))
+              chosen-player (nth (:available-players draft-state) player-index)]
+          (println "You selected: " (:name chosen-player))
+          (let [new-team (if (= current-pos :bench)
+                           (update current-team :bench conj (with-initial-box-score chosen-player))
+                           (assoc-in current-team [:on-court current-pos] (with-initial-box-score chosen-player)))
+                new-team (update new-team :per-left - (:per chosen-player))
+                new-available (vec (remove #(= % chosen-player) (:available-players draft-state)))]
+            (recur (-> draft-state
+                       (assoc-in [:teams turn] new-team)
+                       (assoc :available-players new-available)
+                       (update :current-pick inc)
+                       (assoc :turn opponent)))))))))
+
+
+(run-draft (load-players player-data-path) 160)
 
 ; Nuggets
 ;(def team-a
@@ -188,16 +242,15 @@
   (let [stamina (:stamina player)
         fatigue-penalty (cond
                           (> stamina 75) 1.0
-                          (> stamina 50) 0.9
-                          (> stamina 25) 0.8
-                          :else          0.7)]
+                          (> stamina 50) 0.85
+                          (> stamina 25) 0.7
+                          :else          0.55)]
     (* shot-percentage fatigue-penalty)))
 
 (defn apply-defense
   "Modifies a players shot percentage based on the defender who's guarding them"
   [player defender shot-percentage] 
-  (let [bpm-difference (- (:obpm player) (:dbpm defender))]
-   (println "The defense penalty is " bpm-difference)
+  (let [bpm-difference (- (:obpm player) (:dbpm defender))] 
    (* shot-percentage (+ 1 (/ bpm-difference 100)))))
 
 ;;Shot simualtion function
@@ -249,14 +302,15 @@
                 (recur (- r weight) remaining)))))))))
 
 ;; Initial game state
-(def initial-game-state
+(defn initial-game-state
+  []
   {:game-clock 720 ; 12 * 60 seconds
    :shot-clock 24
    :quarter 1
    :offense :team-a
    :defense :team-b
    :score {:team-a 0 :team-b 0}
-   :teams {}})
+   :teams (run-draft (load-players player-data-path) 160)})
 
 ;; Possesion time simulation - fix later, add more complex logic to the game
 (defn simulate-possession-time
@@ -273,7 +327,7 @@
 ;; Function that decreases stamina for every possesion played
 (defn update-stamina [on-court-players]
   (into {} (map (fn [[pos p]]
-                  [pos (cond (> (p :stamina) 0) (update p :stamina - 0.5)
+                  [pos (cond (> (p :stamina) 0) (update p :stamina - 0.66)
                              :else p)])
                 on-court-players)))
 
@@ -421,12 +475,12 @@
 (defn print-box-score [game-state]
   (doseq [team-id [:team-a :team-b]]
     (let [team (get-in game-state [:teams team-id])
-          team-fga (reduce + (map (comp :fga :box-score) (vals (:on-court team))))
-          team-fgm (reduce + (map (comp :fgm :box-score) (vals (:on-court team))))
-          team-3pa (reduce + (map (comp :3pa :box-score) (vals (:on-court team))))
-          team-3pm (reduce + (map (comp :3pm :box-score) (vals (:on-court team))))
-          team-fta (reduce + (map (comp :fta :box-score) (vals (:on-court team))))
-          team-ftm (reduce + (map (comp :ftm :box-score) (vals (:on-court team))))
+          team-fga (reduce + (map (comp :fga :box-score) (concat (vals (:on-court team)) (:bench team))))
+          team-fgm (reduce + (map (comp :fgm :box-score) (concat (vals (:on-court team)) (:bench team))))
+          team-3pa (reduce + (map (comp :3pa :box-score) (concat (vals (:on-court team)) (:bench team))))
+          team-3pm (reduce + (map (comp :3pm :box-score) (concat (vals (:on-court team)) (:bench team))))
+          team-fta (reduce + (map (comp :fta :box-score) (concat (vals (:on-court team)) (:bench team))))
+          team-ftm (reduce + (map (comp :ftm :box-score) (concat (vals (:on-court team)) (:bench team))))
           team-fg-pct (if (> team-fga 0) (float (* 100 (/ team-fgm team-fga))) 0)
           team-3p-pct (if (> team-3pa 0) (float (* 100 (/ team-3pm team-3pa))) 0)
           team-ft-pct (if (> team-fta 0) (float (* 100 (/ team-ftm team-fta))) 0)]
@@ -516,8 +570,10 @@
   "Simulates a full game and prints the final box score."
   [& args]
   (println "Simulating game...")
-  (let [final-state (run-game initial-game-state)]
+  (let [final-state (run-game (initial-game-state))]
     (println "\n--- FINAL SCORE ---")
     (println (get-in final-state [:teams :team-a :name]) ":" (get-in final-state [:score :team-a]))
     (println (get-in final-state [:teams :team-a :name]) ":" (get-in final-state [:score :team-b]))
     (print-box-score final-state)))
+
+(-main)
