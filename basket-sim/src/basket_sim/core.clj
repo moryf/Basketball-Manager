@@ -36,8 +36,10 @@
                  :per (get-stat :PER▼)}))
             rows)))))
 
+;; Draft order list
 (def draft-order [:pg :sg :sf :pf :c :bench :bench :bench :bench :bench])
 
+;; Initializing the draft state
 (defn initial-draft-state
   [all-players per-cap]
   {:available-players all-players
@@ -58,7 +60,7 @@
                     :bench []
                     :per-left per-cap}}})
 
-
+;; Function that prints the current draft state
 (defn print-draft-state
   [draft-state]
   (Thread/sleep 1000)
@@ -80,6 +82,7 @@
          :stamina 100.0
          :box-score {:pts 0, :ast 0, :reb 0, :fga 0, :fgm 0, :3pa 0, :3pm 0, :fta 0, :ftm 0, :tov 0}))
 
+;; If a player goes over the PER cap, this function applies the penalty to OBPM and DBPM ratings of their players
 (defn apply-per-penalty [team]
   (let [penalty-fn (fn [p]
                      (-> p
@@ -95,6 +98,8 @@
           (assoc :bench (mapv penalty-fn (:bench team)))))
       team)))
 
+
+;; Function that take the players available and the cap for PER and runs a draft to select the teams
 (defn run-draft
   [all-players per-cap]
   (loop [draft-state (initial-draft-state all-players per-cap)]
