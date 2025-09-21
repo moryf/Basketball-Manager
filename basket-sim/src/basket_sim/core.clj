@@ -48,13 +48,13 @@
    :current-pick 0
    :turn :team-a
    :teams {:team-a {:name (do
-                            (println "Unesite ime prvog tima")
+                            (println "Input the name for the first team")
                             (read-line))
                     :on-court {}
                     :bench []
                     :per-left per-cap}
            :team-b {:name (do
-                            (println "Unesite ime drugog tima")
+                            (println "Input the name for the second team")
                             (read-line))
                     :on-court {}
                     :bench []
@@ -256,7 +256,7 @@
   "Modifies a players shot percentage based on the defender who's guarding them"
   [player defender shot-percentage] 
   (let [bpm-difference (- (:obpm player) (:dbpm defender))] 
-   (* shot-percentage (+ 1 (/ bpm-difference 100)))))
+   (* shot-percentage (+ 1 (* (/ bpm-difference 100) 2)))))
 
 ;;Shot simualtion function
 (defn simulate-shot
