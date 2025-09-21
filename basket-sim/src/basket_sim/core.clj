@@ -327,7 +327,7 @@
 ;; Function that decreases stamina for every possesion played
 (defn update-stamina [on-court-players]
   (into {} (map (fn [[pos p]]
-                  [pos (cond (> (p :stamina) 0) (update p :stamina - 0.66)
+                  [pos (cond (> (p :stamina) 0) (update p :stamina - 0.5)
                              :else p)])
                 on-court-players)))
 
