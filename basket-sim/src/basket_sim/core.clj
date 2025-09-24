@@ -72,7 +72,7 @@
   (Thread/sleep 1000)
   (println "Available players:")
   (doseq [[index player] (map-indexed vector (:available-players draft-state))]
-    (println index ". " (:name player) " PER: " (:per player))))
+    (println index ". " (:name player) " PER: " (:per player) " OBPM: " (:obpm player) " DPBM: " (:dbpm player))))
 
 (print-draft-state (initial-draft-state (sort #(> (:per %1) (:per %2)) (load-players player-data-path)) 160))
 

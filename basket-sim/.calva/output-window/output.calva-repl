@@ -69963,3 +69963,3208 @@ n0
 clj꞉basket-sim.core꞉> 
 #'basket-sim.core/initial-draft-state
 clj꞉basket-sim.core꞉> 
+; Simulating game...
+; Input the name for the first team
+; Input the name for the second team
+; Currently picking for team:  Zvezda
+; Picking for position:  :pg
+; Remaining PER:  160
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Luka Dončić  PER:  24.1
+; 6 .  Karl-Anthony Towns  PER:  23.4
+; 7 .  Domantas Sabonis  PER:  22.9
+; 8 .  LeBron James  PER:  22.7
+; 9 .  Jimmy Butler  PER:  22.4
+; 10 .  Evan Mobley  PER:  22.3
+; 11 .  Ivica Zubac  PER:  22.3
+; 12 .  Jarrett Allen  PER:  22.1
+; 13 .  Tyrese Haliburton  PER:  21.8
+; 14 .  Jayson Tatum  PER:  21.7
+; 15 .  Jalen Brunson  PER:  21.6
+; 16 .  Stephen Curry  PER:  21.5
+; 17 .  Alperen Şengün  PER:  21.4
+; 18 .  Jalen Duren  PER:  21.4
+; 19 .  Damian Lillard  PER:  21.3
+; 20 .  Kevin Durant  PER:  21.2
+; 21 .  Donovan Mitchell  PER:  20.9
+; 22 .  Jonas Valančiūnas  PER:  20.8
+; 23 .  Cade Cunningham  PER:  20.6
+; 24 .  Nikola Vučević  PER:  20.3
+; 25 .  Jalen Williams  PER:  20.3
+; 26 .  Franz Wagner  PER:  20.1
+; 27 .  Anthony Edwards  PER:  20.1
+; 28 .  Walker Kessler  PER:  20.0
+; 29 .  Jakob Poeltl  PER:  20.0
+; 30 .  Paolo Banchero  PER:  20.0
+; 31 .  James Harden  PER:  20.0
+; 32 .  Kyrie Irving  PER:  19.9
+; 33 .  Darius Garland  PER:  19.9
+; 34 .  Tyler Herro  PER:  19.7
+; 35 .  Jaren Jackson Jr.  PER:  19.6
+; 36 .  Tyrese Maxey  PER:  19.5
+; 37 .  Devin Booker  PER:  19.3
+; 38 .  Ja Morant  PER:  19.3
+; 39 .  Pascal Siakam  PER:  19.2
+; 40 .  LaMelo Ball  PER:  19.1
+; 41 .  Onyeka Okongwu  PER:  19.0
+; 42 .  Bam Adebayo  PER:  18.9
+; 43 .  Isaiah Hartenstein  PER:  18.9
+; 44 .  Amen Thompson  PER:  18.7
+; 45 .  De'Aaron Fox  PER:  18.3
+; 46 .  Trae Young  PER:  18.3
+; 47 .  Rudy Gobert  PER:  18.3
+; 48 .  Cameron Johnson  PER:  18.2
+; 49 .  Josh Giddey  PER:  18.1
+; 50 .  Austin Reaves  PER:  18.1
+; 51 .  Desmond Bane  PER:  17.9
+; 52 .  Scottie Barnes  PER:  17.8
+; 53 .  Jaylen Brown  PER:  17.8
+; 54 .  Jamal Murray  PER:  17.8
+; 55 .  Miles Bridges  PER:  17.7
+; 56 .  DeMar DeRozan  PER:  17.7
+; 57 .  Deni Avdija  PER:  17.7
+; 58 .  Payton Pritchard  PER:  17.6
+; 59 .  Julius Randle  PER:  17.5
+; 60 .  Norman Powell  PER:  17.5
+; 61 .  Obi Toppin  PER:  17.4
+; 62 .  Trey Murphy III  PER:  17.3
+; 63 .  Zach LaVine  PER:  17.3
+; 64 .  Santi Aldama  PER:  16.8
+; 65 .  Derrick White  PER:  16.6
+; 66 .  Collin Sexton  PER:  16.6
+; 67 .  Jordan Poole  PER:  16.6
+; 68 .  Nic Claxton  PER:  16.5
+; 69 .  RJ Barrett  PER:  16.5
+; 70 .  Josh Hart  PER:  16.5
+; 71 .  Andrew Wiggins  PER:  16.4
+; 72 .  Michael Porter Jr.  PER:  16.2
+; 73 .  Myles Turner  PER:  16.1
+; 74 .  Aaron Wiggins  PER:  16.1
+; 75 .  Christian Braun  PER:  16.0
+; 76 .  De'Andre Hunter  PER:  15.9
+; 77 .  Quentin Grimes  PER:  15.9
+; 78 .  Scotty Pippen Jr.  PER:  15.8
+; 79 .  Naz Reid  PER:  15.8
+; 80 .  CJ McCollum  PER:  15.8
+; 81 .  Dyson Daniels  PER:  15.6
+; 82 .  Keldon Johnson  PER:  15.6
+; 83 .  Coby White  PER:  15.5
+; 84 .  OG Anunoby  PER:  15.4
+; 85 .  Yves Missi  PER:  15.4
+; 86 .  Bradley Beal  PER:  15.2
+; 87 .  Caris LeVert  PER:  15.2
+; 88 .  Naji Marshall  PER:  15.1
+; 89 .  Jalen Green  PER:  15.1
+; 90 .  Malik Monk  PER:  15.0
+; 91 .  Harrison Barnes  PER:  14.9
+; 92 .  Kyle Filipowski  PER:  14.9
+; 93 .  Anfernee Simons  PER:  14.9
+; 94 .  Brook Lopez  PER:  14.8
+; 95 .  Guerschon Yabusele  PER:  14.7
+; 96 .  Chris Paul  PER:  14.7
+; 97 .  Tyus Jones  PER:  14.5
+; 98 .  Shaedon Sharpe  PER:  14.5
+; 99 .  Malik Beasley  PER:  14.4
+; 100 .  Brandin Podziemski  PER:  14.4
+; 101 .  Russell Westbrook  PER:  14.3
+; 102 .  Devin Vassell  PER:  14.2
+; 103 .  Donte DiVincenzo  PER:  14.1
+; 104 .  Mikal Bridges  PER:  14.0
+; 105 .  Isaiah Joe  PER:  14.0
+; 106 .  P.J. Washington  PER:  14.0
+; 107 .  Tobias Harris  PER:  13.9
+; 108 .  Wendell Carter Jr.  PER:  13.7
+; 109 .  Grayson Allen  PER:  13.7
+; 110 .  Stephon Castle  PER:  13.7
+; 111 .  Rui Hachimura  PER:  13.6
+; 112 .  Bennedict Mathurin  PER:  13.6
+; 113 .  Derrick Jones Jr.  PER:  13.5
+; 114 .  Kelly Oubre Jr.  PER:  13.5
+; 115 .  Keon Ellis  PER:  13.5
+; 116 .  Jrue Holiday  PER:  13.5
+; 117 .  Jaden McDaniels  PER:  13.3
+; 118 .  Mike Conley  PER:  13.3
+; 119 .  Spencer Dinwiddie  PER:  13.0
+; 120 .  Al Horford  PER:  12.9
+; 121 .  Alex Sarr  PER:  12.9
+; 122 .  Klay Thompson  PER:  12.9
+; 123 .  Keyonte George  PER:  12.9
+; 124 .  Sam Hauser  PER:  12.8
+; 125 .  Fred VanVleet  PER:  12.8
+; 126 .  Dalton Knecht  PER:  12.7
+; 127 .  Dennis Schröder  PER:  12.7
+; 128 .  Jabari Smith Jr.  PER:  12.6
+; 129 .  Royce O'Neale  PER:  12.6
+; 130 .  Miles McBride  PER:  12.6
+; 131 .  Matas Buzelis  PER:  12.5
+; 132 .  Toumani Camara  PER:  12.5
+; 133 .  Scoot Henderson  PER:  12.5
+; 134 .  Draymond Green  PER:  12.4
+; 135 .  Moses Moody  PER:  12.4
+; 136 .  Cason Wallace  PER:  12.3
+; 137 .  Buddy Hield  PER:  12.3
+; 138 .  Zaccharie Risacher  PER:  12.2
+; 139 .  Julian Champagnie  PER:  12.2
+; 140 .  Keegan Murray  PER:  12.0
+; 141 .  Ochai Agbaji  PER:  12.0
+; 142 .  Ziaire Williams  PER:  11.9
+; 143 .  Duncan Robinson  PER:  11.8
+; 144 .  Gary Trent Jr.  PER:  11.7
+; 145 .  Andrew Nembhard  PER:  11.7
+; 146 .  Nickeil Alexander-Walker  PER:  11.6
+; 147 .  Anthony Black  PER:  11.6
+; 148 .  Peyton Watson  PER:  11.4
+; 149 .  Luguentz Dort  PER:  11.3
+; 150 .  Kris Dunn  PER:  11.3
+; 151 .  Kevin Huerter  PER:  11.3
+; 152 .  Georges Niang  PER:  11.2
+; 153 .  Amir Coffey  PER:  11.2
+; 154 .  Dillon Brooks  PER:  11.0
+; 155 .  Corey Kispert  PER:  11.0
+; 156 .  Jerami Grant  PER:  10.9
+; 157 .  Gradey Dick  PER:  10.9
+; 158 .  Bilal Coulibaly  PER:  10.8
+; 159 .  Kyle Kuzma  PER:  10.6
+; 160 .  Jaylen Wells  PER:  10.5
+; 161 .  Terry Rozier  PER:  10.5
+; 162 .  Max Christie  PER:  10.4
+; 163 .  Keon Johnson  PER:  10.4
+; 164 .  Davion Mitchell  PER:  10.2
+; 165 .  Dorian Finney-Smith  PER:  10.1
+; 166 .  Haywood Highsmith  PER:  9.9
+; 167 .  Tristan Da Silva  PER:  9.9
+; 168 .  Kentavious Caldwell-Pope  PER:  9.9
+; 169 .  Taurean Prince  PER:  9.8
+; 170 .  Tim Hardaway Jr.  PER:  9.8
+; 171 .  Isaiah Collier  PER:  9.7
+; 172 .  Jalen Wilson  PER:  9.5
+; 173 .  A.J. Green  PER:  9.2
+; 174 .  Patrick Williams  PER:  9.0
+; 175 .  Bub Carrington  PER:  9.0
+; 176 .  Kyshawn George  PER:  8.8
+; 177 .  Josh Green  PER:  7.8
+; 178 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Luka Dončić
+; Currently picking for team:  Partizan
+; Picking for position:  :pg
+; Remaining PER:  160
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Ivica Zubac  PER:  22.3
+; 11 .  Jarrett Allen  PER:  22.1
+; 12 .  Tyrese Haliburton  PER:  21.8
+; 13 .  Jayson Tatum  PER:  21.7
+; 14 .  Jalen Brunson  PER:  21.6
+; 15 .  Stephen Curry  PER:  21.5
+; 16 .  Alperen Şengün  PER:  21.4
+; 17 .  Jalen Duren  PER:  21.4
+; 18 .  Damian Lillard  PER:  21.3
+; 19 .  Kevin Durant  PER:  21.2
+; 20 .  Donovan Mitchell  PER:  20.9
+; 21 .  Jonas Valančiūnas  PER:  20.8
+; 22 .  Cade Cunningham  PER:  20.6
+; 23 .  Nikola Vučević  PER:  20.3
+; 24 .  Jalen Williams  PER:  20.3
+; 25 .  Franz Wagner  PER:  20.1
+; 26 .  Anthony Edwards  PER:  20.1
+; 27 .  Walker Kessler  PER:  20.0
+; 28 .  Jakob Poeltl  PER:  20.0
+; 29 .  Paolo Banchero  PER:  20.0
+; 30 .  James Harden  PER:  20.0
+; 31 .  Kyrie Irving  PER:  19.9
+; 32 .  Darius Garland  PER:  19.9
+; 33 .  Tyler Herro  PER:  19.7
+; 34 .  Jaren Jackson Jr.  PER:  19.6
+; 35 .  Tyrese Maxey  PER:  19.5
+; 36 .  Devin Booker  PER:  19.3
+; 37 .  Ja Morant  PER:  19.3
+; 38 .  Pascal Siakam  PER:  19.2
+; 39 .  LaMelo Ball  PER:  19.1
+; 40 .  Onyeka Okongwu  PER:  19.0
+; 41 .  Bam Adebayo  PER:  18.9
+; 42 .  Isaiah Hartenstein  PER:  18.9
+; 43 .  Amen Thompson  PER:  18.7
+; 44 .  De'Aaron Fox  PER:  18.3
+; 45 .  Trae Young  PER:  18.3
+; 46 .  Rudy Gobert  PER:  18.3
+; 47 .  Cameron Johnson  PER:  18.2
+; 48 .  Josh Giddey  PER:  18.1
+; 49 .  Austin Reaves  PER:  18.1
+; 50 .  Desmond Bane  PER:  17.9
+; 51 .  Scottie Barnes  PER:  17.8
+; 52 .  Jaylen Brown  PER:  17.8
+; 53 .  Jamal Murray  PER:  17.8
+; 54 .  Miles Bridges  PER:  17.7
+; 55 .  DeMar DeRozan  PER:  17.7
+; 56 .  Deni Avdija  PER:  17.7
+; 57 .  Payton Pritchard  PER:  17.6
+; 58 .  Julius Randle  PER:  17.5
+; 59 .  Norman Powell  PER:  17.5
+; 60 .  Obi Toppin  PER:  17.4
+; 61 .  Trey Murphy III  PER:  17.3
+; 62 .  Zach LaVine  PER:  17.3
+; 63 .  Santi Aldama  PER:  16.8
+; 64 .  Derrick White  PER:  16.6
+; 65 .  Collin Sexton  PER:  16.6
+; 66 .  Jordan Poole  PER:  16.6
+; 67 .  Nic Claxton  PER:  16.5
+; 68 .  RJ Barrett  PER:  16.5
+; 69 .  Josh Hart  PER:  16.5
+; 70 .  Andrew Wiggins  PER:  16.4
+; 71 .  Michael Porter Jr.  PER:  16.2
+; 72 .  Myles Turner  PER:  16.1
+; 73 .  Aaron Wiggins  PER:  16.1
+; 74 .  Christian Braun  PER:  16.0
+; 75 .  De'Andre Hunter  PER:  15.9
+; 76 .  Quentin Grimes  PER:  15.9
+; 77 .  Scotty Pippen Jr.  PER:  15.8
+; 78 .  Naz Reid  PER:  15.8
+; 79 .  CJ McCollum  PER:  15.8
+; 80 .  Dyson Daniels  PER:  15.6
+; 81 .  Keldon Johnson  PER:  15.6
+; 82 .  Coby White  PER:  15.5
+; 83 .  OG Anunoby  PER:  15.4
+; 84 .  Yves Missi  PER:  15.4
+; 85 .  Bradley Beal  PER:  15.2
+; 86 .  Caris LeVert  PER:  15.2
+; 87 .  Naji Marshall  PER:  15.1
+; 88 .  Jalen Green  PER:  15.1
+; 89 .  Malik Monk  PER:  15.0
+; 90 .  Harrison Barnes  PER:  14.9
+; 91 .  Kyle Filipowski  PER:  14.9
+; 92 .  Anfernee Simons  PER:  14.9
+; 93 .  Brook Lopez  PER:  14.8
+; 94 .  Guerschon Yabusele  PER:  14.7
+; 95 .  Chris Paul  PER:  14.7
+; 96 .  Tyus Jones  PER:  14.5
+; 97 .  Shaedon Sharpe  PER:  14.5
+; 98 .  Malik Beasley  PER:  14.4
+; 99 .  Brandin Podziemski  PER:  14.4
+; 100 .  Russell Westbrook  PER:  14.3
+; 101 .  Devin Vassell  PER:  14.2
+; 102 .  Donte DiVincenzo  PER:  14.1
+; 103 .  Mikal Bridges  PER:  14.0
+; 104 .  Isaiah Joe  PER:  14.0
+; 105 .  P.J. Washington  PER:  14.0
+; 106 .  Tobias Harris  PER:  13.9
+; 107 .  Wendell Carter Jr.  PER:  13.7
+; 108 .  Grayson Allen  PER:  13.7
+; 109 .  Stephon Castle  PER:  13.7
+; 110 .  Rui Hachimura  PER:  13.6
+; 111 .  Bennedict Mathurin  PER:  13.6
+; 112 .  Derrick Jones Jr.  PER:  13.5
+; 113 .  Kelly Oubre Jr.  PER:  13.5
+; 114 .  Keon Ellis  PER:  13.5
+; 115 .  Jrue Holiday  PER:  13.5
+; 116 .  Jaden McDaniels  PER:  13.3
+; 117 .  Mike Conley  PER:  13.3
+; 118 .  Spencer Dinwiddie  PER:  13.0
+; 119 .  Al Horford  PER:  12.9
+; 120 .  Alex Sarr  PER:  12.9
+; 121 .  Klay Thompson  PER:  12.9
+; 122 .  Keyonte George  PER:  12.9
+; 123 .  Sam Hauser  PER:  12.8
+; 124 .  Fred VanVleet  PER:  12.8
+; 125 .  Dalton Knecht  PER:  12.7
+; 126 .  Dennis Schröder  PER:  12.7
+; 127 .  Jabari Smith Jr.  PER:  12.6
+; 128 .  Royce O'Neale  PER:  12.6
+; 129 .  Miles McBride  PER:  12.6
+; 130 .  Matas Buzelis  PER:  12.5
+; 131 .  Toumani Camara  PER:  12.5
+; 132 .  Scoot Henderson  PER:  12.5
+; 133 .  Draymond Green  PER:  12.4
+; 134 .  Moses Moody  PER:  12.4
+; 135 .  Cason Wallace  PER:  12.3
+; 136 .  Buddy Hield  PER:  12.3
+; 137 .  Zaccharie Risacher  PER:  12.2
+; 138 .  Julian Champagnie  PER:  12.2
+; 139 .  Keegan Murray  PER:  12.0
+; 140 .  Ochai Agbaji  PER:  12.0
+; 141 .  Ziaire Williams  PER:  11.9
+; 142 .  Duncan Robinson  PER:  11.8
+; 143 .  Gary Trent Jr.  PER:  11.7
+; 144 .  Andrew Nembhard  PER:  11.7
+; 145 .  Nickeil Alexander-Walker  PER:  11.6
+; 146 .  Anthony Black  PER:  11.6
+; 147 .  Peyton Watson  PER:  11.4
+; 148 .  Luguentz Dort  PER:  11.3
+; 149 .  Kris Dunn  PER:  11.3
+; 150 .  Kevin Huerter  PER:  11.3
+; 151 .  Georges Niang  PER:  11.2
+; 152 .  Amir Coffey  PER:  11.2
+; 153 .  Dillon Brooks  PER:  11.0
+; 154 .  Corey Kispert  PER:  11.0
+; 155 .  Jerami Grant  PER:  10.9
+; 156 .  Gradey Dick  PER:  10.9
+; 157 .  Bilal Coulibaly  PER:  10.8
+; 158 .  Kyle Kuzma  PER:  10.6
+; 159 .  Jaylen Wells  PER:  10.5
+; 160 .  Terry Rozier  PER:  10.5
+; 161 .  Max Christie  PER:  10.4
+; 162 .  Keon Johnson  PER:  10.4
+; 163 .  Davion Mitchell  PER:  10.2
+; 164 .  Dorian Finney-Smith  PER:  10.1
+; 165 .  Haywood Highsmith  PER:  9.9
+; 166 .  Tristan Da Silva  PER:  9.9
+; 167 .  Kentavious Caldwell-Pope  PER:  9.9
+; 168 .  Taurean Prince  PER:  9.8
+; 169 .  Tim Hardaway Jr.  PER:  9.8
+; 170 .  Isaiah Collier  PER:  9.7
+; 171 .  Jalen Wilson  PER:  9.5
+; 172 .  A.J. Green  PER:  9.2
+; 173 .  Patrick Williams  PER:  9.0
+; 174 .  Bub Carrington  PER:  9.0
+; 175 .  Kyshawn George  PER:  8.8
+; 176 .  Josh Green  PER:  7.8
+; 177 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Andrew Wiggins
+; Currently picking for team:  Zvezda
+; Picking for position:  :sg
+; Remaining PER:  135.9
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Ivica Zubac  PER:  22.3
+; 11 .  Jarrett Allen  PER:  22.1
+; 12 .  Tyrese Haliburton  PER:  21.8
+; 13 .  Jayson Tatum  PER:  21.7
+; 14 .  Jalen Brunson  PER:  21.6
+; 15 .  Stephen Curry  PER:  21.5
+; 16 .  Alperen Şengün  PER:  21.4
+; 17 .  Jalen Duren  PER:  21.4
+; 18 .  Damian Lillard  PER:  21.3
+; 19 .  Kevin Durant  PER:  21.2
+; 20 .  Donovan Mitchell  PER:  20.9
+; 21 .  Jonas Valančiūnas  PER:  20.8
+; 22 .  Cade Cunningham  PER:  20.6
+; 23 .  Nikola Vučević  PER:  20.3
+; 24 .  Jalen Williams  PER:  20.3
+; 25 .  Franz Wagner  PER:  20.1
+; 26 .  Anthony Edwards  PER:  20.1
+; 27 .  Walker Kessler  PER:  20.0
+; 28 .  Jakob Poeltl  PER:  20.0
+; 29 .  Paolo Banchero  PER:  20.0
+; 30 .  James Harden  PER:  20.0
+; 31 .  Kyrie Irving  PER:  19.9
+; 32 .  Darius Garland  PER:  19.9
+; 33 .  Tyler Herro  PER:  19.7
+; 34 .  Jaren Jackson Jr.  PER:  19.6
+; 35 .  Tyrese Maxey  PER:  19.5
+; 36 .  Devin Booker  PER:  19.3
+; 37 .  Ja Morant  PER:  19.3
+; 38 .  Pascal Siakam  PER:  19.2
+; 39 .  LaMelo Ball  PER:  19.1
+; 40 .  Onyeka Okongwu  PER:  19.0
+; 41 .  Bam Adebayo  PER:  18.9
+; 42 .  Isaiah Hartenstein  PER:  18.9
+; 43 .  Amen Thompson  PER:  18.7
+; 44 .  De'Aaron Fox  PER:  18.3
+; 45 .  Trae Young  PER:  18.3
+; 46 .  Rudy Gobert  PER:  18.3
+; 47 .  Cameron Johnson  PER:  18.2
+; 48 .  Josh Giddey  PER:  18.1
+; 49 .  Austin Reaves  PER:  18.1
+; 50 .  Desmond Bane  PER:  17.9
+; 51 .  Scottie Barnes  PER:  17.8
+; 52 .  Jaylen Brown  PER:  17.8
+; 53 .  Jamal Murray  PER:  17.8
+; 54 .  Miles Bridges  PER:  17.7
+; 55 .  DeMar DeRozan  PER:  17.7
+; 56 .  Deni Avdija  PER:  17.7
+; 57 .  Payton Pritchard  PER:  17.6
+; 58 .  Julius Randle  PER:  17.5
+; 59 .  Norman Powell  PER:  17.5
+; 60 .  Obi Toppin  PER:  17.4
+; 61 .  Trey Murphy III  PER:  17.3
+; 62 .  Zach LaVine  PER:  17.3
+; 63 .  Santi Aldama  PER:  16.8
+; 64 .  Derrick White  PER:  16.6
+; 65 .  Collin Sexton  PER:  16.6
+; 66 .  Jordan Poole  PER:  16.6
+; 67 .  Nic Claxton  PER:  16.5
+; 68 .  RJ Barrett  PER:  16.5
+; 69 .  Josh Hart  PER:  16.5
+; 70 .  Michael Porter Jr.  PER:  16.2
+; 71 .  Myles Turner  PER:  16.1
+; 72 .  Aaron Wiggins  PER:  16.1
+; 73 .  Christian Braun  PER:  16.0
+; 74 .  De'Andre Hunter  PER:  15.9
+; 75 .  Quentin Grimes  PER:  15.9
+; 76 .  Scotty Pippen Jr.  PER:  15.8
+; 77 .  Naz Reid  PER:  15.8
+; 78 .  CJ McCollum  PER:  15.8
+; 79 .  Dyson Daniels  PER:  15.6
+; 80 .  Keldon Johnson  PER:  15.6
+; 81 .  Coby White  PER:  15.5
+; 82 .  OG Anunoby  PER:  15.4
+; 83 .  Yves Missi  PER:  15.4
+; 84 .  Bradley Beal  PER:  15.2
+; 85 .  Caris LeVert  PER:  15.2
+; 86 .  Naji Marshall  PER:  15.1
+; 87 .  Jalen Green  PER:  15.1
+; 88 .  Malik Monk  PER:  15.0
+; 89 .  Harrison Barnes  PER:  14.9
+; 90 .  Kyle Filipowski  PER:  14.9
+; 91 .  Anfernee Simons  PER:  14.9
+; 92 .  Brook Lopez  PER:  14.8
+; 93 .  Guerschon Yabusele  PER:  14.7
+; 94 .  Chris Paul  PER:  14.7
+; 95 .  Tyus Jones  PER:  14.5
+; 96 .  Shaedon Sharpe  PER:  14.5
+; 97 .  Malik Beasley  PER:  14.4
+; 98 .  Brandin Podziemski  PER:  14.4
+; 99 .  Russell Westbrook  PER:  14.3
+; 100 .  Devin Vassell  PER:  14.2
+; 101 .  Donte DiVincenzo  PER:  14.1
+; 102 .  Mikal Bridges  PER:  14.0
+; 103 .  Isaiah Joe  PER:  14.0
+; 104 .  P.J. Washington  PER:  14.0
+; 105 .  Tobias Harris  PER:  13.9
+; 106 .  Wendell Carter Jr.  PER:  13.7
+; 107 .  Grayson Allen  PER:  13.7
+; 108 .  Stephon Castle  PER:  13.7
+; 109 .  Rui Hachimura  PER:  13.6
+; 110 .  Bennedict Mathurin  PER:  13.6
+; 111 .  Derrick Jones Jr.  PER:  13.5
+; 112 .  Kelly Oubre Jr.  PER:  13.5
+; 113 .  Keon Ellis  PER:  13.5
+; 114 .  Jrue Holiday  PER:  13.5
+; 115 .  Jaden McDaniels  PER:  13.3
+; 116 .  Mike Conley  PER:  13.3
+; 117 .  Spencer Dinwiddie  PER:  13.0
+; 118 .  Al Horford  PER:  12.9
+; 119 .  Alex Sarr  PER:  12.9
+; 120 .  Klay Thompson  PER:  12.9
+; 121 .  Keyonte George  PER:  12.9
+; 122 .  Sam Hauser  PER:  12.8
+; 123 .  Fred VanVleet  PER:  12.8
+; 124 .  Dalton Knecht  PER:  12.7
+; 125 .  Dennis Schröder  PER:  12.7
+; 126 .  Jabari Smith Jr.  PER:  12.6
+; 127 .  Royce O'Neale  PER:  12.6
+; 128 .  Miles McBride  PER:  12.6
+; 129 .  Matas Buzelis  PER:  12.5
+; 130 .  Toumani Camara  PER:  12.5
+; 131 .  Scoot Henderson  PER:  12.5
+; 132 .  Draymond Green  PER:  12.4
+; 133 .  Moses Moody  PER:  12.4
+; 134 .  Cason Wallace  PER:  12.3
+; 135 .  Buddy Hield  PER:  12.3
+; 136 .  Zaccharie Risacher  PER:  12.2
+; 137 .  Julian Champagnie  PER:  12.2
+; 138 .  Keegan Murray  PER:  12.0
+; 139 .  Ochai Agbaji  PER:  12.0
+; 140 .  Ziaire Williams  PER:  11.9
+; 141 .  Duncan Robinson  PER:  11.8
+; 142 .  Gary Trent Jr.  PER:  11.7
+; 143 .  Andrew Nembhard  PER:  11.7
+; 144 .  Nickeil Alexander-Walker  PER:  11.6
+; 145 .  Anthony Black  PER:  11.6
+; 146 .  Peyton Watson  PER:  11.4
+; 147 .  Luguentz Dort  PER:  11.3
+; 148 .  Kris Dunn  PER:  11.3
+; 149 .  Kevin Huerter  PER:  11.3
+; 150 .  Georges Niang  PER:  11.2
+; 151 .  Amir Coffey  PER:  11.2
+; 152 .  Dillon Brooks  PER:  11.0
+; 153 .  Corey Kispert  PER:  11.0
+; 154 .  Jerami Grant  PER:  10.9
+; 155 .  Gradey Dick  PER:  10.9
+; 156 .  Bilal Coulibaly  PER:  10.8
+; 157 .  Kyle Kuzma  PER:  10.6
+; 158 .  Jaylen Wells  PER:  10.5
+; 159 .  Terry Rozier  PER:  10.5
+; 160 .  Max Christie  PER:  10.4
+; 161 .  Keon Johnson  PER:  10.4
+; 162 .  Davion Mitchell  PER:  10.2
+; 163 .  Dorian Finney-Smith  PER:  10.1
+; 164 .  Haywood Highsmith  PER:  9.9
+; 165 .  Tristan Da Silva  PER:  9.9
+; 166 .  Kentavious Caldwell-Pope  PER:  9.9
+; 167 .  Taurean Prince  PER:  9.8
+; 168 .  Tim Hardaway Jr.  PER:  9.8
+; 169 .  Isaiah Collier  PER:  9.7
+; 170 .  Jalen Wilson  PER:  9.5
+; 171 .  A.J. Green  PER:  9.2
+; 172 .  Patrick Williams  PER:  9.0
+; 173 .  Bub Carrington  PER:  9.0
+; 174 .  Kyshawn George  PER:  8.8
+; 175 .  Josh Green  PER:  7.8
+; 176 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Luguentz Dort
+; Currently picking for team:  Partizan
+; Picking for position:  :sg
+; Remaining PER:  143.6
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Ivica Zubac  PER:  22.3
+; 11 .  Jarrett Allen  PER:  22.1
+; 12 .  Tyrese Haliburton  PER:  21.8
+; 13 .  Jayson Tatum  PER:  21.7
+; 14 .  Jalen Brunson  PER:  21.6
+; 15 .  Stephen Curry  PER:  21.5
+; 16 .  Alperen Şengün  PER:  21.4
+; 17 .  Jalen Duren  PER:  21.4
+; 18 .  Damian Lillard  PER:  21.3
+; 19 .  Kevin Durant  PER:  21.2
+; 20 .  Donovan Mitchell  PER:  20.9
+; 21 .  Jonas Valančiūnas  PER:  20.8
+; 22 .  Cade Cunningham  PER:  20.6
+; 23 .  Nikola Vučević  PER:  20.3
+; 24 .  Jalen Williams  PER:  20.3
+; 25 .  Franz Wagner  PER:  20.1
+; 26 .  Anthony Edwards  PER:  20.1
+; 27 .  Walker Kessler  PER:  20.0
+; 28 .  Jakob Poeltl  PER:  20.0
+; 29 .  Paolo Banchero  PER:  20.0
+; 30 .  James Harden  PER:  20.0
+; 31 .  Kyrie Irving  PER:  19.9
+; 32 .  Darius Garland  PER:  19.9
+; 33 .  Tyler Herro  PER:  19.7
+; 34 .  Jaren Jackson Jr.  PER:  19.6
+; 35 .  Tyrese Maxey  PER:  19.5
+; 36 .  Devin Booker  PER:  19.3
+; 37 .  Ja Morant  PER:  19.3
+; 38 .  Pascal Siakam  PER:  19.2
+; 39 .  LaMelo Ball  PER:  19.1
+; 40 .  Onyeka Okongwu  PER:  19.0
+; 41 .  Bam Adebayo  PER:  18.9
+; 42 .  Isaiah Hartenstein  PER:  18.9
+; 43 .  Amen Thompson  PER:  18.7
+; 44 .  De'Aaron Fox  PER:  18.3
+; 45 .  Trae Young  PER:  18.3
+; 46 .  Rudy Gobert  PER:  18.3
+; 47 .  Cameron Johnson  PER:  18.2
+; 48 .  Josh Giddey  PER:  18.1
+; 49 .  Austin Reaves  PER:  18.1
+; 50 .  Desmond Bane  PER:  17.9
+; 51 .  Scottie Barnes  PER:  17.8
+; 52 .  Jaylen Brown  PER:  17.8
+; 53 .  Jamal Murray  PER:  17.8
+; 54 .  Miles Bridges  PER:  17.7
+; 55 .  DeMar DeRozan  PER:  17.7
+; 56 .  Deni Avdija  PER:  17.7
+; 57 .  Payton Pritchard  PER:  17.6
+; 58 .  Julius Randle  PER:  17.5
+; 59 .  Norman Powell  PER:  17.5
+; 60 .  Obi Toppin  PER:  17.4
+; 61 .  Trey Murphy III  PER:  17.3
+; 62 .  Zach LaVine  PER:  17.3
+; 63 .  Santi Aldama  PER:  16.8
+; 64 .  Derrick White  PER:  16.6
+; 65 .  Collin Sexton  PER:  16.6
+; 66 .  Jordan Poole  PER:  16.6
+; 67 .  Nic Claxton  PER:  16.5
+; 68 .  RJ Barrett  PER:  16.5
+; 69 .  Josh Hart  PER:  16.5
+; 70 .  Michael Porter Jr.  PER:  16.2
+; 71 .  Myles Turner  PER:  16.1
+; 72 .  Aaron Wiggins  PER:  16.1
+; 73 .  Christian Braun  PER:  16.0
+; 74 .  De'Andre Hunter  PER:  15.9
+; 75 .  Quentin Grimes  PER:  15.9
+; 76 .  Scotty Pippen Jr.  PER:  15.8
+; 77 .  Naz Reid  PER:  15.8
+; 78 .  CJ McCollum  PER:  15.8
+; 79 .  Dyson Daniels  PER:  15.6
+; 80 .  Keldon Johnson  PER:  15.6
+; 81 .  Coby White  PER:  15.5
+; 82 .  OG Anunoby  PER:  15.4
+; 83 .  Yves Missi  PER:  15.4
+; 84 .  Bradley Beal  PER:  15.2
+; 85 .  Caris LeVert  PER:  15.2
+; 86 .  Naji Marshall  PER:  15.1
+; 87 .  Jalen Green  PER:  15.1
+; 88 .  Malik Monk  PER:  15.0
+; 89 .  Harrison Barnes  PER:  14.9
+; 90 .  Kyle Filipowski  PER:  14.9
+; 91 .  Anfernee Simons  PER:  14.9
+; 92 .  Brook Lopez  PER:  14.8
+; 93 .  Guerschon Yabusele  PER:  14.7
+; 94 .  Chris Paul  PER:  14.7
+; 95 .  Tyus Jones  PER:  14.5
+; 96 .  Shaedon Sharpe  PER:  14.5
+; 97 .  Malik Beasley  PER:  14.4
+; 98 .  Brandin Podziemski  PER:  14.4
+; 99 .  Russell Westbrook  PER:  14.3
+; 100 .  Devin Vassell  PER:  14.2
+; 101 .  Donte DiVincenzo  PER:  14.1
+; 102 .  Mikal Bridges  PER:  14.0
+; 103 .  Isaiah Joe  PER:  14.0
+; 104 .  P.J. Washington  PER:  14.0
+; 105 .  Tobias Harris  PER:  13.9
+; 106 .  Wendell Carter Jr.  PER:  13.7
+; 107 .  Grayson Allen  PER:  13.7
+; 108 .  Stephon Castle  PER:  13.7
+; 109 .  Rui Hachimura  PER:  13.6
+; 110 .  Bennedict Mathurin  PER:  13.6
+; 111 .  Derrick Jones Jr.  PER:  13.5
+; 112 .  Kelly Oubre Jr.  PER:  13.5
+; 113 .  Keon Ellis  PER:  13.5
+; 114 .  Jrue Holiday  PER:  13.5
+; 115 .  Jaden McDaniels  PER:  13.3
+; 116 .  Mike Conley  PER:  13.3
+; 117 .  Spencer Dinwiddie  PER:  13.0
+; 118 .  Al Horford  PER:  12.9
+; 119 .  Alex Sarr  PER:  12.9
+; 120 .  Klay Thompson  PER:  12.9
+; 121 .  Keyonte George  PER:  12.9
+; 122 .  Sam Hauser  PER:  12.8
+; 123 .  Fred VanVleet  PER:  12.8
+; 124 .  Dalton Knecht  PER:  12.7
+; 125 .  Dennis Schröder  PER:  12.7
+; 126 .  Jabari Smith Jr.  PER:  12.6
+; 127 .  Royce O'Neale  PER:  12.6
+; 128 .  Miles McBride  PER:  12.6
+; 129 .  Matas Buzelis  PER:  12.5
+; 130 .  Toumani Camara  PER:  12.5
+; 131 .  Scoot Henderson  PER:  12.5
+; 132 .  Draymond Green  PER:  12.4
+; 133 .  Moses Moody  PER:  12.4
+; 134 .  Cason Wallace  PER:  12.3
+; 135 .  Buddy Hield  PER:  12.3
+; 136 .  Zaccharie Risacher  PER:  12.2
+; 137 .  Julian Champagnie  PER:  12.2
+; 138 .  Keegan Murray  PER:  12.0
+; 139 .  Ochai Agbaji  PER:  12.0
+; 140 .  Ziaire Williams  PER:  11.9
+; 141 .  Duncan Robinson  PER:  11.8
+; 142 .  Gary Trent Jr.  PER:  11.7
+; 143 .  Andrew Nembhard  PER:  11.7
+; 144 .  Nickeil Alexander-Walker  PER:  11.6
+; 145 .  Anthony Black  PER:  11.6
+; 146 .  Peyton Watson  PER:  11.4
+; 147 .  Kris Dunn  PER:  11.3
+; 148 .  Kevin Huerter  PER:  11.3
+; 149 .  Georges Niang  PER:  11.2
+; 150 .  Amir Coffey  PER:  11.2
+; 151 .  Dillon Brooks  PER:  11.0
+; 152 .  Corey Kispert  PER:  11.0
+; 153 .  Jerami Grant  PER:  10.9
+; 154 .  Gradey Dick  PER:  10.9
+; 155 .  Bilal Coulibaly  PER:  10.8
+; 156 .  Kyle Kuzma  PER:  10.6
+; 157 .  Jaylen Wells  PER:  10.5
+; 158 .  Terry Rozier  PER:  10.5
+; 159 .  Max Christie  PER:  10.4
+; 160 .  Keon Johnson  PER:  10.4
+; 161 .  Davion Mitchell  PER:  10.2
+; 162 .  Dorian Finney-Smith  PER:  10.1
+; 163 .  Haywood Highsmith  PER:  9.9
+; 164 .  Tristan Da Silva  PER:  9.9
+; 165 .  Kentavious Caldwell-Pope  PER:  9.9
+; 166 .  Taurean Prince  PER:  9.8
+; 167 .  Tim Hardaway Jr.  PER:  9.8
+; 168 .  Isaiah Collier  PER:  9.7
+; 169 .  Jalen Wilson  PER:  9.5
+; 170 .  A.J. Green  PER:  9.2
+; 171 .  Patrick Williams  PER:  9.0
+; 172 .  Bub Carrington  PER:  9.0
+; 173 .  Kyshawn George  PER:  8.8
+; 174 .  Josh Green  PER:  7.8
+; 175 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Michael Porter Jr.
+; Currently picking for team:  Zvezda
+; Picking for position:  :sf
+; Remaining PER:  124.60000000000001
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Ivica Zubac  PER:  22.3
+; 11 .  Jarrett Allen  PER:  22.1
+; 12 .  Tyrese Haliburton  PER:  21.8
+; 13 .  Jayson Tatum  PER:  21.7
+; 14 .  Jalen Brunson  PER:  21.6
+; 15 .  Stephen Curry  PER:  21.5
+; 16 .  Alperen Şengün  PER:  21.4
+; 17 .  Jalen Duren  PER:  21.4
+; 18 .  Damian Lillard  PER:  21.3
+; 19 .  Kevin Durant  PER:  21.2
+; 20 .  Donovan Mitchell  PER:  20.9
+; 21 .  Jonas Valančiūnas  PER:  20.8
+; 22 .  Cade Cunningham  PER:  20.6
+; 23 .  Nikola Vučević  PER:  20.3
+; 24 .  Jalen Williams  PER:  20.3
+; 25 .  Franz Wagner  PER:  20.1
+; 26 .  Anthony Edwards  PER:  20.1
+; 27 .  Walker Kessler  PER:  20.0
+; 28 .  Jakob Poeltl  PER:  20.0
+; 29 .  Paolo Banchero  PER:  20.0
+; 30 .  James Harden  PER:  20.0
+; 31 .  Kyrie Irving  PER:  19.9
+; 32 .  Darius Garland  PER:  19.9
+; 33 .  Tyler Herro  PER:  19.7
+; 34 .  Jaren Jackson Jr.  PER:  19.6
+; 35 .  Tyrese Maxey  PER:  19.5
+; 36 .  Devin Booker  PER:  19.3
+; 37 .  Ja Morant  PER:  19.3
+; 38 .  Pascal Siakam  PER:  19.2
+; 39 .  LaMelo Ball  PER:  19.1
+; 40 .  Onyeka Okongwu  PER:  19.0
+; 41 .  Bam Adebayo  PER:  18.9
+; 42 .  Isaiah Hartenstein  PER:  18.9
+; 43 .  Amen Thompson  PER:  18.7
+; 44 .  De'Aaron Fox  PER:  18.3
+; 45 .  Trae Young  PER:  18.3
+; 46 .  Rudy Gobert  PER:  18.3
+; 47 .  Cameron Johnson  PER:  18.2
+; 48 .  Josh Giddey  PER:  18.1
+; 49 .  Austin Reaves  PER:  18.1
+; 50 .  Desmond Bane  PER:  17.9
+; 51 .  Scottie Barnes  PER:  17.8
+; 52 .  Jaylen Brown  PER:  17.8
+; 53 .  Jamal Murray  PER:  17.8
+; 54 .  Miles Bridges  PER:  17.7
+; 55 .  DeMar DeRozan  PER:  17.7
+; 56 .  Deni Avdija  PER:  17.7
+; 57 .  Payton Pritchard  PER:  17.6
+; 58 .  Julius Randle  PER:  17.5
+; 59 .  Norman Powell  PER:  17.5
+; 60 .  Obi Toppin  PER:  17.4
+; 61 .  Trey Murphy III  PER:  17.3
+; 62 .  Zach LaVine  PER:  17.3
+; 63 .  Santi Aldama  PER:  16.8
+; 64 .  Derrick White  PER:  16.6
+; 65 .  Collin Sexton  PER:  16.6
+; 66 .  Jordan Poole  PER:  16.6
+; 67 .  Nic Claxton  PER:  16.5
+; 68 .  RJ Barrett  PER:  16.5
+; 69 .  Josh Hart  PER:  16.5
+; 70 .  Myles Turner  PER:  16.1
+; 71 .  Aaron Wiggins  PER:  16.1
+; 72 .  Christian Braun  PER:  16.0
+; 73 .  De'Andre Hunter  PER:  15.9
+; 74 .  Quentin Grimes  PER:  15.9
+; 75 .  Scotty Pippen Jr.  PER:  15.8
+; 76 .  Naz Reid  PER:  15.8
+; 77 .  CJ McCollum  PER:  15.8
+; 78 .  Dyson Daniels  PER:  15.6
+; 79 .  Keldon Johnson  PER:  15.6
+; 80 .  Coby White  PER:  15.5
+; 81 .  OG Anunoby  PER:  15.4
+; 82 .  Yves Missi  PER:  15.4
+; 83 .  Bradley Beal  PER:  15.2
+; 84 .  Caris LeVert  PER:  15.2
+; 85 .  Naji Marshall  PER:  15.1
+; 86 .  Jalen Green  PER:  15.1
+; 87 .  Malik Monk  PER:  15.0
+; 88 .  Harrison Barnes  PER:  14.9
+; 89 .  Kyle Filipowski  PER:  14.9
+; 90 .  Anfernee Simons  PER:  14.9
+; 91 .  Brook Lopez  PER:  14.8
+; 92 .  Guerschon Yabusele  PER:  14.7
+; 93 .  Chris Paul  PER:  14.7
+; 94 .  Tyus Jones  PER:  14.5
+; 95 .  Shaedon Sharpe  PER:  14.5
+; 96 .  Malik Beasley  PER:  14.4
+; 97 .  Brandin Podziemski  PER:  14.4
+; 98 .  Russell Westbrook  PER:  14.3
+; 99 .  Devin Vassell  PER:  14.2
+; 100 .  Donte DiVincenzo  PER:  14.1
+; 101 .  Mikal Bridges  PER:  14.0
+; 102 .  Isaiah Joe  PER:  14.0
+; 103 .  P.J. Washington  PER:  14.0
+; 104 .  Tobias Harris  PER:  13.9
+; 105 .  Wendell Carter Jr.  PER:  13.7
+; 106 .  Grayson Allen  PER:  13.7
+; 107 .  Stephon Castle  PER:  13.7
+; 108 .  Rui Hachimura  PER:  13.6
+; 109 .  Bennedict Mathurin  PER:  13.6
+; 110 .  Derrick Jones Jr.  PER:  13.5
+; 111 .  Kelly Oubre Jr.  PER:  13.5
+; 112 .  Keon Ellis  PER:  13.5
+; 113 .  Jrue Holiday  PER:  13.5
+; 114 .  Jaden McDaniels  PER:  13.3
+; 115 .  Mike Conley  PER:  13.3
+; 116 .  Spencer Dinwiddie  PER:  13.0
+; 117 .  Al Horford  PER:  12.9
+; 118 .  Alex Sarr  PER:  12.9
+; 119 .  Klay Thompson  PER:  12.9
+; 120 .  Keyonte George  PER:  12.9
+; 121 .  Sam Hauser  PER:  12.8
+; 122 .  Fred VanVleet  PER:  12.8
+; 123 .  Dalton Knecht  PER:  12.7
+; 124 .  Dennis Schröder  PER:  12.7
+; 125 .  Jabari Smith Jr.  PER:  12.6
+; 126 .  Royce O'Neale  PER:  12.6
+; 127 .  Miles McBride  PER:  12.6
+; 128 .  Matas Buzelis  PER:  12.5
+; 129 .  Toumani Camara  PER:  12.5
+; 130 .  Scoot Henderson  PER:  12.5
+; 131 .  Draymond Green  PER:  12.4
+; 132 .  Moses Moody  PER:  12.4
+; 133 .  Cason Wallace  PER:  12.3
+; 134 .  Buddy Hield  PER:  12.3
+; 135 .  Zaccharie Risacher  PER:  12.2
+; 136 .  Julian Champagnie  PER:  12.2
+; 137 .  Keegan Murray  PER:  12.0
+; 138 .  Ochai Agbaji  PER:  12.0
+; 139 .  Ziaire Williams  PER:  11.9
+; 140 .  Duncan Robinson  PER:  11.8
+; 141 .  Gary Trent Jr.  PER:  11.7
+; 142 .  Andrew Nembhard  PER:  11.7
+; 143 .  Nickeil Alexander-Walker  PER:  11.6
+; 144 .  Anthony Black  PER:  11.6
+; 145 .  Peyton Watson  PER:  11.4
+; 146 .  Kris Dunn  PER:  11.3
+; 147 .  Kevin Huerter  PER:  11.3
+; 148 .  Georges Niang  PER:  11.2
+; 149 .  Amir Coffey  PER:  11.2
+; 150 .  Dillon Brooks  PER:  11.0
+; 151 .  Corey Kispert  PER:  11.0
+; 152 .  Jerami Grant  PER:  10.9
+; 153 .  Gradey Dick  PER:  10.9
+; 154 .  Bilal Coulibaly  PER:  10.8
+; 155 .  Kyle Kuzma  PER:  10.6
+; 156 .  Jaylen Wells  PER:  10.5
+; 157 .  Terry Rozier  PER:  10.5
+; 158 .  Max Christie  PER:  10.4
+; 159 .  Keon Johnson  PER:  10.4
+; 160 .  Davion Mitchell  PER:  10.2
+; 161 .  Dorian Finney-Smith  PER:  10.1
+; 162 .  Haywood Highsmith  PER:  9.9
+; 163 .  Tristan Da Silva  PER:  9.9
+; 164 .  Kentavious Caldwell-Pope  PER:  9.9
+; 165 .  Taurean Prince  PER:  9.8
+; 166 .  Tim Hardaway Jr.  PER:  9.8
+; 167 .  Isaiah Collier  PER:  9.7
+; 168 .  Jalen Wilson  PER:  9.5
+; 169 .  A.J. Green  PER:  9.2
+; 170 .  Patrick Williams  PER:  9.0
+; 171 .  Bub Carrington  PER:  9.0
+; 172 .  Kyshawn George  PER:  8.8
+; 173 .  Josh Green  PER:  7.8
+; 174 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Buddy Hield
+; Currently picking for team:  Partizan
+; Picking for position:  :sf
+; Remaining PER:  127.39999999999999
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Ivica Zubac  PER:  22.3
+; 11 .  Jarrett Allen  PER:  22.1
+; 12 .  Tyrese Haliburton  PER:  21.8
+; 13 .  Jayson Tatum  PER:  21.7
+; 14 .  Jalen Brunson  PER:  21.6
+; 15 .  Stephen Curry  PER:  21.5
+; 16 .  Alperen Şengün  PER:  21.4
+; 17 .  Jalen Duren  PER:  21.4
+; 18 .  Damian Lillard  PER:  21.3
+; 19 .  Kevin Durant  PER:  21.2
+; 20 .  Donovan Mitchell  PER:  20.9
+; 21 .  Jonas Valančiūnas  PER:  20.8
+; 22 .  Cade Cunningham  PER:  20.6
+; 23 .  Nikola Vučević  PER:  20.3
+; 24 .  Jalen Williams  PER:  20.3
+; 25 .  Franz Wagner  PER:  20.1
+; 26 .  Anthony Edwards  PER:  20.1
+; 27 .  Walker Kessler  PER:  20.0
+; 28 .  Jakob Poeltl  PER:  20.0
+; 29 .  Paolo Banchero  PER:  20.0
+; 30 .  James Harden  PER:  20.0
+; 31 .  Kyrie Irving  PER:  19.9
+; 32 .  Darius Garland  PER:  19.9
+; 33 .  Tyler Herro  PER:  19.7
+; 34 .  Jaren Jackson Jr.  PER:  19.6
+; 35 .  Tyrese Maxey  PER:  19.5
+; 36 .  Devin Booker  PER:  19.3
+; 37 .  Ja Morant  PER:  19.3
+; 38 .  Pascal Siakam  PER:  19.2
+; 39 .  LaMelo Ball  PER:  19.1
+; 40 .  Onyeka Okongwu  PER:  19.0
+; 41 .  Bam Adebayo  PER:  18.9
+; 42 .  Isaiah Hartenstein  PER:  18.9
+; 43 .  Amen Thompson  PER:  18.7
+; 44 .  De'Aaron Fox  PER:  18.3
+; 45 .  Trae Young  PER:  18.3
+; 46 .  Rudy Gobert  PER:  18.3
+; 47 .  Cameron Johnson  PER:  18.2
+; 48 .  Josh Giddey  PER:  18.1
+; 49 .  Austin Reaves  PER:  18.1
+; 50 .  Desmond Bane  PER:  17.9
+; 51 .  Scottie Barnes  PER:  17.8
+; 52 .  Jaylen Brown  PER:  17.8
+; 53 .  Jamal Murray  PER:  17.8
+; 54 .  Miles Bridges  PER:  17.7
+; 55 .  DeMar DeRozan  PER:  17.7
+; 56 .  Deni Avdija  PER:  17.7
+; 57 .  Payton Pritchard  PER:  17.6
+; 58 .  Julius Randle  PER:  17.5
+; 59 .  Norman Powell  PER:  17.5
+; 60 .  Obi Toppin  PER:  17.4
+; 61 .  Trey Murphy III  PER:  17.3
+; 62 .  Zach LaVine  PER:  17.3
+; 63 .  Santi Aldama  PER:  16.8
+; 64 .  Derrick White  PER:  16.6
+; 65 .  Collin Sexton  PER:  16.6
+; 66 .  Jordan Poole  PER:  16.6
+; 67 .  Nic Claxton  PER:  16.5
+; 68 .  RJ Barrett  PER:  16.5
+; 69 .  Josh Hart  PER:  16.5
+; 70 .  Myles Turner  PER:  16.1
+; 71 .  Aaron Wiggins  PER:  16.1
+; 72 .  Christian Braun  PER:  16.0
+; 73 .  De'Andre Hunter  PER:  15.9
+; 74 .  Quentin Grimes  PER:  15.9
+; 75 .  Scotty Pippen Jr.  PER:  15.8
+; 76 .  Naz Reid  PER:  15.8
+; 77 .  CJ McCollum  PER:  15.8
+; 78 .  Dyson Daniels  PER:  15.6
+; 79 .  Keldon Johnson  PER:  15.6
+; 80 .  Coby White  PER:  15.5
+; 81 .  OG Anunoby  PER:  15.4
+; 82 .  Yves Missi  PER:  15.4
+; 83 .  Bradley Beal  PER:  15.2
+; 84 .  Caris LeVert  PER:  15.2
+; 85 .  Naji Marshall  PER:  15.1
+; 86 .  Jalen Green  PER:  15.1
+; 87 .  Malik Monk  PER:  15.0
+; 88 .  Harrison Barnes  PER:  14.9
+; 89 .  Kyle Filipowski  PER:  14.9
+; 90 .  Anfernee Simons  PER:  14.9
+; 91 .  Brook Lopez  PER:  14.8
+; 92 .  Guerschon Yabusele  PER:  14.7
+; 93 .  Chris Paul  PER:  14.7
+; 94 .  Tyus Jones  PER:  14.5
+; 95 .  Shaedon Sharpe  PER:  14.5
+; 96 .  Malik Beasley  PER:  14.4
+; 97 .  Brandin Podziemski  PER:  14.4
+; 98 .  Russell Westbrook  PER:  14.3
+; 99 .  Devin Vassell  PER:  14.2
+; 100 .  Donte DiVincenzo  PER:  14.1
+; 101 .  Mikal Bridges  PER:  14.0
+; 102 .  Isaiah Joe  PER:  14.0
+; 103 .  P.J. Washington  PER:  14.0
+; 104 .  Tobias Harris  PER:  13.9
+; 105 .  Wendell Carter Jr.  PER:  13.7
+; 106 .  Grayson Allen  PER:  13.7
+; 107 .  Stephon Castle  PER:  13.7
+; 108 .  Rui Hachimura  PER:  13.6
+; 109 .  Bennedict Mathurin  PER:  13.6
+; 110 .  Derrick Jones Jr.  PER:  13.5
+; 111 .  Kelly Oubre Jr.  PER:  13.5
+; 112 .  Keon Ellis  PER:  13.5
+; 113 .  Jrue Holiday  PER:  13.5
+; 114 .  Jaden McDaniels  PER:  13.3
+; 115 .  Mike Conley  PER:  13.3
+; 116 .  Spencer Dinwiddie  PER:  13.0
+; 117 .  Al Horford  PER:  12.9
+; 118 .  Alex Sarr  PER:  12.9
+; 119 .  Klay Thompson  PER:  12.9
+; 120 .  Keyonte George  PER:  12.9
+; 121 .  Sam Hauser  PER:  12.8
+; 122 .  Fred VanVleet  PER:  12.8
+; 123 .  Dalton Knecht  PER:  12.7
+; 124 .  Dennis Schröder  PER:  12.7
+; 125 .  Jabari Smith Jr.  PER:  12.6
+; 126 .  Royce O'Neale  PER:  12.6
+; 127 .  Miles McBride  PER:  12.6
+; 128 .  Matas Buzelis  PER:  12.5
+; 129 .  Toumani Camara  PER:  12.5
+; 130 .  Scoot Henderson  PER:  12.5
+; 131 .  Draymond Green  PER:  12.4
+; 132 .  Moses Moody  PER:  12.4
+; 133 .  Cason Wallace  PER:  12.3
+; 134 .  Zaccharie Risacher  PER:  12.2
+; 135 .  Julian Champagnie  PER:  12.2
+; 136 .  Keegan Murray  PER:  12.0
+; 137 .  Ochai Agbaji  PER:  12.0
+; 138 .  Ziaire Williams  PER:  11.9
+; 139 .  Duncan Robinson  PER:  11.8
+; 140 .  Gary Trent Jr.  PER:  11.7
+; 141 .  Andrew Nembhard  PER:  11.7
+; 142 .  Nickeil Alexander-Walker  PER:  11.6
+; 143 .  Anthony Black  PER:  11.6
+; 144 .  Peyton Watson  PER:  11.4
+; 145 .  Kris Dunn  PER:  11.3
+; 146 .  Kevin Huerter  PER:  11.3
+; 147 .  Georges Niang  PER:  11.2
+; 148 .  Amir Coffey  PER:  11.2
+; 149 .  Dillon Brooks  PER:  11.0
+; 150 .  Corey Kispert  PER:  11.0
+; 151 .  Jerami Grant  PER:  10.9
+; 152 .  Gradey Dick  PER:  10.9
+; 153 .  Bilal Coulibaly  PER:  10.8
+; 154 .  Kyle Kuzma  PER:  10.6
+; 155 .  Jaylen Wells  PER:  10.5
+; 156 .  Terry Rozier  PER:  10.5
+; 157 .  Max Christie  PER:  10.4
+; 158 .  Keon Johnson  PER:  10.4
+; 159 .  Davion Mitchell  PER:  10.2
+; 160 .  Dorian Finney-Smith  PER:  10.1
+; 161 .  Haywood Highsmith  PER:  9.9
+; 162 .  Tristan Da Silva  PER:  9.9
+; 163 .  Kentavious Caldwell-Pope  PER:  9.9
+; 164 .  Taurean Prince  PER:  9.8
+; 165 .  Tim Hardaway Jr.  PER:  9.8
+; 166 .  Isaiah Collier  PER:  9.7
+; 167 .  Jalen Wilson  PER:  9.5
+; 168 .  A.J. Green  PER:  9.2
+; 169 .  Patrick Williams  PER:  9.0
+; 170 .  Bub Carrington  PER:  9.0
+; 171 .  Kyshawn George  PER:  8.8
+; 172 .  Josh Green  PER:  7.8
+; 173 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Myles Turner
+; Currently picking for team:  Zvezda
+; Picking for position:  :pf
+; Remaining PER:  112.30000000000001
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Ivica Zubac  PER:  22.3
+; 11 .  Jarrett Allen  PER:  22.1
+; 12 .  Tyrese Haliburton  PER:  21.8
+; 13 .  Jayson Tatum  PER:  21.7
+; 14 .  Jalen Brunson  PER:  21.6
+; 15 .  Stephen Curry  PER:  21.5
+; 16 .  Alperen Şengün  PER:  21.4
+; 17 .  Jalen Duren  PER:  21.4
+; 18 .  Damian Lillard  PER:  21.3
+; 19 .  Kevin Durant  PER:  21.2
+; 20 .  Donovan Mitchell  PER:  20.9
+; 21 .  Jonas Valančiūnas  PER:  20.8
+; 22 .  Cade Cunningham  PER:  20.6
+; 23 .  Nikola Vučević  PER:  20.3
+; 24 .  Jalen Williams  PER:  20.3
+; 25 .  Franz Wagner  PER:  20.1
+; 26 .  Anthony Edwards  PER:  20.1
+; 27 .  Walker Kessler  PER:  20.0
+; 28 .  Jakob Poeltl  PER:  20.0
+; 29 .  Paolo Banchero  PER:  20.0
+; 30 .  James Harden  PER:  20.0
+; 31 .  Kyrie Irving  PER:  19.9
+; 32 .  Darius Garland  PER:  19.9
+; 33 .  Tyler Herro  PER:  19.7
+; 34 .  Jaren Jackson Jr.  PER:  19.6
+; 35 .  Tyrese Maxey  PER:  19.5
+; 36 .  Devin Booker  PER:  19.3
+; 37 .  Ja Morant  PER:  19.3
+; 38 .  Pascal Siakam  PER:  19.2
+; 39 .  LaMelo Ball  PER:  19.1
+; 40 .  Onyeka Okongwu  PER:  19.0
+; 41 .  Bam Adebayo  PER:  18.9
+; 42 .  Isaiah Hartenstein  PER:  18.9
+; 43 .  Amen Thompson  PER:  18.7
+; 44 .  De'Aaron Fox  PER:  18.3
+; 45 .  Trae Young  PER:  18.3
+; 46 .  Rudy Gobert  PER:  18.3
+; 47 .  Cameron Johnson  PER:  18.2
+; 48 .  Josh Giddey  PER:  18.1
+; 49 .  Austin Reaves  PER:  18.1
+; 50 .  Desmond Bane  PER:  17.9
+; 51 .  Scottie Barnes  PER:  17.8
+; 52 .  Jaylen Brown  PER:  17.8
+; 53 .  Jamal Murray  PER:  17.8
+; 54 .  Miles Bridges  PER:  17.7
+; 55 .  DeMar DeRozan  PER:  17.7
+; 56 .  Deni Avdija  PER:  17.7
+; 57 .  Payton Pritchard  PER:  17.6
+; 58 .  Julius Randle  PER:  17.5
+; 59 .  Norman Powell  PER:  17.5
+; 60 .  Obi Toppin  PER:  17.4
+; 61 .  Trey Murphy III  PER:  17.3
+; 62 .  Zach LaVine  PER:  17.3
+; 63 .  Santi Aldama  PER:  16.8
+; 64 .  Derrick White  PER:  16.6
+; 65 .  Collin Sexton  PER:  16.6
+; 66 .  Jordan Poole  PER:  16.6
+; 67 .  Nic Claxton  PER:  16.5
+; 68 .  RJ Barrett  PER:  16.5
+; 69 .  Josh Hart  PER:  16.5
+; 70 .  Aaron Wiggins  PER:  16.1
+; 71 .  Christian Braun  PER:  16.0
+; 72 .  De'Andre Hunter  PER:  15.9
+; 73 .  Quentin Grimes  PER:  15.9
+; 74 .  Scotty Pippen Jr.  PER:  15.8
+; 75 .  Naz Reid  PER:  15.8
+; 76 .  CJ McCollum  PER:  15.8
+; 77 .  Dyson Daniels  PER:  15.6
+; 78 .  Keldon Johnson  PER:  15.6
+; 79 .  Coby White  PER:  15.5
+; 80 .  OG Anunoby  PER:  15.4
+; 81 .  Yves Missi  PER:  15.4
+; 82 .  Bradley Beal  PER:  15.2
+; 83 .  Caris LeVert  PER:  15.2
+; 84 .  Naji Marshall  PER:  15.1
+; 85 .  Jalen Green  PER:  15.1
+; 86 .  Malik Monk  PER:  15.0
+; 87 .  Harrison Barnes  PER:  14.9
+; 88 .  Kyle Filipowski  PER:  14.9
+; 89 .  Anfernee Simons  PER:  14.9
+; 90 .  Brook Lopez  PER:  14.8
+; 91 .  Guerschon Yabusele  PER:  14.7
+; 92 .  Chris Paul  PER:  14.7
+; 93 .  Tyus Jones  PER:  14.5
+; 94 .  Shaedon Sharpe  PER:  14.5
+; 95 .  Malik Beasley  PER:  14.4
+; 96 .  Brandin Podziemski  PER:  14.4
+; 97 .  Russell Westbrook  PER:  14.3
+; 98 .  Devin Vassell  PER:  14.2
+; 99 .  Donte DiVincenzo  PER:  14.1
+; 100 .  Mikal Bridges  PER:  14.0
+; 101 .  Isaiah Joe  PER:  14.0
+; 102 .  P.J. Washington  PER:  14.0
+; 103 .  Tobias Harris  PER:  13.9
+; 104 .  Wendell Carter Jr.  PER:  13.7
+; 105 .  Grayson Allen  PER:  13.7
+; 106 .  Stephon Castle  PER:  13.7
+; 107 .  Rui Hachimura  PER:  13.6
+; 108 .  Bennedict Mathurin  PER:  13.6
+; 109 .  Derrick Jones Jr.  PER:  13.5
+; 110 .  Kelly Oubre Jr.  PER:  13.5
+; 111 .  Keon Ellis  PER:  13.5
+; 112 .  Jrue Holiday  PER:  13.5
+; 113 .  Jaden McDaniels  PER:  13.3
+; 114 .  Mike Conley  PER:  13.3
+; 115 .  Spencer Dinwiddie  PER:  13.0
+; 116 .  Al Horford  PER:  12.9
+; 117 .  Alex Sarr  PER:  12.9
+; 118 .  Klay Thompson  PER:  12.9
+; 119 .  Keyonte George  PER:  12.9
+; 120 .  Sam Hauser  PER:  12.8
+; 121 .  Fred VanVleet  PER:  12.8
+; 122 .  Dalton Knecht  PER:  12.7
+; 123 .  Dennis Schröder  PER:  12.7
+; 124 .  Jabari Smith Jr.  PER:  12.6
+; 125 .  Royce O'Neale  PER:  12.6
+; 126 .  Miles McBride  PER:  12.6
+; 127 .  Matas Buzelis  PER:  12.5
+; 128 .  Toumani Camara  PER:  12.5
+; 129 .  Scoot Henderson  PER:  12.5
+; 130 .  Draymond Green  PER:  12.4
+; 131 .  Moses Moody  PER:  12.4
+; 132 .  Cason Wallace  PER:  12.3
+; 133 .  Zaccharie Risacher  PER:  12.2
+; 134 .  Julian Champagnie  PER:  12.2
+; 135 .  Keegan Murray  PER:  12.0
+; 136 .  Ochai Agbaji  PER:  12.0
+; 137 .  Ziaire Williams  PER:  11.9
+; 138 .  Duncan Robinson  PER:  11.8
+; 139 .  Gary Trent Jr.  PER:  11.7
+; 140 .  Andrew Nembhard  PER:  11.7
+; 141 .  Nickeil Alexander-Walker  PER:  11.6
+; 142 .  Anthony Black  PER:  11.6
+; 143 .  Peyton Watson  PER:  11.4
+; 144 .  Kris Dunn  PER:  11.3
+; 145 .  Kevin Huerter  PER:  11.3
+; 146 .  Georges Niang  PER:  11.2
+; 147 .  Amir Coffey  PER:  11.2
+; 148 .  Dillon Brooks  PER:  11.0
+; 149 .  Corey Kispert  PER:  11.0
+; 150 .  Jerami Grant  PER:  10.9
+; 151 .  Gradey Dick  PER:  10.9
+; 152 .  Bilal Coulibaly  PER:  10.8
+; 153 .  Kyle Kuzma  PER:  10.6
+; 154 .  Jaylen Wells  PER:  10.5
+; 155 .  Terry Rozier  PER:  10.5
+; 156 .  Max Christie  PER:  10.4
+; 157 .  Keon Johnson  PER:  10.4
+; 158 .  Davion Mitchell  PER:  10.2
+; 159 .  Dorian Finney-Smith  PER:  10.1
+; 160 .  Haywood Highsmith  PER:  9.9
+; 161 .  Tristan Da Silva  PER:  9.9
+; 162 .  Kentavious Caldwell-Pope  PER:  9.9
+; 163 .  Taurean Prince  PER:  9.8
+; 164 .  Tim Hardaway Jr.  PER:  9.8
+; 165 .  Isaiah Collier  PER:  9.7
+; 166 .  Jalen Wilson  PER:  9.5
+; 167 .  A.J. Green  PER:  9.2
+; 168 .  Patrick Williams  PER:  9.0
+; 169 .  Bub Carrington  PER:  9.0
+; 170 .  Kyshawn George  PER:  8.8
+; 171 .  Josh Green  PER:  7.8
+; 172 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Draymond Green
+; Currently picking for team:  Partizan
+; Picking for position:  :pf
+; Remaining PER:  111.29999999999998
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Ivica Zubac  PER:  22.3
+; 11 .  Jarrett Allen  PER:  22.1
+; 12 .  Tyrese Haliburton  PER:  21.8
+; 13 .  Jayson Tatum  PER:  21.7
+; 14 .  Jalen Brunson  PER:  21.6
+; 15 .  Stephen Curry  PER:  21.5
+; 16 .  Alperen Şengün  PER:  21.4
+; 17 .  Jalen Duren  PER:  21.4
+; 18 .  Damian Lillard  PER:  21.3
+; 19 .  Kevin Durant  PER:  21.2
+; 20 .  Donovan Mitchell  PER:  20.9
+; 21 .  Jonas Valančiūnas  PER:  20.8
+; 22 .  Cade Cunningham  PER:  20.6
+; 23 .  Nikola Vučević  PER:  20.3
+; 24 .  Jalen Williams  PER:  20.3
+; 25 .  Franz Wagner  PER:  20.1
+; 26 .  Anthony Edwards  PER:  20.1
+; 27 .  Walker Kessler  PER:  20.0
+; 28 .  Jakob Poeltl  PER:  20.0
+; 29 .  Paolo Banchero  PER:  20.0
+; 30 .  James Harden  PER:  20.0
+; 31 .  Kyrie Irving  PER:  19.9
+; 32 .  Darius Garland  PER:  19.9
+; 33 .  Tyler Herro  PER:  19.7
+; 34 .  Jaren Jackson Jr.  PER:  19.6
+; 35 .  Tyrese Maxey  PER:  19.5
+; 36 .  Devin Booker  PER:  19.3
+; 37 .  Ja Morant  PER:  19.3
+; 38 .  Pascal Siakam  PER:  19.2
+; 39 .  LaMelo Ball  PER:  19.1
+; 40 .  Onyeka Okongwu  PER:  19.0
+; 41 .  Bam Adebayo  PER:  18.9
+; 42 .  Isaiah Hartenstein  PER:  18.9
+; 43 .  Amen Thompson  PER:  18.7
+; 44 .  De'Aaron Fox  PER:  18.3
+; 45 .  Trae Young  PER:  18.3
+; 46 .  Rudy Gobert  PER:  18.3
+; 47 .  Cameron Johnson  PER:  18.2
+; 48 .  Josh Giddey  PER:  18.1
+; 49 .  Austin Reaves  PER:  18.1
+; 50 .  Desmond Bane  PER:  17.9
+; 51 .  Scottie Barnes  PER:  17.8
+; 52 .  Jaylen Brown  PER:  17.8
+; 53 .  Jamal Murray  PER:  17.8
+; 54 .  Miles Bridges  PER:  17.7
+; 55 .  DeMar DeRozan  PER:  17.7
+; 56 .  Deni Avdija  PER:  17.7
+; 57 .  Payton Pritchard  PER:  17.6
+; 58 .  Julius Randle  PER:  17.5
+; 59 .  Norman Powell  PER:  17.5
+; 60 .  Obi Toppin  PER:  17.4
+; 61 .  Trey Murphy III  PER:  17.3
+; 62 .  Zach LaVine  PER:  17.3
+; 63 .  Santi Aldama  PER:  16.8
+; 64 .  Derrick White  PER:  16.6
+; 65 .  Collin Sexton  PER:  16.6
+; 66 .  Jordan Poole  PER:  16.6
+; 67 .  Nic Claxton  PER:  16.5
+; 68 .  RJ Barrett  PER:  16.5
+; 69 .  Josh Hart  PER:  16.5
+; 70 .  Aaron Wiggins  PER:  16.1
+; 71 .  Christian Braun  PER:  16.0
+; 72 .  De'Andre Hunter  PER:  15.9
+; 73 .  Quentin Grimes  PER:  15.9
+; 74 .  Scotty Pippen Jr.  PER:  15.8
+; 75 .  Naz Reid  PER:  15.8
+; 76 .  CJ McCollum  PER:  15.8
+; 77 .  Dyson Daniels  PER:  15.6
+; 78 .  Keldon Johnson  PER:  15.6
+; 79 .  Coby White  PER:  15.5
+; 80 .  OG Anunoby  PER:  15.4
+; 81 .  Yves Missi  PER:  15.4
+; 82 .  Bradley Beal  PER:  15.2
+; 83 .  Caris LeVert  PER:  15.2
+; 84 .  Naji Marshall  PER:  15.1
+; 85 .  Jalen Green  PER:  15.1
+; 86 .  Malik Monk  PER:  15.0
+; 87 .  Harrison Barnes  PER:  14.9
+; 88 .  Kyle Filipowski  PER:  14.9
+; 89 .  Anfernee Simons  PER:  14.9
+; 90 .  Brook Lopez  PER:  14.8
+; 91 .  Guerschon Yabusele  PER:  14.7
+; 92 .  Chris Paul  PER:  14.7
+; 93 .  Tyus Jones  PER:  14.5
+; 94 .  Shaedon Sharpe  PER:  14.5
+; 95 .  Malik Beasley  PER:  14.4
+; 96 .  Brandin Podziemski  PER:  14.4
+; 97 .  Russell Westbrook  PER:  14.3
+; 98 .  Devin Vassell  PER:  14.2
+; 99 .  Donte DiVincenzo  PER:  14.1
+; 100 .  Mikal Bridges  PER:  14.0
+; 101 .  Isaiah Joe  PER:  14.0
+; 102 .  P.J. Washington  PER:  14.0
+; 103 .  Tobias Harris  PER:  13.9
+; 104 .  Wendell Carter Jr.  PER:  13.7
+; 105 .  Grayson Allen  PER:  13.7
+; 106 .  Stephon Castle  PER:  13.7
+; 107 .  Rui Hachimura  PER:  13.6
+; 108 .  Bennedict Mathurin  PER:  13.6
+; 109 .  Derrick Jones Jr.  PER:  13.5
+; 110 .  Kelly Oubre Jr.  PER:  13.5
+; 111 .  Keon Ellis  PER:  13.5
+; 112 .  Jrue Holiday  PER:  13.5
+; 113 .  Jaden McDaniels  PER:  13.3
+; 114 .  Mike Conley  PER:  13.3
+; 115 .  Spencer Dinwiddie  PER:  13.0
+; 116 .  Al Horford  PER:  12.9
+; 117 .  Alex Sarr  PER:  12.9
+; 118 .  Klay Thompson  PER:  12.9
+; 119 .  Keyonte George  PER:  12.9
+; 120 .  Sam Hauser  PER:  12.8
+; 121 .  Fred VanVleet  PER:  12.8
+; 122 .  Dalton Knecht  PER:  12.7
+; 123 .  Dennis Schröder  PER:  12.7
+; 124 .  Jabari Smith Jr.  PER:  12.6
+; 125 .  Royce O'Neale  PER:  12.6
+; 126 .  Miles McBride  PER:  12.6
+; 127 .  Matas Buzelis  PER:  12.5
+; 128 .  Toumani Camara  PER:  12.5
+; 129 .  Scoot Henderson  PER:  12.5
+; 130 .  Moses Moody  PER:  12.4
+; 131 .  Cason Wallace  PER:  12.3
+; 132 .  Zaccharie Risacher  PER:  12.2
+; 133 .  Julian Champagnie  PER:  12.2
+; 134 .  Keegan Murray  PER:  12.0
+; 135 .  Ochai Agbaji  PER:  12.0
+; 136 .  Ziaire Williams  PER:  11.9
+; 137 .  Duncan Robinson  PER:  11.8
+; 138 .  Gary Trent Jr.  PER:  11.7
+; 139 .  Andrew Nembhard  PER:  11.7
+; 140 .  Nickeil Alexander-Walker  PER:  11.6
+; 141 .  Anthony Black  PER:  11.6
+; 142 .  Peyton Watson  PER:  11.4
+; 143 .  Kris Dunn  PER:  11.3
+; 144 .  Kevin Huerter  PER:  11.3
+; 145 .  Georges Niang  PER:  11.2
+; 146 .  Amir Coffey  PER:  11.2
+; 147 .  Dillon Brooks  PER:  11.0
+; 148 .  Corey Kispert  PER:  11.0
+; 149 .  Jerami Grant  PER:  10.9
+; 150 .  Gradey Dick  PER:  10.9
+; 151 .  Bilal Coulibaly  PER:  10.8
+; 152 .  Kyle Kuzma  PER:  10.6
+; 153 .  Jaylen Wells  PER:  10.5
+; 154 .  Terry Rozier  PER:  10.5
+; 155 .  Max Christie  PER:  10.4
+; 156 .  Keon Johnson  PER:  10.4
+; 157 .  Davion Mitchell  PER:  10.2
+; 158 .  Dorian Finney-Smith  PER:  10.1
+; 159 .  Haywood Highsmith  PER:  9.9
+; 160 .  Tristan Da Silva  PER:  9.9
+; 161 .  Kentavious Caldwell-Pope  PER:  9.9
+; 162 .  Taurean Prince  PER:  9.8
+; 163 .  Tim Hardaway Jr.  PER:  9.8
+; 164 .  Isaiah Collier  PER:  9.7
+; 165 .  Jalen Wilson  PER:  9.5
+; 166 .  A.J. Green  PER:  9.2
+; 167 .  Patrick Williams  PER:  9.0
+; 168 .  Bub Carrington  PER:  9.0
+; 169 .  Kyshawn George  PER:  8.8
+; 170 .  Josh Green  PER:  7.8
+; 171 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Aaron Wiggins
+; Currently picking for team:  Zvezda
+; Picking for position:  :c
+; Remaining PER:  99.9
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Ivica Zubac  PER:  22.3
+; 11 .  Jarrett Allen  PER:  22.1
+; 12 .  Tyrese Haliburton  PER:  21.8
+; 13 .  Jayson Tatum  PER:  21.7
+; 14 .  Jalen Brunson  PER:  21.6
+; 15 .  Stephen Curry  PER:  21.5
+; 16 .  Alperen Şengün  PER:  21.4
+; 17 .  Jalen Duren  PER:  21.4
+; 18 .  Damian Lillard  PER:  21.3
+; 19 .  Kevin Durant  PER:  21.2
+; 20 .  Donovan Mitchell  PER:  20.9
+; 21 .  Jonas Valančiūnas  PER:  20.8
+; 22 .  Cade Cunningham  PER:  20.6
+; 23 .  Nikola Vučević  PER:  20.3
+; 24 .  Jalen Williams  PER:  20.3
+; 25 .  Franz Wagner  PER:  20.1
+; 26 .  Anthony Edwards  PER:  20.1
+; 27 .  Walker Kessler  PER:  20.0
+; 28 .  Jakob Poeltl  PER:  20.0
+; 29 .  Paolo Banchero  PER:  20.0
+; 30 .  James Harden  PER:  20.0
+; 31 .  Kyrie Irving  PER:  19.9
+; 32 .  Darius Garland  PER:  19.9
+; 33 .  Tyler Herro  PER:  19.7
+; 34 .  Jaren Jackson Jr.  PER:  19.6
+; 35 .  Tyrese Maxey  PER:  19.5
+; 36 .  Devin Booker  PER:  19.3
+; 37 .  Ja Morant  PER:  19.3
+; 38 .  Pascal Siakam  PER:  19.2
+; 39 .  LaMelo Ball  PER:  19.1
+; 40 .  Onyeka Okongwu  PER:  19.0
+; 41 .  Bam Adebayo  PER:  18.9
+; 42 .  Isaiah Hartenstein  PER:  18.9
+; 43 .  Amen Thompson  PER:  18.7
+; 44 .  De'Aaron Fox  PER:  18.3
+; 45 .  Trae Young  PER:  18.3
+; 46 .  Rudy Gobert  PER:  18.3
+; 47 .  Cameron Johnson  PER:  18.2
+; 48 .  Josh Giddey  PER:  18.1
+; 49 .  Austin Reaves  PER:  18.1
+; 50 .  Desmond Bane  PER:  17.9
+; 51 .  Scottie Barnes  PER:  17.8
+; 52 .  Jaylen Brown  PER:  17.8
+; 53 .  Jamal Murray  PER:  17.8
+; 54 .  Miles Bridges  PER:  17.7
+; 55 .  DeMar DeRozan  PER:  17.7
+; 56 .  Deni Avdija  PER:  17.7
+; 57 .  Payton Pritchard  PER:  17.6
+; 58 .  Julius Randle  PER:  17.5
+; 59 .  Norman Powell  PER:  17.5
+; 60 .  Obi Toppin  PER:  17.4
+; 61 .  Trey Murphy III  PER:  17.3
+; 62 .  Zach LaVine  PER:  17.3
+; 63 .  Santi Aldama  PER:  16.8
+; 64 .  Derrick White  PER:  16.6
+; 65 .  Collin Sexton  PER:  16.6
+; 66 .  Jordan Poole  PER:  16.6
+; 67 .  Nic Claxton  PER:  16.5
+; 68 .  RJ Barrett  PER:  16.5
+; 69 .  Josh Hart  PER:  16.5
+; 70 .  Christian Braun  PER:  16.0
+; 71 .  De'Andre Hunter  PER:  15.9
+; 72 .  Quentin Grimes  PER:  15.9
+; 73 .  Scotty Pippen Jr.  PER:  15.8
+; 74 .  Naz Reid  PER:  15.8
+; 75 .  CJ McCollum  PER:  15.8
+; 76 .  Dyson Daniels  PER:  15.6
+; 77 .  Keldon Johnson  PER:  15.6
+; 78 .  Coby White  PER:  15.5
+; 79 .  OG Anunoby  PER:  15.4
+; 80 .  Yves Missi  PER:  15.4
+; 81 .  Bradley Beal  PER:  15.2
+; 82 .  Caris LeVert  PER:  15.2
+; 83 .  Naji Marshall  PER:  15.1
+; 84 .  Jalen Green  PER:  15.1
+; 85 .  Malik Monk  PER:  15.0
+; 86 .  Harrison Barnes  PER:  14.9
+; 87 .  Kyle Filipowski  PER:  14.9
+; 88 .  Anfernee Simons  PER:  14.9
+; 89 .  Brook Lopez  PER:  14.8
+; 90 .  Guerschon Yabusele  PER:  14.7
+; 91 .  Chris Paul  PER:  14.7
+; 92 .  Tyus Jones  PER:  14.5
+; 93 .  Shaedon Sharpe  PER:  14.5
+; 94 .  Malik Beasley  PER:  14.4
+; 95 .  Brandin Podziemski  PER:  14.4
+; 96 .  Russell Westbrook  PER:  14.3
+; 97 .  Devin Vassell  PER:  14.2
+; 98 .  Donte DiVincenzo  PER:  14.1
+; 99 .  Mikal Bridges  PER:  14.0
+; 100 .  Isaiah Joe  PER:  14.0
+; 101 .  P.J. Washington  PER:  14.0
+; 102 .  Tobias Harris  PER:  13.9
+; 103 .  Wendell Carter Jr.  PER:  13.7
+; 104 .  Grayson Allen  PER:  13.7
+; 105 .  Stephon Castle  PER:  13.7
+; 106 .  Rui Hachimura  PER:  13.6
+; 107 .  Bennedict Mathurin  PER:  13.6
+; 108 .  Derrick Jones Jr.  PER:  13.5
+; 109 .  Kelly Oubre Jr.  PER:  13.5
+; 110 .  Keon Ellis  PER:  13.5
+; 111 .  Jrue Holiday  PER:  13.5
+; 112 .  Jaden McDaniels  PER:  13.3
+; 113 .  Mike Conley  PER:  13.3
+; 114 .  Spencer Dinwiddie  PER:  13.0
+; 115 .  Al Horford  PER:  12.9
+; 116 .  Alex Sarr  PER:  12.9
+; 117 .  Klay Thompson  PER:  12.9
+; 118 .  Keyonte George  PER:  12.9
+; 119 .  Sam Hauser  PER:  12.8
+; 120 .  Fred VanVleet  PER:  12.8
+; 121 .  Dalton Knecht  PER:  12.7
+; 122 .  Dennis Schröder  PER:  12.7
+; 123 .  Jabari Smith Jr.  PER:  12.6
+; 124 .  Royce O'Neale  PER:  12.6
+; 125 .  Miles McBride  PER:  12.6
+; 126 .  Matas Buzelis  PER:  12.5
+; 127 .  Toumani Camara  PER:  12.5
+; 128 .  Scoot Henderson  PER:  12.5
+; 129 .  Moses Moody  PER:  12.4
+; 130 .  Cason Wallace  PER:  12.3
+; 131 .  Zaccharie Risacher  PER:  12.2
+; 132 .  Julian Champagnie  PER:  12.2
+; 133 .  Keegan Murray  PER:  12.0
+; 134 .  Ochai Agbaji  PER:  12.0
+; 135 .  Ziaire Williams  PER:  11.9
+; 136 .  Duncan Robinson  PER:  11.8
+; 137 .  Gary Trent Jr.  PER:  11.7
+; 138 .  Andrew Nembhard  PER:  11.7
+; 139 .  Nickeil Alexander-Walker  PER:  11.6
+; 140 .  Anthony Black  PER:  11.6
+; 141 .  Peyton Watson  PER:  11.4
+; 142 .  Kris Dunn  PER:  11.3
+; 143 .  Kevin Huerter  PER:  11.3
+; 144 .  Georges Niang  PER:  11.2
+; 145 .  Amir Coffey  PER:  11.2
+; 146 .  Dillon Brooks  PER:  11.0
+; 147 .  Corey Kispert  PER:  11.0
+; 148 .  Jerami Grant  PER:  10.9
+; 149 .  Gradey Dick  PER:  10.9
+; 150 .  Bilal Coulibaly  PER:  10.8
+; 151 .  Kyle Kuzma  PER:  10.6
+; 152 .  Jaylen Wells  PER:  10.5
+; 153 .  Terry Rozier  PER:  10.5
+; 154 .  Max Christie  PER:  10.4
+; 155 .  Keon Johnson  PER:  10.4
+; 156 .  Davion Mitchell  PER:  10.2
+; 157 .  Dorian Finney-Smith  PER:  10.1
+; 158 .  Haywood Highsmith  PER:  9.9
+; 159 .  Tristan Da Silva  PER:  9.9
+; 160 .  Kentavious Caldwell-Pope  PER:  9.9
+; 161 .  Taurean Prince  PER:  9.8
+; 162 .  Tim Hardaway Jr.  PER:  9.8
+; 163 .  Isaiah Collier  PER:  9.7
+; 164 .  Jalen Wilson  PER:  9.5
+; 165 .  A.J. Green  PER:  9.2
+; 166 .  Patrick Williams  PER:  9.0
+; 167 .  Bub Carrington  PER:  9.0
+; 168 .  Kyshawn George  PER:  8.8
+; 169 .  Josh Green  PER:  7.8
+; 170 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Ivica Zubac
+; Currently picking for team:  Partizan
+; Picking for position:  :c
+; Remaining PER:  95.19999999999999
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Jarrett Allen  PER:  22.1
+; 11 .  Tyrese Haliburton  PER:  21.8
+; 12 .  Jayson Tatum  PER:  21.7
+; 13 .  Jalen Brunson  PER:  21.6
+; 14 .  Stephen Curry  PER:  21.5
+; 15 .  Alperen Şengün  PER:  21.4
+; 16 .  Jalen Duren  PER:  21.4
+; 17 .  Damian Lillard  PER:  21.3
+; 18 .  Kevin Durant  PER:  21.2
+; 19 .  Donovan Mitchell  PER:  20.9
+; 20 .  Jonas Valančiūnas  PER:  20.8
+; 21 .  Cade Cunningham  PER:  20.6
+; 22 .  Nikola Vučević  PER:  20.3
+; 23 .  Jalen Williams  PER:  20.3
+; 24 .  Franz Wagner  PER:  20.1
+; 25 .  Anthony Edwards  PER:  20.1
+; 26 .  Walker Kessler  PER:  20.0
+; 27 .  Jakob Poeltl  PER:  20.0
+; 28 .  Paolo Banchero  PER:  20.0
+; 29 .  James Harden  PER:  20.0
+; 30 .  Kyrie Irving  PER:  19.9
+; 31 .  Darius Garland  PER:  19.9
+; 32 .  Tyler Herro  PER:  19.7
+; 33 .  Jaren Jackson Jr.  PER:  19.6
+; 34 .  Tyrese Maxey  PER:  19.5
+; 35 .  Devin Booker  PER:  19.3
+; 36 .  Ja Morant  PER:  19.3
+; 37 .  Pascal Siakam  PER:  19.2
+; 38 .  LaMelo Ball  PER:  19.1
+; 39 .  Onyeka Okongwu  PER:  19.0
+; 40 .  Bam Adebayo  PER:  18.9
+; 41 .  Isaiah Hartenstein  PER:  18.9
+; 42 .  Amen Thompson  PER:  18.7
+; 43 .  De'Aaron Fox  PER:  18.3
+; 44 .  Trae Young  PER:  18.3
+; 45 .  Rudy Gobert  PER:  18.3
+; 46 .  Cameron Johnson  PER:  18.2
+; 47 .  Josh Giddey  PER:  18.1
+; 48 .  Austin Reaves  PER:  18.1
+; 49 .  Desmond Bane  PER:  17.9
+; 50 .  Scottie Barnes  PER:  17.8
+; 51 .  Jaylen Brown  PER:  17.8
+; 52 .  Jamal Murray  PER:  17.8
+; 53 .  Miles Bridges  PER:  17.7
+; 54 .  DeMar DeRozan  PER:  17.7
+; 55 .  Deni Avdija  PER:  17.7
+; 56 .  Payton Pritchard  PER:  17.6
+; 57 .  Julius Randle  PER:  17.5
+; 58 .  Norman Powell  PER:  17.5
+; 59 .  Obi Toppin  PER:  17.4
+; 60 .  Trey Murphy III  PER:  17.3
+; 61 .  Zach LaVine  PER:  17.3
+; 62 .  Santi Aldama  PER:  16.8
+; 63 .  Derrick White  PER:  16.6
+; 64 .  Collin Sexton  PER:  16.6
+; 65 .  Jordan Poole  PER:  16.6
+; 66 .  Nic Claxton  PER:  16.5
+; 67 .  RJ Barrett  PER:  16.5
+; 68 .  Josh Hart  PER:  16.5
+; 69 .  Christian Braun  PER:  16.0
+; 70 .  De'Andre Hunter  PER:  15.9
+; 71 .  Quentin Grimes  PER:  15.9
+; 72 .  Scotty Pippen Jr.  PER:  15.8
+; 73 .  Naz Reid  PER:  15.8
+; 74 .  CJ McCollum  PER:  15.8
+; 75 .  Dyson Daniels  PER:  15.6
+; 76 .  Keldon Johnson  PER:  15.6
+; 77 .  Coby White  PER:  15.5
+; 78 .  OG Anunoby  PER:  15.4
+; 79 .  Yves Missi  PER:  15.4
+; 80 .  Bradley Beal  PER:  15.2
+; 81 .  Caris LeVert  PER:  15.2
+; 82 .  Naji Marshall  PER:  15.1
+; 83 .  Jalen Green  PER:  15.1
+; 84 .  Malik Monk  PER:  15.0
+; 85 .  Harrison Barnes  PER:  14.9
+; 86 .  Kyle Filipowski  PER:  14.9
+; 87 .  Anfernee Simons  PER:  14.9
+; 88 .  Brook Lopez  PER:  14.8
+; 89 .  Guerschon Yabusele  PER:  14.7
+; 90 .  Chris Paul  PER:  14.7
+; 91 .  Tyus Jones  PER:  14.5
+; 92 .  Shaedon Sharpe  PER:  14.5
+; 93 .  Malik Beasley  PER:  14.4
+; 94 .  Brandin Podziemski  PER:  14.4
+; 95 .  Russell Westbrook  PER:  14.3
+; 96 .  Devin Vassell  PER:  14.2
+; 97 .  Donte DiVincenzo  PER:  14.1
+; 98 .  Mikal Bridges  PER:  14.0
+; 99 .  Isaiah Joe  PER:  14.0
+; 100 .  P.J. Washington  PER:  14.0
+; 101 .  Tobias Harris  PER:  13.9
+; 102 .  Wendell Carter Jr.  PER:  13.7
+; 103 .  Grayson Allen  PER:  13.7
+; 104 .  Stephon Castle  PER:  13.7
+; 105 .  Rui Hachimura  PER:  13.6
+; 106 .  Bennedict Mathurin  PER:  13.6
+; 107 .  Derrick Jones Jr.  PER:  13.5
+; 108 .  Kelly Oubre Jr.  PER:  13.5
+; 109 .  Keon Ellis  PER:  13.5
+; 110 .  Jrue Holiday  PER:  13.5
+; 111 .  Jaden McDaniels  PER:  13.3
+; 112 .  Mike Conley  PER:  13.3
+; 113 .  Spencer Dinwiddie  PER:  13.0
+; 114 .  Al Horford  PER:  12.9
+; 115 .  Alex Sarr  PER:  12.9
+; 116 .  Klay Thompson  PER:  12.9
+; 117 .  Keyonte George  PER:  12.9
+; 118 .  Sam Hauser  PER:  12.8
+; 119 .  Fred VanVleet  PER:  12.8
+; 120 .  Dalton Knecht  PER:  12.7
+; 121 .  Dennis Schröder  PER:  12.7
+; 122 .  Jabari Smith Jr.  PER:  12.6
+; 123 .  Royce O'Neale  PER:  12.6
+; 124 .  Miles McBride  PER:  12.6
+; 125 .  Matas Buzelis  PER:  12.5
+; 126 .  Toumani Camara  PER:  12.5
+; 127 .  Scoot Henderson  PER:  12.5
+; 128 .  Moses Moody  PER:  12.4
+; 129 .  Cason Wallace  PER:  12.3
+; 130 .  Zaccharie Risacher  PER:  12.2
+; 131 .  Julian Champagnie  PER:  12.2
+; 132 .  Keegan Murray  PER:  12.0
+; 133 .  Ochai Agbaji  PER:  12.0
+; 134 .  Ziaire Williams  PER:  11.9
+; 135 .  Duncan Robinson  PER:  11.8
+; 136 .  Gary Trent Jr.  PER:  11.7
+; 137 .  Andrew Nembhard  PER:  11.7
+; 138 .  Nickeil Alexander-Walker  PER:  11.6
+; 139 .  Anthony Black  PER:  11.6
+; 140 .  Peyton Watson  PER:  11.4
+; 141 .  Kris Dunn  PER:  11.3
+; 142 .  Kevin Huerter  PER:  11.3
+; 143 .  Georges Niang  PER:  11.2
+; 144 .  Amir Coffey  PER:  11.2
+; 145 .  Dillon Brooks  PER:  11.0
+; 146 .  Corey Kispert  PER:  11.0
+; 147 .  Jerami Grant  PER:  10.9
+; 148 .  Gradey Dick  PER:  10.9
+; 149 .  Bilal Coulibaly  PER:  10.8
+; 150 .  Kyle Kuzma  PER:  10.6
+; 151 .  Jaylen Wells  PER:  10.5
+; 152 .  Terry Rozier  PER:  10.5
+; 153 .  Max Christie  PER:  10.4
+; 154 .  Keon Johnson  PER:  10.4
+; 155 .  Davion Mitchell  PER:  10.2
+; 156 .  Dorian Finney-Smith  PER:  10.1
+; 157 .  Haywood Highsmith  PER:  9.9
+; 158 .  Tristan Da Silva  PER:  9.9
+; 159 .  Kentavious Caldwell-Pope  PER:  9.9
+; 160 .  Taurean Prince  PER:  9.8
+; 161 .  Tim Hardaway Jr.  PER:  9.8
+; 162 .  Isaiah Collier  PER:  9.7
+; 163 .  Jalen Wilson  PER:  9.5
+; 164 .  A.J. Green  PER:  9.2
+; 165 .  Patrick Williams  PER:  9.0
+; 166 .  Bub Carrington  PER:  9.0
+; 167 .  Kyshawn George  PER:  8.8
+; 168 .  Josh Green  PER:  7.8
+; 169 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  De'Andre Hunter
+; Currently picking for team:  Zvezda
+; Picking for position:  :bench
+; Remaining PER:  77.60000000000001
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Jarrett Allen  PER:  22.1
+; 11 .  Tyrese Haliburton  PER:  21.8
+; 12 .  Jayson Tatum  PER:  21.7
+; 13 .  Jalen Brunson  PER:  21.6
+; 14 .  Stephen Curry  PER:  21.5
+; 15 .  Alperen Şengün  PER:  21.4
+; 16 .  Jalen Duren  PER:  21.4
+; 17 .  Damian Lillard  PER:  21.3
+; 18 .  Kevin Durant  PER:  21.2
+; 19 .  Donovan Mitchell  PER:  20.9
+; 20 .  Jonas Valančiūnas  PER:  20.8
+; 21 .  Cade Cunningham  PER:  20.6
+; 22 .  Nikola Vučević  PER:  20.3
+; 23 .  Jalen Williams  PER:  20.3
+; 24 .  Franz Wagner  PER:  20.1
+; 25 .  Anthony Edwards  PER:  20.1
+; 26 .  Walker Kessler  PER:  20.0
+; 27 .  Jakob Poeltl  PER:  20.0
+; 28 .  Paolo Banchero  PER:  20.0
+; 29 .  James Harden  PER:  20.0
+; 30 .  Kyrie Irving  PER:  19.9
+; 31 .  Darius Garland  PER:  19.9
+; 32 .  Tyler Herro  PER:  19.7
+; 33 .  Jaren Jackson Jr.  PER:  19.6
+; 34 .  Tyrese Maxey  PER:  19.5
+; 35 .  Devin Booker  PER:  19.3
+; 36 .  Ja Morant  PER:  19.3
+; 37 .  Pascal Siakam  PER:  19.2
+; 38 .  LaMelo Ball  PER:  19.1
+; 39 .  Onyeka Okongwu  PER:  19.0
+; 40 .  Bam Adebayo  PER:  18.9
+; 41 .  Isaiah Hartenstein  PER:  18.9
+; 42 .  Amen Thompson  PER:  18.7
+; 43 .  De'Aaron Fox  PER:  18.3
+; 44 .  Trae Young  PER:  18.3
+; 45 .  Rudy Gobert  PER:  18.3
+; 46 .  Cameron Johnson  PER:  18.2
+; 47 .  Josh Giddey  PER:  18.1
+; 48 .  Austin Reaves  PER:  18.1
+; 49 .  Desmond Bane  PER:  17.9
+; 50 .  Scottie Barnes  PER:  17.8
+; 51 .  Jaylen Brown  PER:  17.8
+; 52 .  Jamal Murray  PER:  17.8
+; 53 .  Miles Bridges  PER:  17.7
+; 54 .  DeMar DeRozan  PER:  17.7
+; 55 .  Deni Avdija  PER:  17.7
+; 56 .  Payton Pritchard  PER:  17.6
+; 57 .  Julius Randle  PER:  17.5
+; 58 .  Norman Powell  PER:  17.5
+; 59 .  Obi Toppin  PER:  17.4
+; 60 .  Trey Murphy III  PER:  17.3
+; 61 .  Zach LaVine  PER:  17.3
+; 62 .  Santi Aldama  PER:  16.8
+; 63 .  Derrick White  PER:  16.6
+; 64 .  Collin Sexton  PER:  16.6
+; 65 .  Jordan Poole  PER:  16.6
+; 66 .  Nic Claxton  PER:  16.5
+; 67 .  RJ Barrett  PER:  16.5
+; 68 .  Josh Hart  PER:  16.5
+; 69 .  Christian Braun  PER:  16.0
+; 70 .  Quentin Grimes  PER:  15.9
+; 71 .  Scotty Pippen Jr.  PER:  15.8
+; 72 .  Naz Reid  PER:  15.8
+; 73 .  CJ McCollum  PER:  15.8
+; 74 .  Dyson Daniels  PER:  15.6
+; 75 .  Keldon Johnson  PER:  15.6
+; 76 .  Coby White  PER:  15.5
+; 77 .  OG Anunoby  PER:  15.4
+; 78 .  Yves Missi  PER:  15.4
+; 79 .  Bradley Beal  PER:  15.2
+; 80 .  Caris LeVert  PER:  15.2
+; 81 .  Naji Marshall  PER:  15.1
+; 82 .  Jalen Green  PER:  15.1
+; 83 .  Malik Monk  PER:  15.0
+; 84 .  Harrison Barnes  PER:  14.9
+; 85 .  Kyle Filipowski  PER:  14.9
+; 86 .  Anfernee Simons  PER:  14.9
+; 87 .  Brook Lopez  PER:  14.8
+; 88 .  Guerschon Yabusele  PER:  14.7
+; 89 .  Chris Paul  PER:  14.7
+; 90 .  Tyus Jones  PER:  14.5
+; 91 .  Shaedon Sharpe  PER:  14.5
+; 92 .  Malik Beasley  PER:  14.4
+; 93 .  Brandin Podziemski  PER:  14.4
+; 94 .  Russell Westbrook  PER:  14.3
+; 95 .  Devin Vassell  PER:  14.2
+; 96 .  Donte DiVincenzo  PER:  14.1
+; 97 .  Mikal Bridges  PER:  14.0
+; 98 .  Isaiah Joe  PER:  14.0
+; 99 .  P.J. Washington  PER:  14.0
+; 100 .  Tobias Harris  PER:  13.9
+; 101 .  Wendell Carter Jr.  PER:  13.7
+; 102 .  Grayson Allen  PER:  13.7
+; 103 .  Stephon Castle  PER:  13.7
+; 104 .  Rui Hachimura  PER:  13.6
+; 105 .  Bennedict Mathurin  PER:  13.6
+; 106 .  Derrick Jones Jr.  PER:  13.5
+; 107 .  Kelly Oubre Jr.  PER:  13.5
+; 108 .  Keon Ellis  PER:  13.5
+; 109 .  Jrue Holiday  PER:  13.5
+; 110 .  Jaden McDaniels  PER:  13.3
+; 111 .  Mike Conley  PER:  13.3
+; 112 .  Spencer Dinwiddie  PER:  13.0
+; 113 .  Al Horford  PER:  12.9
+; 114 .  Alex Sarr  PER:  12.9
+; 115 .  Klay Thompson  PER:  12.9
+; 116 .  Keyonte George  PER:  12.9
+; 117 .  Sam Hauser  PER:  12.8
+; 118 .  Fred VanVleet  PER:  12.8
+; 119 .  Dalton Knecht  PER:  12.7
+; 120 .  Dennis Schröder  PER:  12.7
+; 121 .  Jabari Smith Jr.  PER:  12.6
+; 122 .  Royce O'Neale  PER:  12.6
+; 123 .  Miles McBride  PER:  12.6
+; 124 .  Matas Buzelis  PER:  12.5
+; 125 .  Toumani Camara  PER:  12.5
+; 126 .  Scoot Henderson  PER:  12.5
+; 127 .  Moses Moody  PER:  12.4
+; 128 .  Cason Wallace  PER:  12.3
+; 129 .  Zaccharie Risacher  PER:  12.2
+; 130 .  Julian Champagnie  PER:  12.2
+; 131 .  Keegan Murray  PER:  12.0
+; 132 .  Ochai Agbaji  PER:  12.0
+; 133 .  Ziaire Williams  PER:  11.9
+; 134 .  Duncan Robinson  PER:  11.8
+; 135 .  Gary Trent Jr.  PER:  11.7
+; 136 .  Andrew Nembhard  PER:  11.7
+; 137 .  Nickeil Alexander-Walker  PER:  11.6
+; 138 .  Anthony Black  PER:  11.6
+; 139 .  Peyton Watson  PER:  11.4
+; 140 .  Kris Dunn  PER:  11.3
+; 141 .  Kevin Huerter  PER:  11.3
+; 142 .  Georges Niang  PER:  11.2
+; 143 .  Amir Coffey  PER:  11.2
+; 144 .  Dillon Brooks  PER:  11.0
+; 145 .  Corey Kispert  PER:  11.0
+; 146 .  Jerami Grant  PER:  10.9
+; 147 .  Gradey Dick  PER:  10.9
+; 148 .  Bilal Coulibaly  PER:  10.8
+; 149 .  Kyle Kuzma  PER:  10.6
+; 150 .  Jaylen Wells  PER:  10.5
+; 151 .  Terry Rozier  PER:  10.5
+; 152 .  Max Christie  PER:  10.4
+; 153 .  Keon Johnson  PER:  10.4
+; 154 .  Davion Mitchell  PER:  10.2
+; 155 .  Dorian Finney-Smith  PER:  10.1
+; 156 .  Haywood Highsmith  PER:  9.9
+; 157 .  Tristan Da Silva  PER:  9.9
+; 158 .  Kentavious Caldwell-Pope  PER:  9.9
+; 159 .  Taurean Prince  PER:  9.8
+; 160 .  Tim Hardaway Jr.  PER:  9.8
+; 161 .  Isaiah Collier  PER:  9.7
+; 162 .  Jalen Wilson  PER:  9.5
+; 163 .  A.J. Green  PER:  9.2
+; 164 .  Patrick Williams  PER:  9.0
+; 165 .  Bub Carrington  PER:  9.0
+; 166 .  Kyshawn George  PER:  8.8
+; 167 .  Josh Green  PER:  7.8
+; 168 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Kyrie Irving
+; Currently picking for team:  Partizan
+; Picking for position:  :bench
+; Remaining PER:  79.29999999999998
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Jarrett Allen  PER:  22.1
+; 11 .  Tyrese Haliburton  PER:  21.8
+; 12 .  Jayson Tatum  PER:  21.7
+; 13 .  Jalen Brunson  PER:  21.6
+; 14 .  Stephen Curry  PER:  21.5
+; 15 .  Alperen Şengün  PER:  21.4
+; 16 .  Jalen Duren  PER:  21.4
+; 17 .  Damian Lillard  PER:  21.3
+; 18 .  Kevin Durant  PER:  21.2
+; 19 .  Donovan Mitchell  PER:  20.9
+; 20 .  Jonas Valančiūnas  PER:  20.8
+; 21 .  Cade Cunningham  PER:  20.6
+; 22 .  Nikola Vučević  PER:  20.3
+; 23 .  Jalen Williams  PER:  20.3
+; 24 .  Franz Wagner  PER:  20.1
+; 25 .  Anthony Edwards  PER:  20.1
+; 26 .  Walker Kessler  PER:  20.0
+; 27 .  Jakob Poeltl  PER:  20.0
+; 28 .  Paolo Banchero  PER:  20.0
+; 29 .  James Harden  PER:  20.0
+; 30 .  Darius Garland  PER:  19.9
+; 31 .  Tyler Herro  PER:  19.7
+; 32 .  Jaren Jackson Jr.  PER:  19.6
+; 33 .  Tyrese Maxey  PER:  19.5
+; 34 .  Devin Booker  PER:  19.3
+; 35 .  Ja Morant  PER:  19.3
+; 36 .  Pascal Siakam  PER:  19.2
+; 37 .  LaMelo Ball  PER:  19.1
+; 38 .  Onyeka Okongwu  PER:  19.0
+; 39 .  Bam Adebayo  PER:  18.9
+; 40 .  Isaiah Hartenstein  PER:  18.9
+; 41 .  Amen Thompson  PER:  18.7
+; 42 .  De'Aaron Fox  PER:  18.3
+; 43 .  Trae Young  PER:  18.3
+; 44 .  Rudy Gobert  PER:  18.3
+; 45 .  Cameron Johnson  PER:  18.2
+; 46 .  Josh Giddey  PER:  18.1
+; 47 .  Austin Reaves  PER:  18.1
+; 48 .  Desmond Bane  PER:  17.9
+; 49 .  Scottie Barnes  PER:  17.8
+; 50 .  Jaylen Brown  PER:  17.8
+; 51 .  Jamal Murray  PER:  17.8
+; 52 .  Miles Bridges  PER:  17.7
+; 53 .  DeMar DeRozan  PER:  17.7
+; 54 .  Deni Avdija  PER:  17.7
+; 55 .  Payton Pritchard  PER:  17.6
+; 56 .  Julius Randle  PER:  17.5
+; 57 .  Norman Powell  PER:  17.5
+; 58 .  Obi Toppin  PER:  17.4
+; 59 .  Trey Murphy III  PER:  17.3
+; 60 .  Zach LaVine  PER:  17.3
+; 61 .  Santi Aldama  PER:  16.8
+; 62 .  Derrick White  PER:  16.6
+; 63 .  Collin Sexton  PER:  16.6
+; 64 .  Jordan Poole  PER:  16.6
+; 65 .  Nic Claxton  PER:  16.5
+; 66 .  RJ Barrett  PER:  16.5
+; 67 .  Josh Hart  PER:  16.5
+; 68 .  Christian Braun  PER:  16.0
+; 69 .  Quentin Grimes  PER:  15.9
+; 70 .  Scotty Pippen Jr.  PER:  15.8
+; 71 .  Naz Reid  PER:  15.8
+; 72 .  CJ McCollum  PER:  15.8
+; 73 .  Dyson Daniels  PER:  15.6
+; 74 .  Keldon Johnson  PER:  15.6
+; 75 .  Coby White  PER:  15.5
+; 76 .  OG Anunoby  PER:  15.4
+; 77 .  Yves Missi  PER:  15.4
+; 78 .  Bradley Beal  PER:  15.2
+; 79 .  Caris LeVert  PER:  15.2
+; 80 .  Naji Marshall  PER:  15.1
+; 81 .  Jalen Green  PER:  15.1
+; 82 .  Malik Monk  PER:  15.0
+; 83 .  Harrison Barnes  PER:  14.9
+; 84 .  Kyle Filipowski  PER:  14.9
+; 85 .  Anfernee Simons  PER:  14.9
+; 86 .  Brook Lopez  PER:  14.8
+; 87 .  Guerschon Yabusele  PER:  14.7
+; 88 .  Chris Paul  PER:  14.7
+; 89 .  Tyus Jones  PER:  14.5
+; 90 .  Shaedon Sharpe  PER:  14.5
+; 91 .  Malik Beasley  PER:  14.4
+; 92 .  Brandin Podziemski  PER:  14.4
+; 93 .  Russell Westbrook  PER:  14.3
+; 94 .  Devin Vassell  PER:  14.2
+; 95 .  Donte DiVincenzo  PER:  14.1
+; 96 .  Mikal Bridges  PER:  14.0
+; 97 .  Isaiah Joe  PER:  14.0
+; 98 .  P.J. Washington  PER:  14.0
+; 99 .  Tobias Harris  PER:  13.9
+; 100 .  Wendell Carter Jr.  PER:  13.7
+; 101 .  Grayson Allen  PER:  13.7
+; 102 .  Stephon Castle  PER:  13.7
+; 103 .  Rui Hachimura  PER:  13.6
+; 104 .  Bennedict Mathurin  PER:  13.6
+; 105 .  Derrick Jones Jr.  PER:  13.5
+; 106 .  Kelly Oubre Jr.  PER:  13.5
+; 107 .  Keon Ellis  PER:  13.5
+; 108 .  Jrue Holiday  PER:  13.5
+; 109 .  Jaden McDaniels  PER:  13.3
+; 110 .  Mike Conley  PER:  13.3
+; 111 .  Spencer Dinwiddie  PER:  13.0
+; 112 .  Al Horford  PER:  12.9
+; 113 .  Alex Sarr  PER:  12.9
+; 114 .  Klay Thompson  PER:  12.9
+; 115 .  Keyonte George  PER:  12.9
+; 116 .  Sam Hauser  PER:  12.8
+; 117 .  Fred VanVleet  PER:  12.8
+; 118 .  Dalton Knecht  PER:  12.7
+; 119 .  Dennis Schröder  PER:  12.7
+; 120 .  Jabari Smith Jr.  PER:  12.6
+; 121 .  Royce O'Neale  PER:  12.6
+; 122 .  Miles McBride  PER:  12.6
+; 123 .  Matas Buzelis  PER:  12.5
+; 124 .  Toumani Camara  PER:  12.5
+; 125 .  Scoot Henderson  PER:  12.5
+; 126 .  Moses Moody  PER:  12.4
+; 127 .  Cason Wallace  PER:  12.3
+; 128 .  Zaccharie Risacher  PER:  12.2
+; 129 .  Julian Champagnie  PER:  12.2
+; 130 .  Keegan Murray  PER:  12.0
+; 131 .  Ochai Agbaji  PER:  12.0
+; 132 .  Ziaire Williams  PER:  11.9
+; 133 .  Duncan Robinson  PER:  11.8
+; 134 .  Gary Trent Jr.  PER:  11.7
+; 135 .  Andrew Nembhard  PER:  11.7
+; 136 .  Nickeil Alexander-Walker  PER:  11.6
+; 137 .  Anthony Black  PER:  11.6
+; 138 .  Peyton Watson  PER:  11.4
+; 139 .  Kris Dunn  PER:  11.3
+; 140 .  Kevin Huerter  PER:  11.3
+; 141 .  Georges Niang  PER:  11.2
+; 142 .  Amir Coffey  PER:  11.2
+; 143 .  Dillon Brooks  PER:  11.0
+; 144 .  Corey Kispert  PER:  11.0
+; 145 .  Jerami Grant  PER:  10.9
+; 146 .  Gradey Dick  PER:  10.9
+; 147 .  Bilal Coulibaly  PER:  10.8
+; 148 .  Kyle Kuzma  PER:  10.6
+; 149 .  Jaylen Wells  PER:  10.5
+; 150 .  Terry Rozier  PER:  10.5
+; 151 .  Max Christie  PER:  10.4
+; 152 .  Keon Johnson  PER:  10.4
+; 153 .  Davion Mitchell  PER:  10.2
+; 154 .  Dorian Finney-Smith  PER:  10.1
+; 155 .  Haywood Highsmith  PER:  9.9
+; 156 .  Tristan Da Silva  PER:  9.9
+; 157 .  Kentavious Caldwell-Pope  PER:  9.9
+; 158 .  Taurean Prince  PER:  9.8
+; 159 .  Tim Hardaway Jr.  PER:  9.8
+; 160 .  Isaiah Collier  PER:  9.7
+; 161 .  Jalen Wilson  PER:  9.5
+; 162 .  A.J. Green  PER:  9.2
+; 163 .  Patrick Williams  PER:  9.0
+; 164 .  Bub Carrington  PER:  9.0
+; 165 .  Kyshawn George  PER:  8.8
+; 166 .  Josh Green  PER:  7.8
+; 167 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Scotty Pippen Jr.
+; Currently picking for team:  Zvezda
+; Picking for position:  :bench
+; Remaining PER:  57.70000000000001
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Jarrett Allen  PER:  22.1
+; 11 .  Tyrese Haliburton  PER:  21.8
+; 12 .  Jayson Tatum  PER:  21.7
+; 13 .  Jalen Brunson  PER:  21.6
+; 14 .  Stephen Curry  PER:  21.5
+; 15 .  Alperen Şengün  PER:  21.4
+; 16 .  Jalen Duren  PER:  21.4
+; 17 .  Damian Lillard  PER:  21.3
+; 18 .  Kevin Durant  PER:  21.2
+; 19 .  Donovan Mitchell  PER:  20.9
+; 20 .  Jonas Valančiūnas  PER:  20.8
+; 21 .  Cade Cunningham  PER:  20.6
+; 22 .  Nikola Vučević  PER:  20.3
+; 23 .  Jalen Williams  PER:  20.3
+; 24 .  Franz Wagner  PER:  20.1
+; 25 .  Anthony Edwards  PER:  20.1
+; 26 .  Walker Kessler  PER:  20.0
+; 27 .  Jakob Poeltl  PER:  20.0
+; 28 .  Paolo Banchero  PER:  20.0
+; 29 .  James Harden  PER:  20.0
+; 30 .  Darius Garland  PER:  19.9
+; 31 .  Tyler Herro  PER:  19.7
+; 32 .  Jaren Jackson Jr.  PER:  19.6
+; 33 .  Tyrese Maxey  PER:  19.5
+; 34 .  Devin Booker  PER:  19.3
+; 35 .  Ja Morant  PER:  19.3
+; 36 .  Pascal Siakam  PER:  19.2
+; 37 .  LaMelo Ball  PER:  19.1
+; 38 .  Onyeka Okongwu  PER:  19.0
+; 39 .  Bam Adebayo  PER:  18.9
+; 40 .  Isaiah Hartenstein  PER:  18.9
+; 41 .  Amen Thompson  PER:  18.7
+; 42 .  De'Aaron Fox  PER:  18.3
+; 43 .  Trae Young  PER:  18.3
+; 44 .  Rudy Gobert  PER:  18.3
+; 45 .  Cameron Johnson  PER:  18.2
+; 46 .  Josh Giddey  PER:  18.1
+; 47 .  Austin Reaves  PER:  18.1
+; 48 .  Desmond Bane  PER:  17.9
+; 49 .  Scottie Barnes  PER:  17.8
+; 50 .  Jaylen Brown  PER:  17.8
+; 51 .  Jamal Murray  PER:  17.8
+; 52 .  Miles Bridges  PER:  17.7
+; 53 .  DeMar DeRozan  PER:  17.7
+; 54 .  Deni Avdija  PER:  17.7
+; 55 .  Payton Pritchard  PER:  17.6
+; 56 .  Julius Randle  PER:  17.5
+; 57 .  Norman Powell  PER:  17.5
+; 58 .  Obi Toppin  PER:  17.4
+; 59 .  Trey Murphy III  PER:  17.3
+; 60 .  Zach LaVine  PER:  17.3
+; 61 .  Santi Aldama  PER:  16.8
+; 62 .  Derrick White  PER:  16.6
+; 63 .  Collin Sexton  PER:  16.6
+; 64 .  Jordan Poole  PER:  16.6
+; 65 .  Nic Claxton  PER:  16.5
+; 66 .  RJ Barrett  PER:  16.5
+; 67 .  Josh Hart  PER:  16.5
+; 68 .  Christian Braun  PER:  16.0
+; 69 .  Quentin Grimes  PER:  15.9
+; 70 .  Naz Reid  PER:  15.8
+; 71 .  CJ McCollum  PER:  15.8
+; 72 .  Dyson Daniels  PER:  15.6
+; 73 .  Keldon Johnson  PER:  15.6
+; 74 .  Coby White  PER:  15.5
+; 75 .  OG Anunoby  PER:  15.4
+; 76 .  Yves Missi  PER:  15.4
+; 77 .  Bradley Beal  PER:  15.2
+; 78 .  Caris LeVert  PER:  15.2
+; 79 .  Naji Marshall  PER:  15.1
+; 80 .  Jalen Green  PER:  15.1
+; 81 .  Malik Monk  PER:  15.0
+; 82 .  Harrison Barnes  PER:  14.9
+; 83 .  Kyle Filipowski  PER:  14.9
+; 84 .  Anfernee Simons  PER:  14.9
+; 85 .  Brook Lopez  PER:  14.8
+; 86 .  Guerschon Yabusele  PER:  14.7
+; 87 .  Chris Paul  PER:  14.7
+; 88 .  Tyus Jones  PER:  14.5
+; 89 .  Shaedon Sharpe  PER:  14.5
+; 90 .  Malik Beasley  PER:  14.4
+; 91 .  Brandin Podziemski  PER:  14.4
+; 92 .  Russell Westbrook  PER:  14.3
+; 93 .  Devin Vassell  PER:  14.2
+; 94 .  Donte DiVincenzo  PER:  14.1
+; 95 .  Mikal Bridges  PER:  14.0
+; 96 .  Isaiah Joe  PER:  14.0
+; 97 .  P.J. Washington  PER:  14.0
+; 98 .  Tobias Harris  PER:  13.9
+; 99 .  Wendell Carter Jr.  PER:  13.7
+; 100 .  Grayson Allen  PER:  13.7
+; 101 .  Stephon Castle  PER:  13.7
+; 102 .  Rui Hachimura  PER:  13.6
+; 103 .  Bennedict Mathurin  PER:  13.6
+; 104 .  Derrick Jones Jr.  PER:  13.5
+; 105 .  Kelly Oubre Jr.  PER:  13.5
+; 106 .  Keon Ellis  PER:  13.5
+; 107 .  Jrue Holiday  PER:  13.5
+; 108 .  Jaden McDaniels  PER:  13.3
+; 109 .  Mike Conley  PER:  13.3
+; 110 .  Spencer Dinwiddie  PER:  13.0
+; 111 .  Al Horford  PER:  12.9
+; 112 .  Alex Sarr  PER:  12.9
+; 113 .  Klay Thompson  PER:  12.9
+; 114 .  Keyonte George  PER:  12.9
+; 115 .  Sam Hauser  PER:  12.8
+; 116 .  Fred VanVleet  PER:  12.8
+; 117 .  Dalton Knecht  PER:  12.7
+; 118 .  Dennis Schröder  PER:  12.7
+; 119 .  Jabari Smith Jr.  PER:  12.6
+; 120 .  Royce O'Neale  PER:  12.6
+; 121 .  Miles McBride  PER:  12.6
+; 122 .  Matas Buzelis  PER:  12.5
+; 123 .  Toumani Camara  PER:  12.5
+; 124 .  Scoot Henderson  PER:  12.5
+; 125 .  Moses Moody  PER:  12.4
+; 126 .  Cason Wallace  PER:  12.3
+; 127 .  Zaccharie Risacher  PER:  12.2
+; 128 .  Julian Champagnie  PER:  12.2
+; 129 .  Keegan Murray  PER:  12.0
+; 130 .  Ochai Agbaji  PER:  12.0
+; 131 .  Ziaire Williams  PER:  11.9
+; 132 .  Duncan Robinson  PER:  11.8
+; 133 .  Gary Trent Jr.  PER:  11.7
+; 134 .  Andrew Nembhard  PER:  11.7
+; 135 .  Nickeil Alexander-Walker  PER:  11.6
+; 136 .  Anthony Black  PER:  11.6
+; 137 .  Peyton Watson  PER:  11.4
+; 138 .  Kris Dunn  PER:  11.3
+; 139 .  Kevin Huerter  PER:  11.3
+; 140 .  Georges Niang  PER:  11.2
+; 141 .  Amir Coffey  PER:  11.2
+; 142 .  Dillon Brooks  PER:  11.0
+; 143 .  Corey Kispert  PER:  11.0
+; 144 .  Jerami Grant  PER:  10.9
+; 145 .  Gradey Dick  PER:  10.9
+; 146 .  Bilal Coulibaly  PER:  10.8
+; 147 .  Kyle Kuzma  PER:  10.6
+; 148 .  Jaylen Wells  PER:  10.5
+; 149 .  Terry Rozier  PER:  10.5
+; 150 .  Max Christie  PER:  10.4
+; 151 .  Keon Johnson  PER:  10.4
+; 152 .  Davion Mitchell  PER:  10.2
+; 153 .  Dorian Finney-Smith  PER:  10.1
+; 154 .  Haywood Highsmith  PER:  9.9
+; 155 .  Tristan Da Silva  PER:  9.9
+; 156 .  Kentavious Caldwell-Pope  PER:  9.9
+; 157 .  Taurean Prince  PER:  9.8
+; 158 .  Tim Hardaway Jr.  PER:  9.8
+; 159 .  Isaiah Collier  PER:  9.7
+; 160 .  Jalen Wilson  PER:  9.5
+; 161 .  A.J. Green  PER:  9.2
+; 162 .  Patrick Williams  PER:  9.0
+; 163 .  Bub Carrington  PER:  9.0
+; 164 .  Kyshawn George  PER:  8.8
+; 165 .  Josh Green  PER:  7.8
+; 166 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Dillon Brooks
+; Currently picking for team:  Partizan
+; Picking for position:  :bench
+; Remaining PER:  63.499999999999986
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Jarrett Allen  PER:  22.1
+; 11 .  Tyrese Haliburton  PER:  21.8
+; 12 .  Jayson Tatum  PER:  21.7
+; 13 .  Jalen Brunson  PER:  21.6
+; 14 .  Stephen Curry  PER:  21.5
+; 15 .  Alperen Şengün  PER:  21.4
+; 16 .  Jalen Duren  PER:  21.4
+; 17 .  Damian Lillard  PER:  21.3
+; 18 .  Kevin Durant  PER:  21.2
+; 19 .  Donovan Mitchell  PER:  20.9
+; 20 .  Jonas Valančiūnas  PER:  20.8
+; 21 .  Cade Cunningham  PER:  20.6
+; 22 .  Nikola Vučević  PER:  20.3
+; 23 .  Jalen Williams  PER:  20.3
+; 24 .  Franz Wagner  PER:  20.1
+; 25 .  Anthony Edwards  PER:  20.1
+; 26 .  Walker Kessler  PER:  20.0
+; 27 .  Jakob Poeltl  PER:  20.0
+; 28 .  Paolo Banchero  PER:  20.0
+; 29 .  James Harden  PER:  20.0
+; 30 .  Darius Garland  PER:  19.9
+; 31 .  Tyler Herro  PER:  19.7
+; 32 .  Jaren Jackson Jr.  PER:  19.6
+; 33 .  Tyrese Maxey  PER:  19.5
+; 34 .  Devin Booker  PER:  19.3
+; 35 .  Ja Morant  PER:  19.3
+; 36 .  Pascal Siakam  PER:  19.2
+; 37 .  LaMelo Ball  PER:  19.1
+; 38 .  Onyeka Okongwu  PER:  19.0
+; 39 .  Bam Adebayo  PER:  18.9
+; 40 .  Isaiah Hartenstein  PER:  18.9
+; 41 .  Amen Thompson  PER:  18.7
+; 42 .  De'Aaron Fox  PER:  18.3
+; 43 .  Trae Young  PER:  18.3
+; 44 .  Rudy Gobert  PER:  18.3
+; 45 .  Cameron Johnson  PER:  18.2
+; 46 .  Josh Giddey  PER:  18.1
+; 47 .  Austin Reaves  PER:  18.1
+; 48 .  Desmond Bane  PER:  17.9
+; 49 .  Scottie Barnes  PER:  17.8
+; 50 .  Jaylen Brown  PER:  17.8
+; 51 .  Jamal Murray  PER:  17.8
+; 52 .  Miles Bridges  PER:  17.7
+; 53 .  DeMar DeRozan  PER:  17.7
+; 54 .  Deni Avdija  PER:  17.7
+; 55 .  Payton Pritchard  PER:  17.6
+; 56 .  Julius Randle  PER:  17.5
+; 57 .  Norman Powell  PER:  17.5
+; 58 .  Obi Toppin  PER:  17.4
+; 59 .  Trey Murphy III  PER:  17.3
+; 60 .  Zach LaVine  PER:  17.3
+; 61 .  Santi Aldama  PER:  16.8
+; 62 .  Derrick White  PER:  16.6
+; 63 .  Collin Sexton  PER:  16.6
+; 64 .  Jordan Poole  PER:  16.6
+; 65 .  Nic Claxton  PER:  16.5
+; 66 .  RJ Barrett  PER:  16.5
+; 67 .  Josh Hart  PER:  16.5
+; 68 .  Christian Braun  PER:  16.0
+; 69 .  Quentin Grimes  PER:  15.9
+; 70 .  Naz Reid  PER:  15.8
+; 71 .  CJ McCollum  PER:  15.8
+; 72 .  Dyson Daniels  PER:  15.6
+; 73 .  Keldon Johnson  PER:  15.6
+; 74 .  Coby White  PER:  15.5
+; 75 .  OG Anunoby  PER:  15.4
+; 76 .  Yves Missi  PER:  15.4
+; 77 .  Bradley Beal  PER:  15.2
+; 78 .  Caris LeVert  PER:  15.2
+; 79 .  Naji Marshall  PER:  15.1
+; 80 .  Jalen Green  PER:  15.1
+; 81 .  Malik Monk  PER:  15.0
+; 82 .  Harrison Barnes  PER:  14.9
+; 83 .  Kyle Filipowski  PER:  14.9
+; 84 .  Anfernee Simons  PER:  14.9
+; 85 .  Brook Lopez  PER:  14.8
+; 86 .  Guerschon Yabusele  PER:  14.7
+; 87 .  Chris Paul  PER:  14.7
+; 88 .  Tyus Jones  PER:  14.5
+; 89 .  Shaedon Sharpe  PER:  14.5
+; 90 .  Malik Beasley  PER:  14.4
+; 91 .  Brandin Podziemski  PER:  14.4
+; 92 .  Russell Westbrook  PER:  14.3
+; 93 .  Devin Vassell  PER:  14.2
+; 94 .  Donte DiVincenzo  PER:  14.1
+; 95 .  Mikal Bridges  PER:  14.0
+; 96 .  Isaiah Joe  PER:  14.0
+; 97 .  P.J. Washington  PER:  14.0
+; 98 .  Tobias Harris  PER:  13.9
+; 99 .  Wendell Carter Jr.  PER:  13.7
+; 100 .  Grayson Allen  PER:  13.7
+; 101 .  Stephon Castle  PER:  13.7
+; 102 .  Rui Hachimura  PER:  13.6
+; 103 .  Bennedict Mathurin  PER:  13.6
+; 104 .  Derrick Jones Jr.  PER:  13.5
+; 105 .  Kelly Oubre Jr.  PER:  13.5
+; 106 .  Keon Ellis  PER:  13.5
+; 107 .  Jrue Holiday  PER:  13.5
+; 108 .  Jaden McDaniels  PER:  13.3
+; 109 .  Mike Conley  PER:  13.3
+; 110 .  Spencer Dinwiddie  PER:  13.0
+; 111 .  Al Horford  PER:  12.9
+; 112 .  Alex Sarr  PER:  12.9
+; 113 .  Klay Thompson  PER:  12.9
+; 114 .  Keyonte George  PER:  12.9
+; 115 .  Sam Hauser  PER:  12.8
+; 116 .  Fred VanVleet  PER:  12.8
+; 117 .  Dalton Knecht  PER:  12.7
+; 118 .  Dennis Schröder  PER:  12.7
+; 119 .  Jabari Smith Jr.  PER:  12.6
+; 120 .  Royce O'Neale  PER:  12.6
+; 121 .  Miles McBride  PER:  12.6
+; 122 .  Matas Buzelis  PER:  12.5
+; 123 .  Toumani Camara  PER:  12.5
+; 124 .  Scoot Henderson  PER:  12.5
+; 125 .  Moses Moody  PER:  12.4
+; 126 .  Cason Wallace  PER:  12.3
+; 127 .  Zaccharie Risacher  PER:  12.2
+; 128 .  Julian Champagnie  PER:  12.2
+; 129 .  Keegan Murray  PER:  12.0
+; 130 .  Ochai Agbaji  PER:  12.0
+; 131 .  Ziaire Williams  PER:  11.9
+; 132 .  Duncan Robinson  PER:  11.8
+; 133 .  Gary Trent Jr.  PER:  11.7
+; 134 .  Andrew Nembhard  PER:  11.7
+; 135 .  Nickeil Alexander-Walker  PER:  11.6
+; 136 .  Anthony Black  PER:  11.6
+; 137 .  Peyton Watson  PER:  11.4
+; 138 .  Kris Dunn  PER:  11.3
+; 139 .  Kevin Huerter  PER:  11.3
+; 140 .  Georges Niang  PER:  11.2
+; 141 .  Amir Coffey  PER:  11.2
+; 142 .  Corey Kispert  PER:  11.0
+; 143 .  Jerami Grant  PER:  10.9
+; 144 .  Gradey Dick  PER:  10.9
+; 145 .  Bilal Coulibaly  PER:  10.8
+; 146 .  Kyle Kuzma  PER:  10.6
+; 147 .  Jaylen Wells  PER:  10.5
+; 148 .  Terry Rozier  PER:  10.5
+; 149 .  Max Christie  PER:  10.4
+; 150 .  Keon Johnson  PER:  10.4
+; 151 .  Davion Mitchell  PER:  10.2
+; 152 .  Dorian Finney-Smith  PER:  10.1
+; 153 .  Haywood Highsmith  PER:  9.9
+; 154 .  Tristan Da Silva  PER:  9.9
+; 155 .  Kentavious Caldwell-Pope  PER:  9.9
+; 156 .  Taurean Prince  PER:  9.8
+; 157 .  Tim Hardaway Jr.  PER:  9.8
+; 158 .  Isaiah Collier  PER:  9.7
+; 159 .  Jalen Wilson  PER:  9.5
+; 160 .  A.J. Green  PER:  9.2
+; 161 .  Patrick Williams  PER:  9.0
+; 162 .  Bub Carrington  PER:  9.0
+; 163 .  Kyshawn George  PER:  8.8
+; 164 .  Josh Green  PER:  7.8
+; 165 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Naz Reid
+; Currently picking for team:  Zvezda
+; Picking for position:  :bench
+; Remaining PER:  46.70000000000001
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Jarrett Allen  PER:  22.1
+; 11 .  Tyrese Haliburton  PER:  21.8
+; 12 .  Jayson Tatum  PER:  21.7
+; 13 .  Jalen Brunson  PER:  21.6
+; 14 .  Stephen Curry  PER:  21.5
+; 15 .  Alperen Şengün  PER:  21.4
+; 16 .  Jalen Duren  PER:  21.4
+; 17 .  Damian Lillard  PER:  21.3
+; 18 .  Kevin Durant  PER:  21.2
+; 19 .  Donovan Mitchell  PER:  20.9
+; 20 .  Jonas Valančiūnas  PER:  20.8
+; 21 .  Cade Cunningham  PER:  20.6
+; 22 .  Nikola Vučević  PER:  20.3
+; 23 .  Jalen Williams  PER:  20.3
+; 24 .  Franz Wagner  PER:  20.1
+; 25 .  Anthony Edwards  PER:  20.1
+; 26 .  Walker Kessler  PER:  20.0
+; 27 .  Jakob Poeltl  PER:  20.0
+; 28 .  Paolo Banchero  PER:  20.0
+; 29 .  James Harden  PER:  20.0
+; 30 .  Darius Garland  PER:  19.9
+; 31 .  Tyler Herro  PER:  19.7
+; 32 .  Jaren Jackson Jr.  PER:  19.6
+; 33 .  Tyrese Maxey  PER:  19.5
+; 34 .  Devin Booker  PER:  19.3
+; 35 .  Ja Morant  PER:  19.3
+; 36 .  Pascal Siakam  PER:  19.2
+; 37 .  LaMelo Ball  PER:  19.1
+; 38 .  Onyeka Okongwu  PER:  19.0
+; 39 .  Bam Adebayo  PER:  18.9
+; 40 .  Isaiah Hartenstein  PER:  18.9
+; 41 .  Amen Thompson  PER:  18.7
+; 42 .  De'Aaron Fox  PER:  18.3
+; 43 .  Trae Young  PER:  18.3
+; 44 .  Rudy Gobert  PER:  18.3
+; 45 .  Cameron Johnson  PER:  18.2
+; 46 .  Josh Giddey  PER:  18.1
+; 47 .  Austin Reaves  PER:  18.1
+; 48 .  Desmond Bane  PER:  17.9
+; 49 .  Scottie Barnes  PER:  17.8
+; 50 .  Jaylen Brown  PER:  17.8
+; 51 .  Jamal Murray  PER:  17.8
+; 52 .  Miles Bridges  PER:  17.7
+; 53 .  DeMar DeRozan  PER:  17.7
+; 54 .  Deni Avdija  PER:  17.7
+; 55 .  Payton Pritchard  PER:  17.6
+; 56 .  Julius Randle  PER:  17.5
+; 57 .  Norman Powell  PER:  17.5
+; 58 .  Obi Toppin  PER:  17.4
+; 59 .  Trey Murphy III  PER:  17.3
+; 60 .  Zach LaVine  PER:  17.3
+; 61 .  Santi Aldama  PER:  16.8
+; 62 .  Derrick White  PER:  16.6
+; 63 .  Collin Sexton  PER:  16.6
+; 64 .  Jordan Poole  PER:  16.6
+; 65 .  Nic Claxton  PER:  16.5
+; 66 .  RJ Barrett  PER:  16.5
+; 67 .  Josh Hart  PER:  16.5
+; 68 .  Christian Braun  PER:  16.0
+; 69 .  Quentin Grimes  PER:  15.9
+; 70 .  CJ McCollum  PER:  15.8
+; 71 .  Dyson Daniels  PER:  15.6
+; 72 .  Keldon Johnson  PER:  15.6
+; 73 .  Coby White  PER:  15.5
+; 74 .  OG Anunoby  PER:  15.4
+; 75 .  Yves Missi  PER:  15.4
+; 76 .  Bradley Beal  PER:  15.2
+; 77 .  Caris LeVert  PER:  15.2
+; 78 .  Naji Marshall  PER:  15.1
+; 79 .  Jalen Green  PER:  15.1
+; 80 .  Malik Monk  PER:  15.0
+; 81 .  Harrison Barnes  PER:  14.9
+; 82 .  Kyle Filipowski  PER:  14.9
+; 83 .  Anfernee Simons  PER:  14.9
+; 84 .  Brook Lopez  PER:  14.8
+; 85 .  Guerschon Yabusele  PER:  14.7
+; 86 .  Chris Paul  PER:  14.7
+; 87 .  Tyus Jones  PER:  14.5
+; 88 .  Shaedon Sharpe  PER:  14.5
+; 89 .  Malik Beasley  PER:  14.4
+; 90 .  Brandin Podziemski  PER:  14.4
+; 91 .  Russell Westbrook  PER:  14.3
+; 92 .  Devin Vassell  PER:  14.2
+; 93 .  Donte DiVincenzo  PER:  14.1
+; 94 .  Mikal Bridges  PER:  14.0
+; 95 .  Isaiah Joe  PER:  14.0
+; 96 .  P.J. Washington  PER:  14.0
+; 97 .  Tobias Harris  PER:  13.9
+; 98 .  Wendell Carter Jr.  PER:  13.7
+; 99 .  Grayson Allen  PER:  13.7
+; 100 .  Stephon Castle  PER:  13.7
+; 101 .  Rui Hachimura  PER:  13.6
+; 102 .  Bennedict Mathurin  PER:  13.6
+; 103 .  Derrick Jones Jr.  PER:  13.5
+; 104 .  Kelly Oubre Jr.  PER:  13.5
+; 105 .  Keon Ellis  PER:  13.5
+; 106 .  Jrue Holiday  PER:  13.5
+; 107 .  Jaden McDaniels  PER:  13.3
+; 108 .  Mike Conley  PER:  13.3
+; 109 .  Spencer Dinwiddie  PER:  13.0
+; 110 .  Al Horford  PER:  12.9
+; 111 .  Alex Sarr  PER:  12.9
+; 112 .  Klay Thompson  PER:  12.9
+; 113 .  Keyonte George  PER:  12.9
+; 114 .  Sam Hauser  PER:  12.8
+; 115 .  Fred VanVleet  PER:  12.8
+; 116 .  Dalton Knecht  PER:  12.7
+; 117 .  Dennis Schröder  PER:  12.7
+; 118 .  Jabari Smith Jr.  PER:  12.6
+; 119 .  Royce O'Neale  PER:  12.6
+; 120 .  Miles McBride  PER:  12.6
+; 121 .  Matas Buzelis  PER:  12.5
+; 122 .  Toumani Camara  PER:  12.5
+; 123 .  Scoot Henderson  PER:  12.5
+; 124 .  Moses Moody  PER:  12.4
+; 125 .  Cason Wallace  PER:  12.3
+; 126 .  Zaccharie Risacher  PER:  12.2
+; 127 .  Julian Champagnie  PER:  12.2
+; 128 .  Keegan Murray  PER:  12.0
+; 129 .  Ochai Agbaji  PER:  12.0
+; 130 .  Ziaire Williams  PER:  11.9
+; 131 .  Duncan Robinson  PER:  11.8
+; 132 .  Gary Trent Jr.  PER:  11.7
+; 133 .  Andrew Nembhard  PER:  11.7
+; 134 .  Nickeil Alexander-Walker  PER:  11.6
+; 135 .  Anthony Black  PER:  11.6
+; 136 .  Peyton Watson  PER:  11.4
+; 137 .  Kris Dunn  PER:  11.3
+; 138 .  Kevin Huerter  PER:  11.3
+; 139 .  Georges Niang  PER:  11.2
+; 140 .  Amir Coffey  PER:  11.2
+; 141 .  Corey Kispert  PER:  11.0
+; 142 .  Jerami Grant  PER:  10.9
+; 143 .  Gradey Dick  PER:  10.9
+; 144 .  Bilal Coulibaly  PER:  10.8
+; 145 .  Kyle Kuzma  PER:  10.6
+; 146 .  Jaylen Wells  PER:  10.5
+; 147 .  Terry Rozier  PER:  10.5
+; 148 .  Max Christie  PER:  10.4
+; 149 .  Keon Johnson  PER:  10.4
+; 150 .  Davion Mitchell  PER:  10.2
+; 151 .  Dorian Finney-Smith  PER:  10.1
+; 152 .  Haywood Highsmith  PER:  9.9
+; 153 .  Tristan Da Silva  PER:  9.9
+; 154 .  Kentavious Caldwell-Pope  PER:  9.9
+; 155 .  Taurean Prince  PER:  9.8
+; 156 .  Tim Hardaway Jr.  PER:  9.8
+; 157 .  Isaiah Collier  PER:  9.7
+; 158 .  Jalen Wilson  PER:  9.5
+; 159 .  A.J. Green  PER:  9.2
+; 160 .  Patrick Williams  PER:  9.0
+; 161 .  Bub Carrington  PER:  9.0
+; 162 .  Kyshawn George  PER:  8.8
+; 163 .  Josh Green  PER:  7.8
+; 164 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Taurean Prince
+; Currently picking for team:  Partizan
+; Picking for position:  :bench
+; Remaining PER:  47.69999999999999
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7
+; 2 .  Giannis Antetokounmpo  PER:  30.5
+; 3 .  Anthony Davis  PER:  26.3
+; 4 .  Victor Wembanyama  PER:  24.2
+; 5 .  Karl-Anthony Towns  PER:  23.4
+; 6 .  Domantas Sabonis  PER:  22.9
+; 7 .  LeBron James  PER:  22.7
+; 8 .  Jimmy Butler  PER:  22.4
+; 9 .  Evan Mobley  PER:  22.3
+; 10 .  Jarrett Allen  PER:  22.1
+; 11 .  Tyrese Haliburton  PER:  21.8
+; 12 .  Jayson Tatum  PER:  21.7
+; 13 .  Jalen Brunson  PER:  21.6
+; 14 .  Stephen Curry  PER:  21.5
+; 15 .  Alperen Şengün  PER:  21.4
+; 16 .  Jalen Duren  PER:  21.4
+; 17 .  Damian Lillard  PER:  21.3
+; 18 .  Kevin Durant  PER:  21.2
+; 19 .  Donovan Mitchell  PER:  20.9
+; 20 .  Jonas Valančiūnas  PER:  20.8
+; 21 .  Cade Cunningham  PER:  20.6
+; 22 .  Nikola Vučević  PER:  20.3
+; 23 .  Jalen Williams  PER:  20.3
+; 24 .  Franz Wagner  PER:  20.1
+; 25 .  Anthony Edwards  PER:  20.1
+; 26 .  Walker Kessler  PER:  20.0
+; 27 .  Jakob Poeltl  PER:  20.0
+; 28 .  Paolo Banchero  PER:  20.0
+; 29 .  James Harden  PER:  20.0
+; 30 .  Darius Garland  PER:  19.9
+; 31 .  Tyler Herro  PER:  19.7
+; 32 .  Jaren Jackson Jr.  PER:  19.6
+; 33 .  Tyrese Maxey  PER:  19.5
+; 34 .  Devin Booker  PER:  19.3
+; 35 .  Ja Morant  PER:  19.3
+; 36 .  Pascal Siakam  PER:  19.2
+; 37 .  LaMelo Ball  PER:  19.1
+; 38 .  Onyeka Okongwu  PER:  19.0
+; 39 .  Bam Adebayo  PER:  18.9
+; 40 .  Isaiah Hartenstein  PER:  18.9
+; 41 .  Amen Thompson  PER:  18.7
+; 42 .  De'Aaron Fox  PER:  18.3
+; 43 .  Trae Young  PER:  18.3
+; 44 .  Rudy Gobert  PER:  18.3
+; 45 .  Cameron Johnson  PER:  18.2
+; 46 .  Josh Giddey  PER:  18.1
+; 47 .  Austin Reaves  PER:  18.1
+; 48 .  Desmond Bane  PER:  17.9
+; 49 .  Scottie Barnes  PER:  17.8
+; 50 .  Jaylen Brown  PER:  17.8
+; 51 .  Jamal Murray  PER:  17.8
+; 52 .  Miles Bridges  PER:  17.7
+; 53 .  DeMar DeRozan  PER:  17.7
+; 54 .  Deni Avdija  PER:  17.7
+; 55 .  Payton Pritchard  PER:  17.6
+; 56 .  Julius Randle  PER:  17.5
+; 57 .  Norman Powell  PER:  17.5
+; 58 .  Obi Toppin  PER:  17.4
+; 59 .  Trey Murphy III  PER:  17.3
+; 60 .  Zach LaVine  PER:  17.3
+; 61 .  Santi Aldama  PER:  16.8
+; 62 .  Derrick White  PER:  16.6
+; 63 .  Collin Sexton  PER:  16.6
+; 64 .  Jordan Poole  PER:  16.6
+; 65 .  Nic Claxton  PER:  16.5
+; 66 .  RJ Barrett  PER:  16.5
+; 67 .  Josh Hart  PER:  16.5
+; 68 .  Christian Braun  PER:  16.0
+; 69 .  Quentin Grimes  PER:  15.9
+; 70 .  CJ McCollum  PER:  15.8
+; 71 .  Dyson Daniels  PER:  15.6
+; 72 .  Keldon Johnson  PER:  15.6
+; 73 .  Coby White  PER:  15.5
+; 74 .  OG Anunoby  PER:  15.4
+; 75 .  Yves Missi  PER:  15.4
+; 76 .  Bradley Beal  PER:  15.2
+; 77 .  Caris LeVert  PER:  15.2
+; 78 .  Naji Marshall  PER:  15.1
+; 79 .  Jalen Green  PER:  15.1
+; 80 .  Malik Monk  PER:  15.0
+; 81 .  Harrison Barnes  PER:  14.9
+; 82 .  Kyle Filipowski  PER:  14.9
+; 83 .  Anfernee Simons  PER:  14.9
+; 84 .  Brook Lopez  PER:  14.8
+; 85 .  Guerschon Yabusele  PER:  14.7
+; 86 .  Chris Paul  PER:  14.7
+; 87 .  Tyus Jones  PER:  14.5
+; 88 .  Shaedon Sharpe  PER:  14.5
+; 89 .  Malik Beasley  PER:  14.4
+; 90 .  Brandin Podziemski  PER:  14.4
+; 91 .  Russell Westbrook  PER:  14.3
+; 92 .  Devin Vassell  PER:  14.2
+; 93 .  Donte DiVincenzo  PER:  14.1
+; 94 .  Mikal Bridges  PER:  14.0
+; 95 .  Isaiah Joe  PER:  14.0
+; 96 .  P.J. Washington  PER:  14.0
+; 97 .  Tobias Harris  PER:  13.9
+; 98 .  Wendell Carter Jr.  PER:  13.7
+; 99 .  Grayson Allen  PER:  13.7
+; 100 .  Stephon Castle  PER:  13.7
+; 101 .  Rui Hachimura  PER:  13.6
+; 102 .  Bennedict Mathurin  PER:  13.6
+; 103 .  Derrick Jones Jr.  PER:  13.5
+; 104 .  Kelly Oubre Jr.  PER:  13.5
+; 105 .  Keon Ellis  PER:  13.5
+; 106 .  Jrue Holiday  PER:  13.5
+; 107 .  Jaden McDaniels  PER:  13.3
+; 108 .  Mike Conley  PER:  13.3
+; 109 .  Spencer Dinwiddie  PER:  13.0
+; 110 .  Al Horford  PER:  12.9
+; 111 .  Alex Sarr  PER:  12.9
+; 112 .  Klay Thompson  PER:  12.9
+; 113 .  Keyonte George  PER:  12.9
+; 114 .  Sam Hauser  PER:  12.8
+; 115 .  Fred VanVleet  PER:  12.8
+; 116 .  Dalton Knecht  PER:  12.7
+; 117 .  Dennis Schröder  PER:  12.7
+; 118 .  Jabari Smith Jr.  PER:  12.6
+; 119 .  Royce O'Neale  PER:  12.6
+; 120 .  Miles McBride  PER:  12.6
+; 121 .  Matas Buzelis  PER:  12.5
+; 122 .  Toumani Camara  PER:  12.5
+; 123 .  Scoot Henderson  PER:  12.5
+; 124 .  Moses Moody  PER:  12.4
+; 125 .  Cason Wallace  PER:  12.3
+; 126 .  Zaccharie Risacher  PER:  12.2
+; 127 .  Julian Champagnie  PER:  12.2
+; 128 .  Keegan Murray  PER:  12.0
+; 129 .  Ochai Agbaji  PER:  12.0
+; 130 .  Ziaire Williams  PER:  11.9
+; 131 .  Duncan Robinson  PER:  11.8
+; 132 .  Gary Trent Jr.  PER:  11.7
+; 133 .  Andrew Nembhard  PER:  11.7
+; 134 .  Nickeil Alexander-Walker  PER:  11.6
+; 135 .  Anthony Black  PER:  11.6
+; 136 .  Peyton Watson  PER:  11.4
+; 137 .  Kris Dunn  PER:  11.3
+; 138 .  Kevin Huerter  PER:  11.3
+; 139 .  Georges Niang  PER:  11.2
+; 140 .  Amir Coffey  PER:  11.2
+; 141 .  Corey Kispert  PER:  11.0
+; 142 .  Jerami Grant  PER:  10.9
+; 143 .  Gradey Dick  PER:  10.9
+; 144 .  Bilal Coulibaly  PER:  10.8
+; 145 .  Kyle Kuzma  PER:  10.6
+; 146 .  Jaylen Wells  PER:  10.5
+; 147 .  Terry Rozier  PER:  10.5
+; 148 .  Max Christie  PER:  10.4
+; 149 .  Keon Johnson  PER:  10.4
+; 150 .  Davion Mitchell  PER:  10.2
+; 151 .  Dorian Finney-Smith  PER:  10.1
+; 152 .  Haywood Highsmith  PER:  9.9
+; 153 .  Tristan Da Silva  PER:  9.9
+; 154 .  Kentavious Caldwell-Pope  PER:  9.9
+; 155 .  Tim Hardaway Jr.  PER:  9.8
+; 156 .  Isaiah Collier  PER:  9.7
+; 157 .  Jalen Wilson  PER:  9.5
+; 158 .  A.J. Green  PER:  9.2
+; 159 .  Patrick Williams  PER:  9.0
+; 160 .  Bub Carrington  PER:  9.0
+; 161 .  Kyshawn George  PER:  8.8
+; 162 .  Josh Green  PER:  7.8
+; 163 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; You selected:  Shai Gilgeous-Alexander
+; Currently picking for team:  Zvezda
+; Picking for position:  :bench
+; Remaining PER:  36.900000000000006
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0
+; 1 .  Giannis Antetokounmpo  PER:  30.5
+; 2 .  Anthony Davis  PER:  26.3
+; 3 .  Victor Wembanyama  PER:  24.2
+; 4 .  Karl-Anthony Towns  PER:  23.4
+; 5 .  Domantas Sabonis  PER:  22.9
+; 6 .  LeBron James  PER:  22.7
+; 7 .  Jimmy Butler  PER:  22.4
+; 8 .  Evan Mobley  PER:  22.3
+; 9 .  Jarrett Allen  PER:  22.1
+; 10 .  Tyrese Haliburton  PER:  21.8
+; 11 .  Jayson Tatum  PER:  21.7
+; 12 .  Jalen Brunson  PER:  21.6
+; 13 .  Stephen Curry  PER:  21.5
+; 14 .  Alperen Şengün  PER:  21.4
+; 15 .  Jalen Duren  PER:  21.4
+; 16 .  Damian Lillard  PER:  21.3
+; 17 .  Kevin Durant  PER:  21.2
+; 18 .  Donovan Mitchell  PER:  20.9
+; 19 .  Jonas Valančiūnas  PER:  20.8
+; 20 .  Cade Cunningham  PER:  20.6
+; 21 .  Nikola Vučević  PER:  20.3
+; 22 .  Jalen Williams  PER:  20.3
+; 23 .  Franz Wagner  PER:  20.1
+; 24 .  Anthony Edwards  PER:  20.1
+; 25 .  Walker Kessler  PER:  20.0
+; 26 .  Jakob Poeltl  PER:  20.0
+; 27 .  Paolo Banchero  PER:  20.0
+; 28 .  James Harden  PER:  20.0
+; 29 .  Darius Garland  PER:  19.9
+; 30 .  Tyler Herro  PER:  19.7
+; 31 .  Jaren Jackson Jr.  PER:  19.6
+; 32 .  Tyrese Maxey  PER:  19.5
+; 33 .  Devin Booker  PER:  19.3
+; 34 .  Ja Morant  PER:  19.3
+; 35 .  Pascal Siakam  PER:  19.2
+; 36 .  LaMelo Ball  PER:  19.1
+; 37 .  Onyeka Okongwu  PER:  19.0
+; 38 .  Bam Adebayo  PER:  18.9
+; 39 .  Isaiah Hartenstein  PER:  18.9
+; 40 .  Amen Thompson  PER:  18.7
+; 41 .  De'Aaron Fox  PER:  18.3
+; 42 .  Trae Young  PER:  18.3
+; 43 .  Rudy Gobert  PER:  18.3
+; 44 .  Cameron Johnson  PER:  18.2
+; 45 .  Josh Giddey  PER:  18.1
+; 46 .  Austin Reaves  PER:  18.1
+; 47 .  Desmond Bane  PER:  17.9
+; 48 .  Scottie Barnes  PER:  17.8
+; 49 .  Jaylen Brown  PER:  17.8
+; 50 .  Jamal Murray  PER:  17.8
+; 51 .  Miles Bridges  PER:  17.7
+; 52 .  DeMar DeRozan  PER:  17.7
+; 53 .  Deni Avdija  PER:  17.7
+; 54 .  Payton Pritchard  PER:  17.6
+; 55 .  Julius Randle  PER:  17.5
+; 56 .  Norman Powell  PER:  17.5
+; 57 .  Obi Toppin  PER:  17.4
+; 58 .  Trey Murphy III  PER:  17.3
+; 59 .  Zach LaVine  PER:  17.3
+; 60 .  Santi Aldama  PER:  16.8
+; 61 .  Derrick White  PER:  16.6
+; 62 .  Collin Sexton  PER:  16.6
+; 63 .  Jordan Poole  PER:  16.6
+; 64 .  Nic Claxton  PER:  16.5
+; 65 .  RJ Barrett  PER:  16.5
+; 66 .  Josh Hart  PER:  16.5
+; 67 .  Christian Braun  PER:  16.0
+; 68 .  Quentin Grimes  PER:  15.9
+; 69 .  CJ McCollum  PER:  15.8
+; 70 .  Dyson Daniels  PER:  15.6
+; 71 .  Keldon Johnson  PER:  15.6
+; 72 .  Coby White  PER:  15.5
+; 73 .  OG Anunoby  PER:  15.4
+; 74 .  Yves Missi  PER:  15.4
+; 75 .  Bradley Beal  PER:  15.2
+; 76 .  Caris LeVert  PER:  15.2
+; 77 .  Naji Marshall  PER:  15.1
+; 78 .  Jalen Green  PER:  15.1
+; 79 .  Malik Monk  PER:  15.0
+; 80 .  Harrison Barnes  PER:  14.9
+; 81 .  Kyle Filipowski  PER:  14.9
+; 82 .  Anfernee Simons  PER:  14.9
+; 83 .  Brook Lopez  PER:  14.8
+; 84 .  Guerschon Yabusele  PER:  14.7
+; 85 .  Chris Paul  PER:  14.7
+; 86 .  Tyus Jones  PER:  14.5
+; 87 .  Shaedon Sharpe  PER:  14.5
+; 88 .  Malik Beasley  PER:  14.4
+; 89 .  Brandin Podziemski  PER:  14.4
+; 90 .  Russell Westbrook  PER:  14.3
+; 91 .  Devin Vassell  PER:  14.2
+; 92 .  Donte DiVincenzo  PER:  14.1
+; 93 .  Mikal Bridges  PER:  14.0
+; 94 .  Isaiah Joe  PER:  14.0
+; 95 .  P.J. Washington  PER:  14.0
+; 96 .  Tobias Harris  PER:  13.9
+; 97 .  Wendell Carter Jr.  PER:  13.7
+; 98 .  Grayson Allen  PER:  13.7
+; 99 .  Stephon Castle  PER:  13.7
+; 100 .  Rui Hachimura  PER:  13.6
+; 101 .  Bennedict Mathurin  PER:  13.6
+; 102 .  Derrick Jones Jr.  PER:  13.5
+; 103 .  Kelly Oubre Jr.  PER:  13.5
+; 104 .  Keon Ellis  PER:  13.5
+; 105 .  Jrue Holiday  PER:  13.5
+; 106 .  Jaden McDaniels  PER:  13.3
+; 107 .  Mike Conley  PER:  13.3
+; 108 .  Spencer Dinwiddie  PER:  13.0
+; 109 .  Al Horford  PER:  12.9
+; 110 .  Alex Sarr  PER:  12.9
+; 111 .  Klay Thompson  PER:  12.9
+; 112 .  Keyonte George  PER:  12.9
+; 113 .  Sam Hauser  PER:  12.8
+; 114 .  Fred VanVleet  PER:  12.8
+; 115 .  Dalton Knecht  PER:  12.7
+; 116 .  Dennis Schröder  PER:  12.7
+; 117 .  Jabari Smith Jr.  PER:  12.6
+; 118 .  Royce O'Neale  PER:  12.6
+; 119 .  Miles McBride  PER:  12.6
+; 120 .  Matas Buzelis  PER:  12.5
+; 121 .  Toumani Camara  PER:  12.5
+; 122 .  Scoot Henderson  PER:  12.5
+; 123 .  Moses Moody  PER:  12.4
+; 124 .  Cason Wallace  PER:  12.3
+; 125 .  Zaccharie Risacher  PER:  12.2
+; 126 .  Julian Champagnie  PER:  12.2
+; 127 .  Keegan Murray  PER:  12.0
+; 128 .  Ochai Agbaji  PER:  12.0
+; 129 .  Ziaire Williams  PER:  11.9
+; 130 .  Duncan Robinson  PER:  11.8
+; 131 .  Gary Trent Jr.  PER:  11.7
+; 132 .  Andrew Nembhard  PER:  11.7
+; 133 .  Nickeil Alexander-Walker  PER:  11.6
+; 134 .  Anthony Black  PER:  11.6
+; 135 .  Peyton Watson  PER:  11.4
+; 136 .  Kris Dunn  PER:  11.3
+; 137 .  Kevin Huerter  PER:  11.3
+; 138 .  Georges Niang  PER:  11.2
+; 139 .  Amir Coffey  PER:  11.2
+; 140 .  Corey Kispert  PER:  11.0
+; 141 .  Jerami Grant  PER:  10.9
+; 142 .  Gradey Dick  PER:  10.9
+; 143 .  Bilal Coulibaly  PER:  10.8
+; 144 .  Kyle Kuzma  PER:  10.6
+; 145 .  Jaylen Wells  PER:  10.5
+; 146 .  Terry Rozier  PER:  10.5
+; 147 .  Max Christie  PER:  10.4
+; 148 .  Keon Johnson  PER:  10.4
+; 149 .  Davion Mitchell  PER:  10.2
+; 150 .  Dorian Finney-Smith  PER:  10.1
+; 151 .  Haywood Highsmith  PER:  9.9
+; 152 .  Tristan Da Silva  PER:  9.9
+; 153 .  Kentavious Caldwell-Pope  PER:  9.9
+; 154 .  Tim Hardaway Jr.  PER:  9.8
+; 155 .  Isaiah Collier  PER:  9.7
+; 156 .  Jalen Wilson  PER:  9.5
+; 157 .  A.J. Green  PER:  9.2
+; 158 .  Patrick Williams  PER:  9.0
+; 159 .  Bub Carrington  PER:  9.0
+; 160 .  Kyshawn George  PER:  8.8
+; 161 .  Josh Green  PER:  7.8
+; 162 .  Gabe Vincent  PER:  7.4
+; Pick a player by a number:
+; Sending interrupt.; Evaluation was interrupted
+clj꞉basket-sim.core꞉> 
+Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/await (AbstractQueuedSynchronizer.java:1722).
+; null
+clj꞉basket-sim.core꞉> 
+#'basket-sim.core/print-draft-state
+clj꞉basket-sim.core꞉> 
+; Input the name for the first team
+; Input the name for the second team
+; Currently picking for team:  1
+; Picking for position:  :pg
+; Remaining PER:  160
+; Available players:
+; 0 .  Nikola Jokić  PER:  32.0  OBPM:  9.9  DPBM:  3.3
+; 1 .  Shai Gilgeous-Alexander  PER:  30.7  OBPM:  8.9  DPBM:  2.6
+; 2 .  Giannis Antetokounmpo  PER:  30.5  OBPM:  6.9  DPBM:  2.5
+; 3 .  Anthony Davis  PER:  26.3  OBPM:  3.9  DPBM:  1.5
+; 4 .  Victor Wembanyama  PER:  24.2  OBPM:  3.6  DPBM:  2.9
+; 5 .  Luka Dončić  PER:  24.1  OBPM:  5.5  DPBM:  1.2
+; 6 .  Karl-Anthony Towns  PER:  23.4  OBPM:  3.5  DPBM:  0.1
+; 7 .  Domantas Sabonis  PER:  22.9  OBPM:  4.2  DPBM:  1.1
+; 8 .  LeBron James  PER:  22.7  OBPM:  4.9  DPBM:  0.7
+; 9 .  Jimmy Butler  PER:  22.4  OBPM:  4.0  DPBM:  1.0
+; 10 .  Evan Mobley  PER:  22.3  OBPM:  3.1  DPBM:  1.5
+; 11 .  Ivica Zubac  PER:  22.3  OBPM:  2.3  DPBM:  0.8
+; 12 .  Jarrett Allen  PER:  22.1  OBPM:  3.0  DPBM:  1.2
+; 13 .  Tyrese Haliburton  PER:  21.8  OBPM:  5.7  DPBM:  0.2
+; 14 .  Jayson Tatum  PER:  21.7  OBPM:  4.4  DPBM:  0.8
+; 15 .  Jalen Brunson  PER:  21.6  OBPM:  4.7  DPBM:  -1.3
+; 16 .  Stephen Curry  PER:  21.5  OBPM:  6.4  DPBM:  0.0
+; 17 .  Alperen Şengün  PER:  21.4  OBPM:  2.6  DPBM:  1.8
+; 18 .  Jalen Duren  PER:  21.4  OBPM:  1.6  DPBM:  1.5
+; 19 .  Damian Lillard  PER:  21.3  OBPM:  4.7  DPBM:  -0.6
+; 20 .  Kevin Durant  PER:  21.2  OBPM:  3.9  DPBM:  -0.7
+; 21 .  Donovan Mitchell  PER:  20.9  OBPM:  3.8  DPBM:  -0.2
+; 22 .  Jonas Valančiūnas  PER:  20.8  OBPM:  0.8  DPBM:  -0.1
+; 23 .  Cade Cunningham  PER:  20.6  OBPM:  3.8  DPBM:  0.1
+; 24 .  Nikola Vučević  PER:  20.3  OBPM:  2.5  DPBM:  0.1
+; 25 .  Jalen Williams  PER:  20.3  OBPM:  2.7  DPBM:  1.4
+; 26 .  Franz Wagner  PER:  20.1  OBPM:  2.6  DPBM:  0.5
+; 27 .  Anthony Edwards  PER:  20.1  OBPM:  4.4  DPBM:  0.0
+; 28 .  Walker Kessler  PER:  20.0  OBPM:  1.1  DPBM:  0.7
+; 29 .  Jakob Poeltl  PER:  20.0  OBPM:  0.7  DPBM:  1.3
+; 30 .  Paolo Banchero  PER:  20.0  OBPM:  3.4  DPBM:  0.2
+; 31 .  James Harden  PER:  20.0  OBPM:  3.5  DPBM:  0.8
+; 32 .  Kyrie Irving  PER:  19.9  OBPM:  3.9  DPBM:  -0.5
+; 33 .  Darius Garland  PER:  19.9  OBPM:  3.9  DPBM:  -0.8
+; 34 .  Tyler Herro  PER:  19.7  OBPM:  3.8  DPBM:  -0.7
+; 35 .  Jaren Jackson Jr.  PER:  19.6  OBPM:  1.6  DPBM:  0.8
+; 36 .  Tyrese Maxey  PER:  19.5  OBPM:  3.2  DPBM:  -1.1
+; 37 .  Devin Booker  PER:  19.3  OBPM:  2.8  DPBM:  -2.4
+; 38 .  Ja Morant  PER:  19.3  OBPM:  3.1  DPBM:  -0.7
+; 39 .  Pascal Siakam  PER:  19.2  OBPM:  2.2  DPBM:  -0.5
+; 40 .  LaMelo Ball  PER:  19.1  OBPM:  4.1  DPBM:  -0.9
+; 41 .  Onyeka Okongwu  PER:  19.0  OBPM:  1.2  DPBM:  0.2
+; 42 .  Bam Adebayo  PER:  18.9  OBPM:  1.0  DPBM:  1.0
+; 43 .  Isaiah Hartenstein  PER:  18.9  OBPM:  0.6  DPBM:  2.6
+; 44 .  Amen Thompson  PER:  18.7  OBPM:  1.4  DPBM:  2.6
+; 45 .  De'Aaron Fox  PER:  18.3  OBPM:  1.3  DPBM:  -1.0
+; 46 .  Trae Young  PER:  18.3  OBPM:  3.3  DPBM:  -2.7
+; 47 .  Rudy Gobert  PER:  18.3  OBPM:  0.6  DPBM:  1.3
+; 48 .  Cameron Johnson  PER:  18.2  OBPM:  3.5  DPBM:  -0.4
+; 49 .  Josh Giddey  PER:  18.1  OBPM:  1.9  DPBM:  1.1
+; 50 .  Austin Reaves  PER:  18.1  OBPM:  2.4  DPBM:  -0.5
+; 51 .  Desmond Bane  PER:  17.9  OBPM:  2.6  DPBM:  0.6
+; 52 .  Scottie Barnes  PER:  17.8  OBPM:  1.5  DPBM:  0.9
+; 53 .  Jaylen Brown  PER:  17.8  OBPM:  0.4  DPBM:  -0.4
+; 54 .  Jamal Murray  PER:  17.8  OBPM:  1.8  DPBM:  -1.0
+; 55 .  Miles Bridges  PER:  17.7  OBPM:  2.3  DPBM:  -0.5
+; 56 .  DeMar DeRozan  PER:  17.7  OBPM:  1.2  DPBM:  -1.2
+; 57 .  Deni Avdija  PER:  17.7  OBPM:  1.5  DPBM:  0.6
+; 58 .  Payton Pritchard  PER:  17.6  OBPM:  3.4  DPBM:  0.2
+; 59 .  Julius Randle  PER:  17.5  OBPM:  1.5  DPBM:  -0.2
+; 60 .  Norman Powell  PER:  17.5  OBPM:  1.7  DPBM:  -0.2
+; 61 .  Obi Toppin  PER:  17.4  OBPM:  1.8  DPBM:  -0.1
+; 62 .  Trey Murphy III  PER:  17.3  OBPM:  2.1  DPBM:  -1.4
+; 63 .  Zach LaVine  PER:  17.3  OBPM:  2.3  DPBM:  -1.6
+; 64 .  Santi Aldama  PER:  16.8  OBPM:  2.5  DPBM:  0.7
+; 65 .  Derrick White  PER:  16.6  OBPM:  2.7  DPBM:  0.8
+; 66 .  Collin Sexton  PER:  16.6  OBPM:  1.7  DPBM:  -2.3
+; 67 .  Jordan Poole  PER:  16.6  OBPM:  2.0  DPBM:  -1.6
+; 68 .  Nic Claxton  PER:  16.5  OBPM:  -1.1  DPBM:  1.5
+; 69 .  RJ Barrett  PER:  16.5  OBPM:  1.2  DPBM:  -0.7
+; 70 .  Josh Hart  PER:  16.5  OBPM:  1.1  DPBM:  1.8
+; 71 .  Andrew Wiggins  PER:  16.4  OBPM:  1.2  DPBM:  -0.3
+; 72 .  Michael Porter Jr.  PER:  16.2  OBPM:  1.6  DPBM:  -1.7
+; 73 .  Myles Turner  PER:  16.1  OBPM:  0.0  DPBM:  0.4
+; 74 .  Aaron Wiggins  PER:  16.1  OBPM:  1.3  DPBM:  -0.2
+; 75 .  Christian Braun  PER:  16.0  OBPM:  0.8  DPBM:  -0.5
+; 76 .  De'Andre Hunter  PER:  15.9  OBPM:  1.2  DPBM:  -0.8
+; 77 .  Quentin Grimes  PER:  15.9  OBPM:  1.3  DPBM:  -0.9
+; 78 .  Scotty Pippen Jr.  PER:  15.8  OBPM:  0.0  DPBM:  1.8
+; 79 .  Naz Reid  PER:  15.8  OBPM:  0.8  DPBM:  0.8
+; 80 .  CJ McCollum  PER:  15.8  OBPM:  1.2  DPBM:  -2.6
+; 81 .  Dyson Daniels  PER:  15.6  OBPM:  -1.1  DPBM:  2.6
+; 82 .  Keldon Johnson  PER:  15.6  OBPM:  0.0  DPBM:  -1.6
+; 83 .  Coby White  PER:  15.5  OBPM:  0.5  DPBM:  -1.4
+; 84 .  OG Anunoby  PER:  15.4  OBPM:  0.7  DPBM:  0.1
+; 85 .  Yves Missi  PER:  15.4  OBPM:  -1.6  DPBM:  -1.4
+; 86 .  Bradley Beal  PER:  15.2  OBPM:  -0.1  DPBM:  -1.0
+; 87 .  Caris LeVert  PER:  15.2  OBPM:  0.8  DPBM:  0.1
+; 88 .  Naji Marshall  PER:  15.1  OBPM:  -0.3  DPBM:  -0.5
+; 89 .  Jalen Green  PER:  15.1  OBPM:  1.1  DPBM:  -0.5
+; 90 .  Malik Monk  PER:  15.0  OBPM:  0.3  DPBM:  -1.1
+; 91 .  Harrison Barnes  PER:  14.9  OBPM:  1.7  DPBM:  -1.7
+; 92 .  Kyle Filipowski  PER:  14.9  OBPM:  -0.6  DPBM:  -0.3
+; 93 .  Anfernee Simons  PER:  14.9  OBPM:  1.5  DPBM:  -1.5
+; 94 .  Brook Lopez  PER:  14.8  OBPM:  0.4  DPBM:  0.4
+; 95 .  Guerschon Yabusele  PER:  14.7  OBPM:  0.1  DPBM:  -1.1
+; 96 .  Chris Paul  PER:  14.7  OBPM:  0.3  DPBM:  0.5
+; 97 .  Tyus Jones  PER:  14.5  OBPM:  1.4  DPBM:  -1.3
+; 98 .  Shaedon Sharpe  PER:  14.5  OBPM:  0.0  DPBM:  -1.3
+; 99 .  Malik Beasley  PER:  14.4  OBPM:  2.0  DPBM:  -1.2
+; 100 .  Brandin Podziemski  PER:  14.4  OBPM:  -0.1  DPBM:  0.8
+; 101 .  Russell Westbrook  PER:  14.3  OBPM:  -0.9  DPBM:  -0.2
+; 102 .  Devin Vassell  PER:  14.2  OBPM:  -0.3  DPBM:  -0.8
+; 103 .  Donte DiVincenzo  PER:  14.1  OBPM:  0.8  DPBM:  1.1
+; 104 .  Mikal Bridges  PER:  14.0  OBPM:  0.4  DPBM:  -0.9
+; 105 .  Isaiah Joe  PER:  14.0  OBPM:  1.4  DPBM:  -0.1
+; 106 .  P.J. Washington  PER:  14.0  OBPM:  -1.1  DPBM:  0.2
+; 107 .  Tobias Harris  PER:  13.9  OBPM:  -0.5  DPBM:  0.6
+; 108 .  Wendell Carter Jr.  PER:  13.7  OBPM:  -2.2  DPBM:  0.9
+; 109 .  Grayson Allen  PER:  13.7  OBPM:  0.7  DPBM:  -1.0
+; 110 .  Stephon Castle  PER:  13.7  OBPM:  -1.5  DPBM:  -1.7
+; 111 .  Rui Hachimura  PER:  13.6  OBPM:  -0.1  DPBM:  -0.6
+; 112 .  Bennedict Mathurin  PER:  13.6  OBPM:  -1.3  DPBM:  -1.5
+; 113 .  Derrick Jones Jr.  PER:  13.5  OBPM:  -1.0  DPBM:  0.7
+; 114 .  Kelly Oubre Jr.  PER:  13.5  OBPM:  -1.7  DPBM:  -0.6
+; 115 .  Keon Ellis  PER:  13.5  OBPM:  -0.1  DPBM:  2.0
+; 116 .  Jrue Holiday  PER:  13.5  OBPM:  -0.3  DPBM:  1.0
+; 117 .  Jaden McDaniels  PER:  13.3  OBPM:  -1.4  DPBM:  1.4
+; 118 .  Mike Conley  PER:  13.3  OBPM:  -0.1  DPBM:  1.3
+; 119 .  Spencer Dinwiddie  PER:  13.0  OBPM:  -0.9  DPBM:  -0.7
+; 120 .  Al Horford  PER:  12.9  OBPM:  0.1  DPBM:  1.1
+; 121 .  Alex Sarr  PER:  12.9  OBPM:  -2.2  DPBM:  -1.0
+; 122 .  Klay Thompson  PER:  12.9  OBPM:  0.7  DPBM:  -1.6
+; 123 .  Keyonte George  PER:  12.9  OBPM:  -0.2  DPBM:  -2.5
+; 124 .  Sam Hauser  PER:  12.8  OBPM:  0.9  DPBM:  -0.1
+; 125 .  Fred VanVleet  PER:  12.8  OBPM:  -0.4  DPBM:  1.3
+; 126 .  Dalton Knecht  PER:  12.7  OBPM:  -0.1  DPBM:  -1.7
+; 127 .  Dennis Schröder  PER:  12.7  OBPM:  -1.3  DPBM:  -0.9
+; 128 .  Jabari Smith Jr.  PER:  12.6  OBPM:  -0.8  DPBM:  0.1
+; 129 .  Royce O'Neale  PER:  12.6  OBPM:  0.2  DPBM:  -0.1
+; 130 .  Miles McBride  PER:  12.6  OBPM:  -0.4  DPBM:  0.4
+; 131 .  Matas Buzelis  PER:  12.5  OBPM:  -2.0  DPBM:  -0.5
+; 132 .  Toumani Camara  PER:  12.5  OBPM:  -0.9  DPBM:  0.8
+; 133 .  Scoot Henderson  PER:  12.5  OBPM:  -1.4  DPBM:  -0.8
+; 134 .  Draymond Green  PER:  12.4  OBPM:  -2.3  DPBM:  2.8
+; 135 .  Moses Moody  PER:  12.4  OBPM:  -0.9  DPBM:  0.0
+; 136 .  Cason Wallace  PER:  12.3  OBPM:  -1.5  DPBM:  2.6
+; 137 .  Buddy Hield  PER:  12.3  OBPM:  -0.7  DPBM:  -0.3
+; 138 .  Zaccharie Risacher  PER:  12.2  OBPM:  -1.7  DPBM:  -1.8
+; 139 .  Julian Champagnie  PER:  12.2  OBPM:  -0.3  DPBM:  -0.9
+; 140 .  Keegan Murray  PER:  12.0  OBPM:  -0.8  DPBM:  -0.8
+; 141 .  Ochai Agbaji  PER:  12.0  OBPM:  -0.9  DPBM:  0.2
+; 142 .  Ziaire Williams  PER:  11.9  OBPM:  -2.2  DPBM:  -0.1
+; 143 .  Duncan Robinson  PER:  11.8  OBPM:  -0.7  DPBM:  -1.1
+; 144 .  Gary Trent Jr.  PER:  11.7  OBPM:  -1.2  DPBM:  -0.4
+; 145 .  Andrew Nembhard  PER:  11.7  OBPM:  -2.6  DPBM:  0.3
+; 146 .  Nickeil Alexander-Walker  PER:  11.6  OBPM:  -0.8  DPBM:  0.4
+; 147 .  Anthony Black  PER:  11.6  OBPM:  -3.1  DPBM:  1.2
+; 148 .  Peyton Watson  PER:  11.4  OBPM:  -2.1  DPBM:  0.3
+; 149 .  Luguentz Dort  PER:  11.3  OBPM:  -0.6  DPBM:  0.8
+; 150 .  Kris Dunn  PER:  11.3  OBPM:  -2.8  DPBM:  3.4
+; 151 .  Kevin Huerter  PER:  11.3  OBPM:  -1.8  DPBM:  -0.2
+; 152 .  Georges Niang  PER:  11.2  OBPM:  -1.1  DPBM:  -1.2
+; 153 .  Amir Coffey  PER:  11.2  OBPM:  -1.5  DPBM:  -0.2
+; 154 .  Dillon Brooks  PER:  11.0  OBPM:  -1.4  DPBM:  0.0
+; 155 .  Corey Kispert  PER:  11.0  OBPM:  -1.4  DPBM:  -2.2
+; 156 .  Jerami Grant  PER:  10.9  OBPM:  -1.4  DPBM:  -0.3
+; 157 .  Gradey Dick  PER:  10.9  OBPM:  -1.9  DPBM:  -1.3
+; 158 .  Bilal Coulibaly  PER:  10.8  OBPM:  -3.0  DPBM:  -0.7
+; 159 .  Kyle Kuzma  PER:  10.6  OBPM:  -2.9  DPBM:  -2.0
+; 160 .  Jaylen Wells  PER:  10.5  OBPM:  -1.2  DPBM:  -1.0
+; 161 .  Terry Rozier  PER:  10.5  OBPM:  -2.6  DPBM:  -1.0
+; 162 .  Max Christie  PER:  10.4  OBPM:  -2.1  DPBM:  -0.5
+; 163 .  Keon Johnson  PER:  10.4  OBPM:  -3.1  DPBM:  -0.1
+; 164 .  Davion Mitchell  PER:  10.2  OBPM:  -2.8  DPBM:  0.2
+; 165 .  Dorian Finney-Smith  PER:  10.1  OBPM:  -1.1  DPBM:  0.1
+; 166 .  Haywood Highsmith  PER:  9.9  OBPM:  -2.7  DPBM:  0.9
+; 167 .  Tristan Da Silva  PER:  9.9  OBPM:  -2.3  DPBM:  -0.3
+; 168 .  Kentavious Caldwell-Pope  PER:  9.9  OBPM:  -3.0  DPBM:  1.6
+; 169 .  Taurean Prince  PER:  9.8  OBPM:  -2.0  DPBM:  0.3
+; 170 .  Tim Hardaway Jr.  PER:  9.8  OBPM:  -1.1  DPBM:  -0.9
+; 171 .  Isaiah Collier  PER:  9.7  OBPM:  -3.8  DPBM:  -1.5
+; 172 .  Jalen Wilson  PER:  9.5  OBPM:  -2.6  DPBM:  -1.3
+; 173 .  A.J. Green  PER:  9.2  OBPM:  -1.7  DPBM:  -0.4
+; 174 .  Patrick Williams  PER:  9.0  OBPM:  -3.0  DPBM:  -0.7
+; 175 .  Bub Carrington  PER:  9.0  OBPM:  -3.3  DPBM:  -1.3
+; 176 .  Kyshawn George  PER:  8.8  OBPM:  -3.8  DPBM:  -0.3
+; 177 .  Josh Green  PER:  7.8  OBPM:  -4.5  DPBM:  0.2
+; 178 .  Gabe Vincent  PER:  7.4  OBPM:  -3.8  DPBM:  -0.1
+nil
+clj꞉basket-sim.core꞉> 
